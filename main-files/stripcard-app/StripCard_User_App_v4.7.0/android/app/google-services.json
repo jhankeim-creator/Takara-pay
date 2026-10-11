@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "574360544074",
+    "project_id": "stripcard-d24b5",
+    "storage_bucket": "stripcard-d24b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574360544074:android:6199236f1d9860528517b3",
+        "android_client_info": {
+          "package_name": "net.appdevs.stripcard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACzYjgFeMIGFO2EfOTdV7P0kUg2oJiPPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

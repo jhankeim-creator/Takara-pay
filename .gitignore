@@ -1,2 +1,11 @@
-# StripCard decompressed tree (keep only the LFS zip in Git)
-/main-files/
+# Dependencies (install locally)
+main-files/node_modules/
+
+# Secrets
+.env
+main-files/stripcard-web/.env
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

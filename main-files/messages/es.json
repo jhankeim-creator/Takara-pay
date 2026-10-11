@@ -1,0 +1,1758 @@
+{
+  "Common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "learnMore": "Saber más",
+    "getStarted": "Comenzar",
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "dashboard": "Panel de control",
+    "logout": "Cerrar sesión"
+  },
+  "Nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "announcement": "Anuncio",
+    "privacyPolicy": "Política de privacidad",
+    "applyCard": "Solicitar Tarjeta Virtual",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "dashboard": "Panel",
+    "language": "Idioma",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "welcomeBack": "Bienvenido de nuevo"
+  },
+  "Hero": {
+    "badge": "¡Bienvenido a StripCard!",
+    "heading1": "Descubriendo la",
+    "heading2": "Experiencia de",
+    "heading3": "Tarjeta Virtual",
+    "description": "Las necesidades de pago de gigantes online como AliExpress, Netflix, publicidad en Facebook-Google, Amazon y diversas otras plataformas de compras.",
+    "cta": "Solicitar Tarjeta Virtual",
+    "activeUsers": "usuarios activos",
+    "topRated": "Mejor valorado",
+    "secure": "100% Seguro",
+    "sslProtected": "Protegido con SSL",
+    "instant": "Instantánea",
+    "activation": "Activación",
+    "stars": "/ 5 estrellas",
+    "growth": "+24% Crecimiento",
+    "monthlyUsers": "Usuarios activos mensuales",
+    "liveBadge": "EN VIVO • Infraestructura de tarjetas virtuales",
+    "secureTitle": "Seguro",
+    "topRatedStars": "4.9 estrellas",
+    "monthlyUsersShort": "Usuarios mensuales"
+  },
+  "Services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Todo lo que necesitas para una gestión perfecta de tarjetas virtuales"
+  },
+  "WhyChooseUs": {
+    "title": "¿Por qué elegir StripCard?",
+    "subtitle": "Ofrecemos la mejor experiencia con tarjetas virtuales"
+  },
+  "HowItWorks": {
+    "title": "Cómo funciona",
+    "subtitle": "Comienza en solo unos pocos pasos sencillos"
+  },
+  "ProjectOverview": {
+    "title": "Resumen del proyecto",
+    "subtitle": "Una plataforma poderosa de tarjetas virtuales"
+  },
+  "DownloadApp": {
+    "title": "Descarga Nuestra App",
+    "subtitle": "Obtén la app StripCard en tu dispositivo",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "Footer": {
+    "rights": "Todos los derechos reservados.",
+    "company": "StripCard"
+  },
+  "Auth": {
+    "login": {
+      "title": "Inicia sesión en tu cuenta",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "submit": "Iniciar sesión",
+      "noAccount": "¿No tienes cuenta?",
+      "forgotPassword": "¿Olvidaste tu contraseña?"
+    },
+    "register": {
+      "title": "Crea tu cuenta",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "submit": "Crear cuenta",
+      "haveAccount": "¿Ya tienes una cuenta?"
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "StripCard - Solución de Tarjetas Virtuales",
+      "description": "La mejor plataforma de tarjetas virtuales para pagos en línea"
+    },
+    "login": {
+      "title": "Iniciar sesión",
+      "description": "Acceso seguro a tu cuenta de StripCard"
+    },
+    "register": {
+      "title": "Registrarse",
+      "description": "Crea tu cuenta en StripCard"
+    },
+    "dashboard": {
+      "title": "Panel de control"
+    }
+  },
+  "ServiceProvide": {
+    "badge": "Servicios que Ofrecemos",
+    "title": "Nuestros Servicios Destacados",
+    "gradientPart": "Lo Que Te Brindamos",
+    "description": "Desbloquea transacciones digitales fluidas con nuestros potentes servicios — desde la gestión de tarjetas virtuales y pagos seguros hasta soporte multi-idioma y notificaciones en tiempo real.",
+    "cta": {
+      "ready": "¿Listo para comenzar?",
+      "join": "Únete a miles de usuarios que confían en nuestra plataforma para sus finanzas digitales.",
+      "button": "Explorar Todos los Servicios"
+    },
+    "items": [
+      {
+        "tag": "Tarjetas",
+        "title": "Comprar Tarjeta Virtual",
+        "description": "Obtén tu Tarjeta Virtual hoy y disfruta de la facilidad de usarla para compras en línea, gaming o tus suscripciones favoritas."
+      },
+      {
+        "tag": "Billetera",
+        "title": "Agregar Dinero",
+        "description": "Deposita fondos fácilmente en tu billetera digital para garantizar flexibilidad financiera y conveniencia con nuestro servicio seguro y fácil de usar."
+      },
+      {
+        "tag": "Transferencia",
+        "title": "Transferencia de Dinero",
+        "description": "Transfiere dinero de forma rápida y segura dentro de la plataforma, brindando comodidad y tranquilidad para todas tus necesidades financieras."
+      },
+      {
+        "tag": "Retiro",
+        "title": "Retirar Dinero",
+        "description": "Transfiere fondos sin esfuerzo desde tu cuenta a tu cuenta bancaria preferida o billetera digital."
+      },
+      {
+        "tag": "Recarga",
+        "title": "Recargar Tarjeta Virtual",
+        "description": "Recarga fácilmente el saldo de tu tarjeta virtual para garantizar un gasto ininterrumpido en compras, suscripciones o gaming."
+      },
+      {
+        "tag": "Regalos",
+        "title": "Tarjeta de Regalo",
+        "description": "Compra tarjetas de regalo digitales para servicios populares directamente desde la app, para regalar de forma sencilla."
+      },
+      {
+        "tag": "API",
+        "title": "Configurar API de Tarjeta Virtual",
+        "description": "Configura la API para habilitar la generación y gestión de tarjetas virtuales para pagos en línea seguros."
+      },
+      {
+        "tag": "Seguridad",
+        "title": "Inicio de Sesión Biométrico",
+        "description": "Inicia sesión de forma segura utilizando autenticación biométrica con huella digital para mayor protección."
+      },
+      {
+        "tag": "Registros",
+        "title": "Registros de Transacciones",
+        "description": "Accede a registros detallados de todas tus transacciones para controlar gastos y monitorear la actividad de la cuenta."
+      },
+      {
+        "tag": "Global",
+        "title": "Multi-Idioma",
+        "description": "Utilízalo en varios idiomas, haciéndolo accesible y amigable para una audiencia global."
+      }
+    ]
+  },
+  "WhyChooseUs": {
+    "badge": "Por Qué Elegirnos",
+    "title": {
+      "main": "Qué Nos Convierte en Tu",
+      "highlight": "Mejor Opción"
+    },
+    "description": "Descubre por qué destacamos con servicios inigualables, soluciones innovadoras y un compromiso con la excelencia. Nuestro enfoque centrado en el usuario garantiza confiabilidad, seguridad y satisfacción, convirtiéndonos en la opción de confianza para todas tus necesidades.",
+    "features": [
+      {
+        "title": "Emisión de Tarjetas Virtuales",
+        "description": "Crea y gestiona tarjetas virtuales al instante para transacciones en línea seguras, personalizadas según tus necesidades específicas."
+      },
+      {
+        "title": "Transacciones en Línea Seguras",
+        "description": "Disfruta de métodos avanzados de encriptación y autenticación que protegen tus pagos en línea."
+      },
+      {
+        "title": "Planes de Pago Personalizables",
+        "description": "Elige entre una variedad de planes de pago flexibles diseñados para adaptarse a diferentes presupuestos y preferencias."
+      },
+      {
+        "title": "Monitoreo de Transacciones en Tiempo Real",
+        "description": "Controla tus gastos con notificaciones en tiempo real y un historial detallado de transacciones."
+      },
+      {
+        "title": "Soporte Multi-Moneda",
+        "description": "Gestiona fácilmente transacciones en múltiples monedas, ideal para compras y pagos internacionales."
+      },
+      {
+        "title": "Soporte al Cliente 24/7",
+        "description": "Accede a soporte al cliente las 24 horas para resolver cualquier duda o problema relacionado con pagos."
+      }
+    ]
+  },
+  "HowItWorks": {
+    "badge": "Cómo Funciona",
+    "title": {
+      "main": "Cómo Funciona",
+      "highlight": "Proceso Paso a Paso"
+    },
+    "description": "Descubre cómo StripCard te permite gestionar tarjetas virtuales, agregar fondos, transferir dinero y realizar transacciones seguras de manera sencilla — todo diseñado para ofrecer comodidad, flexibilidad y una gestión financiera fluida.",
+    "continueLabel": "continúa",
+    "steps": [
+      {
+        "title": "Crea Tu Cuenta",
+        "description": "Regístrate fácilmente proporcionando tus datos, verificando tu correo y completando la verificación KYC para un acceso seguro.",
+        "tag": "Primeros Pasos"
+      },
+      {
+        "title": "Cargar Fondos",
+        "description": "Deposita dinero en tu billetera digital mediante múltiples métodos de pago para una experiencia fluida.",
+        "tag": "Billetera"
+      },
+      {
+        "title": "Compra una Tarjeta Virtual",
+        "description": "Adquiere una tarjeta virtual adaptada a tus necesidades para compras en línea, gaming o suscripciones.",
+        "tag": "Tarjetas"
+      },
+      {
+        "title": "Gestiona Tu Tarjeta Virtual",
+        "description": "Recarga el saldo de tu tarjeta, sigue tus transacciones y úsala de forma segura en diversas plataformas.",
+        "tag": "Gestión"
+      },
+      {
+        "title": "Realiza Transacciones",
+        "description": "Transfiere dinero, paga facturas y compra en línea con confianza usando tu tarjeta virtual.",
+        "tag": "Pagos"
+      },
+      {
+        "title": "Mantente Seguro",
+        "description": "Aprovecha servicios como inicio de sesión biométrico, 2FA y registros detallados de transacciones para proteger tu cuenta.",
+        "tag": "Seguridad"
+      },
+      {
+        "title": "Accede a Soporte",
+        "description": "Contacta a través del sistema de tickets de soporte para resoluciones rápidas y asistencia en cualquier momento.",
+        "tag": "Soporte"
+      },
+      {
+        "title": "Disfruta de Flexibilidad Global",
+        "description": "Utiliza soporte multi-idioma y opciones de tarjetas de regalo para una experiencia versátil y global.",
+        "tag": "Global"
+      }
+    ]
+  },
+  "ProjectOverview": {
+    "badge": "Resumen del Proyecto",
+    "title": {
+      "main": "Aspectos Destacados del Proyecto",
+      "highlight": "de un Vistazo"
+    },
+    "description": "Explora los principales hitos y logros clave de nuestro proyecto, representados con contadores en tiempo real que muestran nuestro crecimiento, éxito e impacto. Descubre cómo estamos entregando resultados y generando un cambio real mediante soluciones innovadoras.",
+    "stats": {
+      "users": {
+        "title": "Usuarios Totales",
+        "subtitle": "Miembros activos de la comunidad"
+      },
+      "happy": {
+        "title": "Usuarios Satisfechos",
+        "subtitle": "Clientes contentos"
+      },
+      "services": {
+        "title": "Servicios",
+        "subtitle": "Entregados con éxito"
+      }
+    },
+    "transactionsBadge": {
+      "label": "Transacciones Procesadas",
+      "amount": "Más de {value}M",
+      "subtitle": "transacciones procesadas de forma segura"
+    }
+  },
+  "DownloadApp": {
+    "imageAlt": "Aplicación Móvil StripCard",
+    "sectionBadge": "Descargar App",
+    "title": {
+      "part1": "Aquí Está",
+      "part2": "APK en Tiempo Real."
+    },
+    "paragraph1": "Trabaja con profesionales talentosos al precio más asequible para aprovechar al máximo tu tiempo y costo usando aplicaciones móviles.",
+    "paragraph2": "Internet está saturado de aplicaciones de desarrolladores y creadores de todo el mundo. A veces es difícil saber cuáles son las mejores apps descargadas del mercado. Nuestra lista incluye una variedad de redes sociales, antivirus, VPN, juegos y emuladores, entre otros. No te pierdas las últimas versiones de Chrome, Bluetooth, Office, YouTube y webcam disponibles hoy.",
+    "features": {
+      "fast": {
+        "title": "Rápida",
+        "subtitle": "Velocidad relámpago"
+      },
+      "secure": {
+        "title": "Segura",
+        "subtitle": "Datos protegidos"
+      },
+      "free": {
+        "title": "Gratis",
+        "subtitle": "Sin costos ocultos"
+      }
+    },
+    "downloadPrompt": "Descarga ahora en tu plataforma favorita",
+    "qr": {
+      "googleAlt": "Código QR Google Play",
+      "appStoreAlt": "Código QR App Store"
+    },
+    "floatingBadge": {
+      "available": "Disponible Ahora",
+      "platforms": "iOS y Android"
+    },
+    "stats": {
+      "downloads": {
+        "count": "50K+",
+        "text": "descargas"
+      },
+      "rating": "4.8/5"
+    }
+  },
+  "Footer": {
+    "logoAlt": "Logo de StripCard",
+    "thankYou": "Gracias por elegir StripCard como tu socio confiable para transacciones seguras en línea. Estamos comprometidos a brindarte una experiencia fluida y segura.",
+    "followUs": {
+      "title": "Síguenos"
+    },
+    "usefulLinks": {
+      "title": "Enlaces Útiles",
+      "privacyPolicy": "Política de Privacidad"
+    },
+    "subscribe": {
+      "title": "Suscríbete",
+      "description": "¡Mantente Conectado! Suscríbete a nuestras últimas novedades – solo completa el formulario a continuación.",
+      "placeholder": "Ingresa tu correo electrónico",
+      "button": "Suscribirse",
+      "sending": "Suscribiendo...",
+      "recaptchaError": "Por favor, completa la verificación de reCAPTCHA.",
+      "successMessage": "¡Suscripción exitosa!",
+      "errorMessage": "Este correo electrónico ya está en uso."
+    },
+    "copyright": {
+      "allRights": "Todos los derechos reservados.",
+      "company": "StripCard"
+    }
+  },
+  "About": {
+    "badge": "Sobre Nosotros",
+    "title": {
+      "part1": "Empoderando el Futuro de las",
+      "part2": "Transacciones en Línea"
+    },
+    "description": "Estamos a la vanguardia de la revolución en la forma en que las personas navegan por el panorama financiero digital. Nuestra misión es clara: proporcionar a usuarios y emprendedores una plataforma segura, eficiente y fácil de usar para realizar transacciones en línea mediante tarjetas de crédito virtuales.",
+    "highlights": {
+      "vision": {
+        "title": "Nuestra Visión"
+      },
+      "difference": {
+        "title": "La Diferencia de StripCard"
+      },
+      "commitment": {
+        "title": "Nuestro Compromiso"
+      },
+      "join": {
+        "title": "Únete a Nosotros en este Viaje"
+      }
+    },
+    "imageAlt": "Plataforma StripCard - tarjetas de crédito virtuales seguras"
+  },
+  "Testimonials": {
+    "header": {
+      "badge": "Lo Que Dicen Nuestros Usuarios",
+      "title": {
+        "main": "Descubre lo que nuestros usuarios satisfechos tienen que decir sobre",
+        "highlight": "sus experiencias",
+        "suffix": "con nosotros."
+      },
+      "description": "Estamos a la vanguardia de la revolución en la forma en que las personas navegan por el panorama financiero digital. Nuestra misión es clara: proporcionar a usuarios y emprendedores una plataforma segura, eficiente y fácil de usar para realizar transacciones en línea mediante tarjetas de crédito virtuales."
+    },
+    "testimonials": [
+      {
+        "name": "Aisha Patel",
+        "role": "Diseñadora Gráfica Freelance",
+        "text": "Estamos a la vanguardia de la revolución en la forma en que las personas navegan por el panorama financiero digital. Nuestra misión es clara: proporcionar a usuarios y emprendedores una plataforma segura, eficiente y fácil de usar para realizar transacciones en línea mediante tarjetas de crédito virtuales."
+      },
+      {
+        "name": "James Carter",
+        "role": "Emprendedor de Comercio Electrónico",
+        "text": "Como propietario de un pequeño negocio, StripCard ha sido un cambio de juego. Me permite ofrecer opciones de pago convenientes a mis clientes mientras genero un flujo de ingresos adicional. Los códigos de un solo uso me dan tranquilidad, sabiendo que mis transacciones son seguras. StripCard es una situación de ganar-ganar tanto para mis clientes como para mi negocio."
+      },
+      {
+        "name": "Lena Moreau",
+        "role": "Nómada Digital y Creadora de Contenido",
+        "text": "Comprar en línea nunca había sido tan seguro y sencillo. Los códigos únicos de StripCard me hacen sentir confiada sobre la seguridad de mis transacciones. Es como tener una capa extra de protección. No puedo imaginar volver a usar mi tarjeta regular para compras en línea. ¡StripCard me ha conquistado!"
+      }
+    ],
+    "stats": {
+      "users": {
+        "count": "10,000+",
+        "label": "Usuarios Felices"
+      },
+      "rating": "4.9/5 Calificación Promedio"
+    }
+  },
+  "FAQ": {
+    "header": {
+      "badge": "Sección de Preguntas Frecuentes",
+      "title": {
+        "main": "Funciones de Seguridad Avanzadas Diseñadas para",
+        "highlight": "Proteger Tu Información",
+        "suffix": "de Manera Efectiva"
+      },
+      "description": "Nuestro sistema de seguridad utiliza tecnología avanzada para garantizar la máxima protección de tu información sensible. Con encriptación de última generación, autenticación multicapa y monitoreo en tiempo real, tus datos están protegidos contra accesos no autorizados y brechas. Disfruta de tranquilidad sabiendo que nuestras robustas medidas de seguridad están diseñadas para mantener tu información segura y privada en todo momento."
+    },
+    "questions": {
+      "left": [
+        {
+          "question": "¿Cómo puedo comprar una tarjeta virtual?",
+          "answer": "Para comprar una tarjeta virtual, ve a la sección \"Tarjetas Virtuales\", selecciona el tipo de tarjeta que prefieras y sigue las instrucciones para completar la compra."
+        },
+        {
+          "question": "¿Cómo puedo recargar mi tarjeta virtual?",
+          "answer": "Puedes recargar tu tarjeta virtual seleccionándola en la sección \"Tarjeta Virtual\", ingresando el monto de recarga y eligiendo un método de pago."
+        },
+        {
+          "question": "¿Cómo agrego dinero a mi billetera?",
+          "answer": "Puedes agregar dinero a tu billetera usando varios métodos de pago como PayPal, Stripe y transferencias bancarias. Simplemente ve a la sección \"Agregar Dinero\", elige tu método de pago y completa la transacción."
+        },
+        {
+          "question": "¿Cómo compro una tarjeta de regalo?",
+          "answer": "Compra tarjetas de regalo para diferentes plataformas visitando la sección \"Tarjeta de Regalo\", seleccionando la deseada y completando el pago."
+        }
+      ],
+      "right": [
+        {
+          "question": "¿Cómo puedo transferir dinero?",
+          "answer": "Transferir dinero es fácil. Ve a la sección \"Transferencia de Dinero\", ingresa los datos del destinatario, selecciona el monto y confirma la transacción."
+        },
+        {
+          "question": "¿Cómo configuro la API de Tarjeta Virtual?",
+          "answer": "Configura la API para habilitar la generación y gestión de tarjetas virtuales para pagos en línea seguros."
+        },
+        {
+          "question": "¿Cómo retiro dinero?",
+          "answer": "Para retirar dinero, visita la página \"Retirar\", selecciona tu método de retiro, ingresa los detalles necesarios y envía tu solicitud."
+        },
+        {
+          "question": "¿Dónde puedo ver mis registros de transacciones?",
+          "answer": "Visualiza y sigue todas tus transacciones en la sección \"Registros de Transacciones\" para mantenerte actualizado sobre tu actividad financiera."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Aún tienes preguntas?",
+      "description": "Contacta a nuestro equipo de soporte 24/7 para asistencia",
+      "button": "Obtener Ayuda"
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Política de Privacidad",
+    "sections": {
+      "collect": {
+        "title": "¿Qué información recopilamos?",
+        "content": "Recopilamos datos de usted cuando se registra en nuestro sitio, envía una solicitud, compra servicios, responde a una reseña o completa un formulario. Cuando solicita cualquier servicio o se registra en nuestro sitio, según corresponda, es posible que se le solicite ingresar su: nombre, dirección de correo electrónico o número de teléfono. Sin embargo, puede visitar nuestro sitio de forma anónima."
+      },
+      "protect": {
+        "title": "¿Cómo protegemos su información?",
+        "part1": "Toda la información delicada/datos de crédito se envía a través de Stripe.",
+        "part2": "Después de una transacción, su información privada (tarjetas de crédito, números de seguridad social, datos financieros, etc.) no se almacenará en nuestros servidores."
+      },
+      "disclose": {
+        "title": "¿Divulgamos información a terceros?",
+        "content": "No vendemos, intercambiamos ni transferimos de ninguna manera información personal identificable a terceros. Esto no incluye a terceros de confianza que nos ayudan a operar nuestro sitio, realizar nuestro negocio o prestarle servicios, siempre que dichas partes acuerden mantener esta información confidencial. También podemos divulgar su información cuando creamos que es apropiado cumplir con la ley, hacer cumplir las políticas de nuestro sitio o proteger nuestros derechos, propiedad o seguridad, o la de otros."
+      },
+      "coppa": {
+        "title": "Cumplimiento de la Ley de Protección de la Privacidad en Línea de los Niños",
+        "content": "Cumplimos con los requisitos de COPPA (Children's Online Privacy Protection Act); no recopilamos ninguna información de personas menores de 13 años. Nuestro sitio web, productos y servicios están completamente dirigidos a personas de al menos 13 años o más."
+      },
+      "changes": {
+        "title": "Cambios en nuestra Política de Privacidad",
+        "content": "Si decidimos cambiar nuestra política de privacidad, publicaremos esos cambios en esta página."
+      },
+      "retain": {
+        "title": "¿Cuánto tiempo conservamos su información?",
+        "content": "Cuando se registra en nuestro sitio, procesamos y conservamos los datos que tenemos sobre usted mientras no elimine su cuenta o no se dé de baja (sujeto a leyes y regulaciones)."
+      }
+    }
+  },
+
+  "Contact": {
+    "form": {
+      "badge": "Contáctanos",
+      "title": {
+        "part1": "Siéntete Libre De",
+        "highlight": "Ponerte en Contacto",
+        "part2": "Con Nosotros"
+      },
+      "labels": {
+        "name": "Nombre *",
+        "email": "Correo Electrónico *",
+        "phone": "Teléfono",
+        "subject": "Asunto *",
+        "message": "Mensaje *"
+      },
+      "placeholders": {
+        "name": "Ingresa tu Nombre",
+        "email": "Ingresa tu Correo Electrónico",
+        "phone": "Ingresa tu Teléfono",
+        "subject": "Ingresa el Asunto",
+        "message": "Escribe tu mensaje aquí..."
+      },
+      "recaptchaError": "Por favor completa la verificación de reCAPTCHA.",
+      "successMessage": "¡Gracias! Tu mensaje ha sido enviado.",
+      "errorMessage": "Algo salió mal. Por favor intenta de nuevo.",
+      "button": "Enviar mensaje",
+      "sending": "Enviando..."
+    },
+    "info": {
+      "title": "Información",
+      "description": "¡Nos encantaría saber de ti! Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos usando la siguiente información de contacto:",
+      "phone": {
+        "label": "Número de Móvil",
+        "value": "+1 (123) 456-7890"
+      },
+      "address": {
+        "label": "Dirección",
+        "value": "1234 Calle Principal, Ciudad, Estado 56789 EE.UU."
+      },
+      "email": {
+        "label": "Correo Electrónico",
+        "value": "info@ejemplo.com"
+      }
+    }
+  },
+
+  "Announcements": {
+    "list": {
+      "badge": "Anuncio",
+      "title": {
+        "part1": "Nuestros Recientes",
+        "highlight": "Anuncios"
+      },
+      "readMore": "Leer Más"
+    },
+    "detail": {
+      "backButton": "Volver a Anuncios",
+      "tagsTitle": "Etiquetas",
+      "categoriesTitle": "Categorías",
+      "recentPostsTitle": "Publicaciones Recientes",
+      "extraContent": {
+        "part1": "Las tarjetas de crédito virtuales representan un cambio de paradigma en cómo pensamos sobre la seguridad de los pagos. A diferencia de las tarjetas físicas tradicionales, generan números de tarjeta únicos para cada transacción o comerciante, reduciendo drásticamente el riesgo de fraude y cargos no autorizados. Para emprendedores y negocios, esto se traduce en mayor control sobre los gastos y una conciliación simplificada.",
+        "part2": "A medida que la economía digital continúa expandiéndose, adoptar soluciones de pago virtual ya no es opcional — es esencial. Las empresas que integran estas tecnologías temprano obtienen una ventaja competitiva, ofreciendo a los clientes una experiencia fluida y segura que genera confianza y lealtad a largo plazo."
+      }
+    },
+    "announcements": [
+      {
+        "title": "Éxito Empresarial con Servicios de Tarjetas de Crédito Virtuales",
+        "preview": "¿Eres un emprendedor que busca diversificar tu negocio y aumentar ingresos? En este blog, exploramos cómo ofrecer...",
+        "fullDescription": "¿Eres un emprendedor que busca diversificar tu negocio y aumentar ingresos? En este blog, exploramos cómo ofrecer servicios de tarjetas de crédito virtuales a tus clientes puede ser un cambio de juego. Discutimos las oportunidades, beneficios y estrategias para que los emprendedores aprovechen la tendencia de las tarjetas virtuales y creen una situación ganar-ganar para sus clientes y su negocio."
+      },
+      {
+        "title": "El Futuro de los Pagos en Línea Seguros",
+        "preview": "En la era digital actual, los pagos en línea se han convertido en una parte integral de nuestras vidas. Pero con la conveniencia viene la necesidad d...",
+        "fullDescription": "En la era digital actual, los pagos en línea se han convertido en una parte integral de nuestras vidas. Pero con la conveniencia viene la necesidad de seguridad. Este blog explora el fenómeno de las tarjetas de crédito virtuales, su creciente popularidad y cómo están revolucionando los pagos en línea. Profundizamos en los beneficios de las tarjetas virtuales, sus características únicas y por qué se consideran el futuro de las transacciones en línea seguras."
+      },
+      {
+        "title": "El Ascenso de las Tarjetas de Crédito Virtuales: Transformando los Pagos en Línea",
+        "preview": "En la era digital actual, los pagos en línea se han convertido en una parte integral de nuestras vidas. Pero con la conveniencia viene la necesidad f...",
+        "fullDescription": "En la era digital actual, los pagos en línea se han convertido en una parte integral de nuestras vidas. Pero con la conveniencia viene la necesidad de seguridad. Este blog explora el fenómeno de las tarjetas de crédito virtuales, su creciente popularidad y cómo están revolucionando los pagos en línea. Profundizamos en los beneficios de las tarjetas virtuales, sus características únicas y por qué se consideran el futuro de las transacciones en línea seguras."
+      }
+    ]
+  },
+
+  "Login": {
+    "logoAlt": "Logo de StripCard",
+    "title": "Bienvenido de nuevo",
+    "subtitle": "Inicia sesión para acceder a tu cuenta de forma segura",
+    "form": {
+      "labels": {
+        "email": "Dirección de correo electrónico",
+        "password": "Contraseña"
+      },
+      "placeholders": {
+        "email": "Nombre de usuario O Correo electrónico",
+        "password": "Ingresa tu contraseña"
+      },
+      "rememberMe": "Recordarme",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "securityVerification": "Verificación de seguridad",
+      "verificationSuccess": "Verificación exitosa",
+      "verificationRequired": "Por favor completa la verificación",
+      "securityHelpText": "Esto nos ayuda a proteger tu cuenta contra accesos no autorizados",
+      "button": "Iniciar sesión",
+      "recaptchaError": "Por favor completa la verificación CAPTCHA",
+      "invalidResponse": "Respuesta inválida del servidor",
+      "genericError": "Algo salió mal. Por favor intenta de nuevo más tarde."
+    },
+    "footer": {
+      "noAccount": "¿No tienes una cuenta?",
+      "signUp": "Regístrate",
+      "goBack": "Volver a",
+      "home": "Inicio"
+    }
+  },
+  "Register": {
+    "logoAlt": "Logo de StripCard",
+    "title": "Crea tu Cuenta",
+    "subtitle": "Regístrate para comenzar con StripCard",
+    "form": {
+      "labels": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Dirección de Correo Electrónico",
+        "password": "Contraseña"
+      },
+      "placeholders": {
+        "firstName": "Ingresa tu Nombre",
+        "lastName": "Ingresa tu Apellido",
+        "email": "Ingresa tu Correo Electrónico",
+        "password": "Crea una contraseña segura"
+      },
+      "termsAgreement": {
+        "part1": "He aceptado los",
+        "termsLink": "Términos de Uso",
+        "and": "y la",
+        "privacyLink": "Política de Privacidad"
+      },
+      "termsError": "Por favor acepta los Términos de Uso y la Política de Privacidad",
+      "recaptchaError": "Por favor completa la verificación CAPTCHA",
+      "registrationFailed": "El registro no fue exitoso",
+      "tokenMissing": "No pudimos completar tu registro. Por favor intenta de nuevo",
+      "successMessage": "¡Registro exitoso! Redirigiendo...",
+      "genericError": "El registro falló. Por favor intenta de nuevo.",
+      "securityVerification": "Verificación de Seguridad",
+      "verificationSuccess": "Verificación exitosa",
+      "verificationRequired": "Por favor completa la verificación",
+      "securityHelpText": "Esto nos ayuda a mantener alejados a los bots y proteger tu cuenta",
+      "button": "Registrarse",
+      "loading": "Registrando..."
+    },
+    "footer": {
+      "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+      "login": "Iniciar Sesión",
+      "goBack": "Volver a",
+      "home": "Inicio"
+    }
+  },
+
+  "ForgotPassword": {
+    "logoAlt": "Logo de StripCard",
+    "emailStage": {
+      "title": "¿Olvidaste tu contraseña?",
+      "description": "Ingresa tu correo electrónico y te enviaremos una contraseña de un solo uso (OTP).",
+      "emailLabel": "Dirección de correo electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "securityVerification": "Verificación de seguridad",
+      "verificationSuccess": "Verificación exitosa",
+      "verificationRequired": "Por favor completa la verificación",
+      "securityHelpText": "Esto ayuda a prevenir solicitudes automatizadas",
+      "button": "Enviar OTP",
+      "loading": "Enviando...",
+      "recaptchaError": "Por favor completa la verificación CAPTCHA",
+      "genericError": "Ocurrió un error inesperado."
+    },
+    "otpStage": {
+      "title": "Ingresa el Código",
+      "description": "Hemos enviado un código de 6 dígitos a",
+      "resendCountdown": {
+        "part1": "Reenviar disponible en"
+      },
+      "resendPrompt": "¿No recibiste el código?",
+      "resendButton": "Reenviar Código",
+      "resending": "Reenviando...",
+      "invalidOtp": "Por favor ingresa el OTP completo de 6 dígitos",
+      "verificationError": "Ocurrió un error inesperado durante la verificación del OTP.",
+      "button": "Verificar OTP",
+      "verifying": "Verificando..."
+    },
+    "footer": {
+      "emailStage": "¿Recuerdas tu contraseña?",
+      "otpStage": "¿Ya tienes una cuenta?",
+      "loginLink": "Iniciar Sesión"
+    }
+  },
+
+  "Sidebar": {
+    "logoAlt": "Logo de StripCard",
+    "closeMenu": "Cerrar menú",
+    "main": {
+      "title": "Principal",
+      "dashboard": "Panel de Control"
+    },
+    "moneyManagement": {
+      "title": "Gestión de Dinero",
+      "addMoney": "Agregar Dinero",
+      "transferMoney": "Transferir Dinero",
+      "withdrawMoney": "Retirar Dinero"
+    },
+    "services": {
+      "title": "Servicios",
+      "virtualCard": "Tarjeta Virtual",
+      "giftCard": "Tarjeta de Regalo",
+      "transactions": "Transacciones"
+    },
+    "account": {
+      "title": "Cuenta",
+      "profile": "Mi Perfil",
+      "kyc": "Verificación KYC",
+      "twoFactor": "Seguridad 2FA",
+      "support": "Obtener Soporte"
+    }
+  },
+  "addMoney": {
+    "title": "Agregar Dinero",
+    "fields": {
+      "gateway": {
+        "label": "Pasarela de Pago",
+        "placeholder": "Seleccionar Pasarela"
+      },
+      "amount": {
+        "label": "Ingresar Monto",
+        "placeholder": "Ingresar Monto"
+      }
+    },
+    "info": {
+      "availableBalance": "Saldo Disponible",
+      "charge": "Cargo"
+    },
+    "button": {
+      "confirm": "Confirmar",
+      "processing": "Procesando..."
+    },
+    "errors": {
+      "loadFailed": "Error al cargar las pasarelas de pago",
+      "loadGeneric": "Algo salió mal al cargar los datos",
+      "selectGateway": "Por favor selecciona una pasarela de pago",
+      "invalidAmount": "Por favor ingresa un monto válido",
+      "submitFailed": "Error al enviar",
+      "approvalLinkUnavailable": "Enlace de aprobación de pago no disponible. Inténtalo de nuevo.",
+      "invalidGatewayResponse": "La respuesta de la pasarela no es válida",
+      "processGeneric": "Error al procesar la solicitud"
+    },
+    "success": {
+      "submitted": "¡Solicitud de depósito enviada!"
+    }
+  },
+
+  "addMoneyPreview": {
+    "title": "Vista Previa de Depósito",
+    "rows": {
+      "enterAmount": "Monto Ingresado",
+      "exchangeRate": "Tipo de Cambio",
+      "feesCharges": "Tarifas y Cargos",
+      "conversionAmount": "Monto Convertido",
+      "willGet": "Recibirás",
+      "totalPayable": "Total a Pagar"
+    }
+  },
+  "addMoneyLog": {
+    "title": "Registro de agregar dinero",
+    "viewMore": "Ver más",
+    "empty": "No se encontraron transacciones",
+    "columns": {
+      "addBalanceVia": "Agregar saldo mediante",
+      "status": "Estado",
+      "transactionId": "ID de transacción",
+      "exchangeRate": "Tipo de cambio",
+      "feesCharges": "Tarifas y cargos",
+      "currentBalance": "Saldo actual",
+      "timeDate": "Hora y fecha",
+      "requestAmount": "Monto solicitado",
+      "payableAmount": "Monto a pagar"
+    },
+    "rows": {
+      "addBalanceVia": "Agregar saldo mediante {gateway}"
+    },
+    "errors": {
+      "loadFailed": "No se pudieron cargar los registros",
+      "loadGeneric": "No se pudieron cargar los registros de agregar dinero"
+    }
+  },
+  "limitInformation": {
+    "title": "Información de Límites",
+    "rows": {
+      "transactionLimit": "Límite por Transacción",
+      "dailyLimit": "Límite Diario",
+      "remainingDaily": "Restante Diario",
+      "monthlyLimit": "Límite Mensual",
+      "remainingMonthly": "Restante Mensual"
+    },
+    "errors": {
+      "loadRemainingFailed": "Error al cargar los límites restantes",
+      "errorShort": "Error"
+    }
+  },
+  "manualPayment": {
+    "title": "Pago Manual vía {gateway}",
+    "fallbackGateway": "Pasarela Manual",
+    "loading": "Cargando detalles del pago...",
+    "noFieldsRequired": "No se requiere información adicional para esta pasarela",
+    "fieldPlaceholder": "Ingresa {label}",
+    "button": {
+      "confirm": "Confirmar Pago",
+      "submitting": "Enviando..."
+    },
+    "errors": {
+      "invalidData": "Datos de pago no válidos",
+      "noPending": "No se encontró ningún pago manual pendiente",
+      "submitFailed": "Error al enviar los detalles del pago",
+      "unexpectedResponse": "Respuesta inesperada del servidor",
+      "submissionFailed": "Error al enviar. Por favor, vuelve a subir el comprobante de pago"
+    },
+    "success": {
+      "submitted": "¡Comprobante de pago enviado correctamente!"
+    }
+  },
+  "paymentInformation": {
+    "title": "Información del Pago",
+    "empty": "No hay información de pago disponible",
+    "rows": {
+      "enteredAmount": "Monto Ingresado",
+      "exchangeRate": "Tipo de Cambio",
+      "feesCharges": "Tarifas y Cargos",
+      "conversionAmount": "Monto Convertido",
+      "willGet": "Recibirás",
+      "totalPayable": "Total a Pagar"
+    },
+    "errors": {
+      "conversionFailed": "Error al calcular la conversión"
+    }
+  },
+
+  "transferMoney": {
+    "title": "Transferir Dinero",
+    "fields": {
+      "email": {
+        "label": "Correo del Destinatario",
+        "placeholder": "Correo del Destinatario"
+      },
+      "amount": {
+        "label": "Ingresar Monto",
+        "placeholder": "Ingresar Monto"
+      }
+    },
+    "info": {
+      "availableBalance": "Saldo Disponible",
+      "transferFee": "Tarifa de Transferencia"
+    },
+    "button": {
+      "confirm": "Confirmar",
+      "processing": "Procesando..."
+    },
+    "errors": {
+      "loadInfoFailed": "Error al cargar la información de transferencia",
+      "unexpectedResponse": "Respuesta inesperada del servidor",
+      "checkReceiverFailed": "Error al verificar el destinatario",
+      "emailRequired": "El correo del destinatario es obligatorio",
+      "invalidAmount": "Ingresa un monto válido",
+      "insufficientBalance": "Saldo insuficiente",
+      "selectCurrency": "Selecciona una moneda",
+      "transferFailed": "Error en la transferencia. Por favor, inténtalo de nuevo."
+    }
+  },
+
+  "transferMoneyPreview": {
+    "title": "Vista Previa de Transferencia",
+    "rows": {
+      "enterAmount": "Monto Ingresado",
+      "transferFee": "Tarifa de Transferencia",
+      "recipientReceived": "Monto que Recibirá el Destinatario",
+      "totalPayable": "Total a Pagar"
+    }
+  },
+
+  "moneyTransferLimit": {
+    "title": "Información de Límites",
+    "rows": {
+      "transactionLimit": "Límite por Transacción",
+      "dailyLimit": "Límite Diario",
+      "remainingDaily": "Restante Diario",
+      "monthlyLimit": "Límite Mensual",
+      "remainingMonthly": "Restante Mensual"
+    },
+    "errors": {
+      "noChargeFound": "No se encontró cargo de transferencia",
+      "updateFailed": "La actualización falló. Por favor recarga o inténtalo de nuevo",
+      "loadFailed": "Error al cargar los límites de transferencia"
+    }
+  },
+
+  "transferMoneyLog": {
+    "title": "Registro de transferencia de dinero",
+    "viewMore": "Ver más",
+    "columns": {
+      "transferTo": "Transferir dinero a",
+      "status": "Estado",
+      "transactionId": "ID de transacción",
+      "feesCharges": "Tarifas y cargos",
+      "recipientReceived": "Cantidad recibida por el destinatario",
+      "currentBalance": "Saldo actual",
+      "timeDate": "Hora y fecha",
+      "requestAmount": "Monto solicitado",
+      "payableAmount": "Monto a pagar"
+    },
+    "empty": {
+      "title": "No se encontraron datos",
+      "subtitle": "Aún no hay registros de transferencias disponibles"
+    },
+    "errors": {
+      "loadFailed": "No se pudieron obtener los registros de transferencia"
+    }
+  },
+
+  "withdrawMoney": {
+    "title": "Retirar Dinero",
+    "fields": {
+      "gateway": {
+        "label": "Pasarela de Pago",
+        "placeholder": "Seleccionar Pasarela"
+      },
+      "amount": {
+        "label": "Ingresar Monto",
+        "placeholder": "Ingresar Monto"
+      }
+    },
+    "info": {
+      "availableBalance": "Saldo Disponible",
+      "charge": "Cargo"
+    },
+    "button": {
+      "confirm": "Confirmar",
+      "processing": "Procesando..."
+    },
+    "errors": {
+      "loadDataFailed": "Error al cargar los datos",
+      "loadInfoFailed": "Error al cargar la información de retiro",
+      "invalidAmount": "Ingresa un monto válido",
+      "selectGateway": "Selecciona una pasarela de pago",
+      "withdrawFailed": "El retiro falló",
+      "genericError": "Algo salió mal. Por favor, inténtalo de nuevo."
+    },
+    "success": {
+      "initiated": "Retiro iniciado correctamente"
+    }
+  },
+
+  "withdrawMoneyPreview": {
+    "title": "Vista Previa de Retiro",
+    "rows": {
+      "enterAmount": "Monto Ingresado",
+      "exchangeRate": "Tipo de Cambio",
+      "feesCharges": "Tarifas y Cargos",
+      "conversionAmount": "Monto Convertido",
+      "willGet": "Recibirás",
+      "totalPayable": "Total a Pagar"
+    },
+    "errors": {
+      "loadDataFailed": "Error al cargar los datos",
+      "loadGeneric": "Algo salió mal al cargar la información de retiro"
+    }
+  },
+
+  "moneyWithdrawalLimit": {
+    "title": "Información de Límites",
+    "rows": {
+      "transactionLimit": "Límite por Transacción",
+      "dailyLimit": "Límite Diario",
+      "remainingDaily": "Restante Diario",
+      "monthlyLimit": "Límite Mensual",
+      "remainingMonthly": "Restante Mensual"
+    },
+    "errors": {
+      "unavailable": "La información solicitada no está disponible actualmente"
+    }
+  },
+  "withdrawMoneyLog": {
+    "title": "Registro de retiro de dinero",
+    "viewMore": "Ver más",
+    "empty": "No se encontraron transacciones de retiro",
+    "columns": {
+      "withdrawBy": "Retirar dinero mediante",
+      "status": "Estado",
+      "transactionId": "ID de transacción",
+      "exchangeRate": "Tipo de cambio",
+      "feesCharges": "Tarifas y cargos",
+      "willGet": "Recibirá",
+      "currentBalance": "Saldo actual",
+      "timeDate": "Hora y fecha",
+      "requestAmount": "Monto solicitado",
+      "payableAmount": "Monto a pagar"
+    },
+    "errors": {
+      "noData": "No hay datos de transacciones disponibles",
+      "loadFailed": "No se pudo cargar el historial de retiros"
+    }
+  },
+  "manualWithdraw": {
+    "title": "Retiro vía {gateway}",
+    "loading": "Cargando detalles del retiro...",
+    "button": {
+      "confirm": "Confirmar",
+      "submitting": "Enviando..."
+    },
+    "errors": {
+      "loadFailed": "Error al cargar los detalles del retiro. Por favor, inténtalo de nuevo.",
+      "loadFailedToast": "Error al cargar los detalles del retiro",
+      "noPending": "No se encontró ningún retiro pendiente.",
+      "fillField": "Por favor completa {label}",
+      "submitFailed": "Error al completar la solicitud de retiro",
+      "unexpected": "Ocurrió un error inesperado. Por favor, inténtalo más tarde.",
+      "submissionFailed": "Error al enviar el retiro"
+    },
+    "success": {
+      "submitted": "¡Solicitud de retiro enviada correctamente!"
+    }
+  },
+  "withdrawPaymentInformation": {
+    "title": "Información del Pago",
+    "subtitle": "Por favor revisa los detalles de tu solicitud de retiro a continuación.",
+    "loading": "Cargando información del pago...",
+    "fields": {
+      "enterAmount": "Monto Ingresado",
+      "exchangeRate": "Tipo de Cambio",
+      "feesCharges": "Tarifas y Cargos",
+      "conversionAmount": "Monto Convertido",
+      "willGet": "Recibirás",
+      "totalPayable": "Total a Pagar"
+    },
+    "errors": {
+      "noPending": "No se encontró ningún retiro pendiente. Por favor inicia un nuevo retiro.",
+      "loadSummaryFailed": "Error al cargar el resumen del pago. Por favor, inténtalo de nuevo.",
+      "unableToLoad": "No se pueden cargar los detalles del pago"
+    }
+  },
+  "allTransactionLog": {
+    "pageTitle": "Registro de transacciones",
+    "tableTitle": "Todas las transacciones",
+    "searchPlaceholder": "Ej: ID TRX, Agregar dinero",
+    "searchResults": "Se encontraron {count} transacción{count, plural, one {} other {es}} que coinciden con \"{term}\"",
+    "types": {
+      "addMoney": "Agregar dinero",
+      "transferMoney": "Transferir dinero",
+      "virtualCard": "Tarjeta virtual",
+      "withdrawMoney": "Retirar dinero",
+      "giftCard": "Tarjeta de regalo"
+    },
+    "columns": {
+      "transaction": "Transacción",
+      "status": "Estado",
+      "transactionId": "ID de transacción",
+      "amount": "Monto solicitado",
+      "feesCharges": "Tarifas y cargos",
+      "currentBalance": "Saldo actual",
+      "timeDate": "Hora y fecha",
+      "payable": "Monto a pagar"
+    },
+    "empty": {
+      "noMatch": "No se encontraron transacciones coincidentes",
+      "noTransactions": "No se encontraron transacciones"
+    },
+    "modal": {
+      "title": "Detalles de la transacción",
+      "close": "Cerrar",
+      "unknown": "Desconocido",
+      "status": "Estado",
+      "transactionId": "ID de transacción",
+      "feesCharges": "Tarifas y cargos",
+      "currentBalance": "Saldo actual",
+      "timeDate": "Hora y fecha",
+      "transactionType": "Tipo de transacción",
+      "transactionHeading": "Encabezado de la transacción",
+      "addBalanceVia": "Agregar saldo mediante",
+      "exchangeRate": "Tipo de cambio",
+      "recipientReceived": "Cantidad recibida por el destinatario",
+      "withdrawMoney": "Retirar dinero",
+      "willGet": "Recibirá",
+      "cardAmount": "Monto de la tarjeta",
+      "cardMasked": "Tarjeta enmascarada",
+      "cardName": "Nombre de la tarjeta",
+      "receiverEmail": "Correo electrónico del destinatario",
+      "receiverPhone": "Teléfono del destinatario",
+      "cardUnitPrice": "Precio unitario de la tarjeta",
+      "cardQuantity": "Cantidad de tarjetas",
+      "cardTotalPrice": "Precio total de la tarjeta",
+      "requestAmount": "Monto solicitado",
+      "payable": "Monto a pagar"
+    },
+    "errors": {
+      "invalidResponse": "Formato de respuesta no válido",
+      "loadFailed": "No se pudieron cargar las transacciones"
+    }
+  },
+  "myProfile": {
+    "title": "Mi Perfil",
+    "profileImageAlt": "Perfil",
+    "fields": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "country": "País",
+      "countryPlaceholder": "Seleccionar país",
+      "phone": "Teléfono",
+      "phonePlaceholder": "Ingresa tu número de teléfono",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "state": "Estado",
+      "zipCode": "Código Postal"
+    },
+    "buttons": {
+      "deleteAccount": "Eliminar Cuenta",
+      "updateProfile": "Actualizar Perfil"
+    },
+    "deleteModal": {
+      "title": "¿Eliminar cuenta?",
+      "description": "¿Estás seguro de que deseas eliminar tu cuenta? Esta acción no se puede deshacer y todos tus datos serán eliminados permanentemente.",
+      "cancel": "Cancelar",
+      "confirm": "Sí, eliminar"
+    },
+    "errors": {
+      "deleteUnexpected": "Ocurrió un error inesperado durante la eliminación de la cuenta."
+    }
+  },
+  "changePassword": {
+    "title": "Cambiar Contraseña",
+    "fields": {
+      "currentPassword": "Contraseña Actual",
+      "newPassword": "Nueva Contraseña",
+      "confirmPassword": "Confirmar Contraseña"
+    },
+    "placeholders": {
+      "currentPassword": "Ingresa la contraseña actual",
+      "newPassword": "Ingresa la nueva contraseña",
+      "confirmPassword": "Confirma la nueva contraseña"
+    },
+    "button": {
+      "change": "Cambiar"
+    }
+  },
+  "verifiedKYC": {
+    "title": "Verificación KYC",
+    "statusLabel": "Estado",
+    "selectPlaceholder": "Seleccionar {label}",
+    "status": {
+      "unverified": "No verificado",
+      "verified": "Verificado",
+      "pending": "Pendiente",
+      "rejected": "Rechazado"
+    },
+    "statusMessages": {
+      "underReview": "Tu KYC está en revisión. Por favor, espera la aprobación.",
+      "verifiedSuccess": "Tu KYC ha sido verificado exitosamente."
+    },
+    "button": {
+      "submit": "Enviar KYC"
+    },
+    "success": {
+      "submitted": "KYC enviado exitosamente"
+    },
+    "errors": {
+      "loadFailed": "Error al cargar los datos KYC.",
+      "submitFailed": "Error al enviar",
+      "serverError": "Error del servidor",
+      "connectionError": "Algo salió mal. Por favor verifica tu conexión"
+    }
+  },
+  "twoFactorAuth": {
+    "title": "Autenticador de Dos Factores",
+    "badge": {
+      "enabled": "Activado",
+      "notEnabled": "No Activado"
+    },
+    "secretPlaceholder": "Sin código secreto disponible",
+    "copyAriaLabel": "Copiar código",
+    "qrAlt": "Código QR 2FA",
+    "qrNotAvailable": "Sin código QR",
+    "button": {
+      "enable": "Activar",
+      "disable": "Desactivar",
+      "processing": "Procesando..."
+    },
+    "modal": {
+      "titleEnable": "Activar Autenticación de Dos Factores",
+      "titleDisable": "Desactivar Autenticación de Dos Factores",
+      "confirmEnable": "¿Estás seguro de que deseas activar la autenticación de 2 factores (con tecnología de Google)?",
+      "confirmDisable": "¿Estás seguro de que deseas desactivar el 2FA? Perderás una capa adicional de seguridad.",
+      "cancel": "Cancelar",
+      "confirmButtonEnable": "Activar",
+      "confirmButtonDisable": "Desactivar",
+      "codeLabel": "Introduce el código de 6 dígitos de tu aplicación de autenticación",
+      "invalidCode": "Introduce el código completo de 6 dígitos"
+    },
+    "success": {
+      "enabled": "¡2FA activado exitosamente!",
+      "disabled": "¡2FA desactivado exitosamente!"
+    },
+    "errors": {
+      "loadFailed": "Error al cargar los datos de 2FA",
+      "loadGeneric": "Ocurrió un error al cargar la configuración de 2FA",
+      "operationFailed": "La operación falló",
+      "generic": "Algo salió mal. Por favor, inténtalo de nuevo."
+    }
+  },
+  "downloadAuthenticator": {
+    "title": "Descargar Google Authenticator",
+    "description": "Google Authenticator es un autenticador basado en productos de Google que proporciona servicios de autenticación de dos factores para verificar usuarios de diversas aplicaciones.",
+    "imageAlt": "Google Authenticator",
+    "button": "Descargar App"
+  },
+  "paymentSuccess": {
+    "title": "Pago Exitoso",
+    "description": "Todo se procesó correctamente. Tu cuenta ha sido actualizada.",
+    "button": "Volver al Inicio"
+  },
+  "paymentCancel": {
+    "title": "Depósito Cancelado",
+    "description": "Tu proceso de depósito fue cancelado. No se realizaron cambios en tu cuenta.",
+    "button": "Volver al Inicio"
+  },
+
+  "GiftCardTable": {
+    "header": {
+      "title": "Mi Tarjeta de Regalo",
+      "button": "Tarjetas de Regalo"
+    },
+    "emptyState": {
+      "message": "Aún no se encontraron transacciones de tarjetas de regalo",
+      "button": "Comprar Tarjetas de Regalo"
+    },
+    "errors": {
+      "loadFailed": "No se pudo cargar el historial de tarjetas de regalo",
+      "genericError": "Algo salió mal al cargar las tarjetas de regalo"
+    },
+    "table": {
+      "headers": {
+        "cardDetails": "Detalles de la Tarjeta",
+        "receiverInfo": "Información del Receptor",
+        "cardPricing": "Precio de la Tarjeta",
+        "paymentDetails": "Detalles del Pago",
+        "status": "Estado"
+      },
+      "labels": {
+        "trxId": "ID de TRX",
+        "cardName": "Nombre de la Tarjeta",
+        "receiverEmail": "Correo del Receptor",
+        "receiverPhone": "Teléfono",
+        "unitPrice": "Precio Unitario",
+        "quantity": "Cantidad",
+        "totalPrice": "Precio Total",
+        "exchangeRate": "Tipo de Cambio",
+        "payableUnit": "Precio Unitario Pagable",
+        "charge": "Cargo",
+        "totalPayable": "Total a Pagar"
+      }
+    },
+    "status": {
+      "success": "Éxito",
+      "pending": "Pendiente",
+      "failed": "Fallido"
+    }
+  },
+
+  "ProductDetails": {
+    "title": "Detalles de la Compra",
+    "form": {
+      "title": "Detalles de la Compra",
+      "amount": {
+        "label": "Monto",
+        "fixedHint": "Selecciona un monto",
+        "rangeHint": "Selecciona un monto entre {min} - {max} {currency}",
+        "placeholder": "Ingresa el monto"
+      },
+      "receiverEmail": {
+        "label": "Correo del Destinatario",
+        "placeholder": "Ingresa el correo del destinatario"
+      },
+      "country": {
+        "label": "País",
+        "placeholder": "Selecciona país",
+        "loading": "Cargando países..."
+      },
+      "phone": {
+        "label": "Número de Teléfono",
+        "placeholder": "Ingresa el número de teléfono"
+      },
+      "fromName": {
+        "label": "Nombre del Remitente",
+        "placeholder": "Tu nombre"
+      },
+      "quantity": {
+        "label": "Cantidad"
+      },
+      "wallet": {
+        "label": "Billetera",
+        "placeholder": "Selecciona billetera",
+        "loading": "Cargando billeteras...",
+        "noWallets": "No hay billeteras disponibles"
+      },
+      "button": "Comprar Ahora"
+    },
+    "preview": {
+      "availableBalance": "Saldo disponible"
+    },
+    "errors": {
+      "noProductId": "No se proporcionó ID de producto en la URL",
+      "loadFailed": "No se pudo cargar los detalles de la tarjeta de regalo",
+      "productNotFound": "No se encontraron datos del producto de tarjeta de regalo",
+      "genericError": "Algo salió mal",
+      "fillAllFields": "Por favor completa todos los campos requeridos",
+      "invalidFixedAmount": "Por favor selecciona un monto válido: {amounts}",
+      "amountOutOfRange": "El monto debe estar entre {min} y {max}",
+      "loadCountriesFailed": "No se pudo cargar la lista de países",
+      "loadWalletsFailed": "No se pudo cargar las opciones de billetera"
+    },
+    "success": {
+      "purchaseSent": "¡Solicitud de compra enviada!"
+    },
+    "buttons": {
+      "goBack": "Volver"
+    }
+  },
+
+  "GiftCardList": {
+    "header": {
+      "title": "Tarjetas de Regalo"
+    },
+    "buttons": {
+      "search": "Buscar"
+    },
+    "emptyState": {
+      "message": "No se encontraron tarjetas de regalo"
+    },
+    "errors": {
+      "loadFailed": "No se pudieron cargar las tarjetas de regalo"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Siguiente"
+    },
+    "allCountries": "Todos los Países"
+  },
+
+  "Strowallet": {
+    "header": {
+      "title": "Mis Tarjetas Virtuales",
+      "createButton": "Crear Nueva Tarjeta"
+    },
+    "emptyState": {
+      "title": "Aún no tienes tarjetas virtuales",
+      "description": "Crea tu primera tarjeta virtual para comenzar a realizar pagos en línea seguros.",
+      "button": "Crear Primera Tarjeta"
+    },
+    "transactions": {
+      "title": "Historial de Transacciones",
+      "subtitle": "Toda la actividad relacionada con tus tarjetas virtuales (Strowallet)",
+      "empty": "Aún no se encontraron transacciones.",
+      "headers": {
+        "date": "Fecha",
+        "transaction": "Transacción",
+        "type": "Tipo de Transacción",
+        "requestAmount": "Monto Solicitado",
+        "payable": "Pagable",
+        "totalCharge": "Cargo Total",
+        "cardAmount": "Monto de Tarjeta",
+        "currentBalance": "Saldo Actual",
+        "status": "Estado"
+      }
+    },
+    "card": {
+      "expiry": "exp. fin:",
+      "defaultName": "USUARIO"
+    },
+    "status": {
+      "unknown": "Desconocido"
+    },
+    "errors": {
+      "loadFailed": "No se pudieron cargar las tarjetas virtuales",
+      "genericError": "Algo salió mal. Por favor intenta de nuevo más tarde."
+    }
+  },
+
+  "VirtualCardDetails": {
+    "header": {
+      "title": "Detalles de la Tarjeta Virtual"
+    },
+    "actions": {
+      "fund": "Recargar",
+      "makeDefault": "Establecer como Predeterminada",
+      "removeDefault": "Eliminar Predeterminada",
+      "transactions": "Transacciones",
+      "freezing": "Congelando tarjeta...",
+      "unfreezing": "Descongelando tarjeta...",
+      "freeze": "Congelar",
+      "unfreeze": "Descongelar",
+      "settingDefault": "Estableciendo como predeterminada...",
+      "removingDefault": "Eliminando como predeterminada..."
+    },
+    "status": {
+      "active": "Activa",
+      "inactive": "Inactiva"
+    },
+    "card": {
+      "expiryLabel": "exp. fin:",
+      "defaultName": "USUARIO"
+    },
+    "billing": {
+      "title": "Dirección de Facturación",
+      "country": "País de Facturación",
+      "city": "Ciudad de Facturación",
+      "address": "Estado / Dirección de Facturación",
+      "zipCode": "Código Postal de Facturación"
+    },
+    "additionalInfo": {
+      "title": "Información Adicional",
+      "cardAmount": "Monto de la Tarjeta",
+      "cardType": "Tipo de Tarjeta",
+      "cardId": "ID de Tarjeta",
+      "customerId": "ID de Cliente",
+      "cardNumber": "Número de Tarjeta",
+      "cvv": "CVV",
+      "expiration": "Vencimiento",
+      "city": "Ciudad",
+      "state": "Estado",
+      "zipCode": "Código Postal",
+      "status": "Estado"
+    },
+    "cardBack": {
+      "title": "Detalles del Reverso de la Tarjeta"
+    },
+    "modals": {
+      "removeDefaultTitle": "¿Eliminar como Tarjeta Predeterminada?",
+      "removeDefaultDescription": "¿Quieres eliminar el estado predeterminado de esta tarjeta?",
+      "removeDefaultNote": "Puedes establecer otra tarjeta como predeterminada más tarde.",
+      "setDefaultTitle": "¿Establecer como Tarjeta Predeterminada?",
+      "setDefaultDescription": "¿Quieres hacer de esta tarjeta tu tarjeta predeterminada?",
+      "setDefaultNote": "Esta tarjeta se usará como la principal para las transacciones cuando sea posible.",
+      "freezeTitle": "¿Congelar Tarjeta?",
+      "freezeDescription": "¿Quieres congelar esta tarjeta?",
+      "freezeNote": "La tarjeta quedará temporalmente bloqueada y no podrá usarse para transacciones hasta que se descongele.",
+      "unfreezeTitle": "¿Descongelar Tarjeta?",
+      "unfreezeDescription": "¿Quieres descongelar esta tarjeta?",
+      "unfreezeNote": "La tarjeta volverá a estar activa y podrá usarse para transacciones nuevamente."
+    },
+    "transactions": {
+      "title": "Transacciones de Tarjeta Virtual",
+      "empty": "No se encontraron transacciones",
+      "defaultType": "Transacción"
+    },
+    "webhook": {
+      "title": "Registros de Webhook",
+      "button": "Registros de Webhook",
+      "empty": "No se encontraron registros de webhook",
+      "defaultEvent": "Evento de Webhook",
+      "event": "Evento",
+      "amount": "Monto",
+      "transitionId": "ID de Transición",
+      "cardId": "ID de Tarjeta",
+      "reference": "Referencia",
+      "narrative": "Narrativa",
+      "reason": "Razón",
+      "status": "Estado",
+      "chargeAmount": "Monto del Cargo",
+      "balanceBeforeTermination": "Saldo Antes de la Terminación"
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "close": "Cerrar",
+      "setDefault": "Establecer como predeterminado",
+      "removeDefault": "Quitar predeterminado",
+      "freeze": "Congelar",
+      "unfreeze": "Descongelar"
+    },
+    "errors": {
+      "noCardSelected": "No se seleccionó ninguna tarjeta",
+      "noCardFound": "No se encontró ninguna tarjeta. Por favor selecciona una de la lista.",
+      "loadFailed": "No se pudieron cargar los detalles de la tarjeta",
+      "defaultActionFailed": "No se pudo actualizar el estado predeterminado",
+      "refreshFailed": "No se pudieron actualizar los detalles de la tarjeta",
+      "freezeActionFailed": "La acción falló",
+      "loadTransactionsFailed": "No se pudieron cargar las transacciones",
+      "loadWebhookLogsFailed": "No se pudieron cargar los registros de webhook"
+    },
+    "success": {
+      "defaultUpdated": "Estado actualizado correctamente",
+      "frozen": "Tarjeta congelada correctamente",
+      "unfrozen": "Tarjeta descongelada correctamente"
+    }
+  },
+  "fundVirtualCard": {
+    "mainWallet": "Billetera Principal",
+    "backButton": "Volver",
+    "form": {
+      "title": "Fondear Tarjeta Virtual",
+      "amountLabel": "Monto de la Tarjeta",
+      "amountPlaceholder": "Ingresar Monto",
+      "fromWalletLabel": "Desde Billetera",
+      "fees": "Tarifas:",
+      "availableBalance": "Saldo Disponible:",
+      "button": {
+        "submit": "Fondear Tarjeta",
+        "processing": "Procesando..."
+      }
+    },
+    "preview": {
+      "title": "Vista Previa",
+      "fundAmount": "Monto a Fondear",
+      "exchangeRate": "Tipo de Cambio",
+      "totalCharge": "Cargo Total",
+      "totalPayable": "Total a Pagar"
+    },
+    "limits": {
+      "title": "Información de Límites",
+      "transactionLimit": "Límite por Transacción",
+      "dailyLimit": "Límite Diario",
+      "remainingDaily": "Límite Diario Restante",
+      "monthlyLimit": "Límite Mensual",
+      "remainingMonthly": "Límite Mensual Restante"
+    },
+    "errors": {
+      "noCard": "No se seleccionó ninguna tarjeta",
+      "loadFailed": "Error al cargar los datos",
+      "loadCardFailed": "Error al cargar los detalles de la tarjeta",
+      "invalidAmount": "Monto inválido o saldo insuficiente",
+      "generic": "Algo salió mal. Por favor, inténtalo de nuevo",
+      "network": "Error de red. Inténtalo de nuevo."
+    }
+  },
+  "CreateVirtualCard": {
+    "header": {
+      "title": "Crear Tarjeta Virtual",
+      "subtitle": "Completa tu perfil KYC para comenzar a emitir tarjetas virtuales"
+    },
+    "kycStatus": {
+      "title": "Tu Estado KYC",
+      "currentStatus": "Estado KYC Actual",
+      "successMessage": "Tu verificación KYC está completa y aprobada.",
+      "unreviewed": "KYC No Revisado"
+    },
+    "updateForm": {
+      "title": "Actualizar Información KYC"
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "submitUpdate": "Enviar Actualización",
+      "updating": "Actualizando...",
+      "updateCustomer": "Actualizar Cliente",
+      "tryAgain": "Intentar de Nuevo"
+    },
+    "success": {
+      "customerUpdated": "¡Cliente actualizado correctamente!"
+    },
+    "errors": {
+      "loadFailed": "No se pudo cargar la información",
+      "genericError": "Algo salió mal. Por favor intenta de nuevo.",
+      "loadError": "Error al Cargar Información",
+      "updateFailed": "La actualización falló. Por favor verifica tus datos.",
+      "unexpectedResponse": "Respuesta inesperada del servidor."
+    }
+  },
+  "CreateCardCustomer": {
+    "title": "Crear cliente",
+    "description": "Por favor proporcione la información requerida para configurar el perfil de su cliente",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "customerCreated": "¡Cliente creado con éxito!",
+    "somethingWentWrong": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "failedToCreateCustomer": "No se pudo crear el cliente",
+    "enter": "Ingrese",
+    "fields": {
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "phone": "Número de teléfono",
+      "email": "Correo electrónico",
+      "date_of_birth": "Fecha de nacimiento",
+      "house_number": "Número de casa",
+      "address": "Dirección",
+      "zip_code": "Código postal"
+    },
+    "placeholders": {
+      "firstName": "Ingrese el nombre",
+      "lastName": "Ingrese el apellido",
+      "phone": "Ingrese el número de teléfono",
+      "email": "Ingrese el correo electrónico",
+      "houseNumber": "Ingrese el número de casa",
+      "address": "Ingrese la dirección",
+      "zipCode": "Ingrese el código postal"
+    }
+  },
+  "CreateCardPage": {
+    "title": "Crear tarjeta virtual",
+    "preview": "Vista previa",
+    "fromWallet": "Desde billetera",
+    "selectWallet": "Seleccionar billetera",
+    "fees": "Tarifas",
+    "availableBalance": "Saldo disponible",
+    "processing": "Procesando...",
+    "confirm": "Confirmar",
+    "cardAmount": "Monto de la tarjeta",
+    "exchangeRate": "Tipo de cambio",
+    "totalCharge": "Cargo total",
+    "totalPayableAmount": "Monto total a pagar",
+    "limitInformation": "Información de límites",
+    "dailyLimit": "Límite diario",
+    "remainingDailyLimit": "Límite diario restante",
+    "monthlyLimit": "Límite mensual",
+    "remainingMonthlyLimit": "Límite mensual restante",
+    "failedToLoadData": "No se pudieron cargar los datos",
+    "failedToLoadRequiredData": "No se pudieron cargar los datos requeridos",
+    "somethingWentWrong": "Algo salió mal",
+    "unexpectedServerResponse": "Respuesta inesperada del servidor",
+    "failedToCreateVirtualCard": "No se pudo crear la tarjeta virtual",
+    "fields": {
+      "amount": "Monto"
+    },
+    "placeholders": {
+      "enterAmount": "Ingrese {field}",
+      "enterField": "Ingrese {field}"
+    },
+    "validation": {
+      "enterCardHolderName": "Por favor ingrese el nombre del titular de la tarjeta",
+      "enterValidCardAmount": "Por favor ingrese un monto válido para la tarjeta",
+      "amountRange": "El monto debe estar entre {min} y {max} {currency}",
+      "selectWallet": "Por favor seleccione una billetera",
+      "insufficientBalance": "Saldo insuficiente en la billetera seleccionada"
+    }
+  },
+  "WalletBalanceSection": {
+    "currentBalance": "Saldo Actual",
+    "totalAddMoney": "Total de Dinero Agregado",
+    "totalTransactions": "Total de Transacciones",
+    "activeTickets": "Tickets Activos",
+    "activeCard": "Tarjeta Activa",
+    "totalGiftCards": "Total de Tarjetas de Regalo",
+    "totalWalletBalance": "Saldo Total de la Billetera",
+    "hideBalance": "Ocultar saldo",
+    "showBalance": "Mostrar saldo",
+    "addMoney": "Agregar Dinero",
+    "sendMoney": "Enviar Dinero"
+  },
+  "TransactionHistory": {
+    "transactionId": "ID de Transacción",
+    "payable": "A Pagar",
+    "requestAmount": "Monto Solicitado",
+    "type": "Tipo",
+    "remark": "Observación",
+    "transactionType": "Tipo de Transacción",
+    "status": "Estado",
+    "dateTime": "Fecha y Hora",
+    "latestTransactions": "Últimas Transacciones",
+    "viewMore": "Ver Más",
+    "noTransactionsFound": "No se encontraron transacciones"
+  },
+  "UserMenu": {
+    "loading": "Cargando...",
+    "kycVerification": "Verificación KYC",
+    "twoFaVerification": "Verificación 2FA",
+    "logout": "Cerrar sesión",
+    "modal": {
+      "loggingOut": "Cerrando sesión...",
+      "areYouSure": "¿Estás seguro?",
+      "pleaseWait": "Por favor espera mientras cerramos tu sesión de forma segura.",
+      "willBeLoggedOut": "Se cerrará la sesión de tu cuenta.",
+      "cancel": "Cancelar",
+      "yesLogout": "Sí, Cerrar sesión",
+      "loggingOutButton": "Cerrando sesión..."
+    }
+  },
+  "BuyGiftCardModal": {
+    "title": "Comprar Tarjeta de Regalo",
+    "summary": {
+      "productName": "Nombre del Producto:",
+      "receiverEmail": "Correo del Destinatario:",
+      "receiverCountry": "País del Destinatario:",
+      "receiverPhone": "Teléfono del Destinatario:",
+      "fromName": "De Nombre:",
+      "unitPrice": "Precio Unitario:",
+      "quantity": "Cantidad:",
+      "totalPrice": "Precio Total:"
+    },
+    "feesAndLimits": {
+      "exchangeRate": "Tipo de Cambio:",
+      "conversionAmount": "Monto de Conversión:",
+      "totalFees": "Total de Tarifas y Cargos:",
+      "dailyLimit": "Límite Diario:",
+      "remainingDailyLimit": "Límite Diario Restante:",
+      "monthlyLimit": "Límite Mensual:",
+      "remainingMonthlyLimit": "Límite Mensual Restante:",
+      "totalPayableAmount": "Monto Total a Pagar:"
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "processing": "Procesando...",
+      "insufficientBalance": "Saldo Insuficiente",
+      "confirm": "Confirmar"
+    },
+    "toast": {
+      "success": "¡Orden de tarjeta de regalo realizada con éxito!",
+      "orderFailed": "La orden falló",
+      "failedToPlaceOrder": "Error al realizar la orden. Por favor, inténtalo de nuevo."
+    },
+    "na": "N/A"
+  },
+  "emailVerify": {
+    "unauthorized": "Lo sentimos, no está autorizado.",
+    "resendFailed": "Error al reenviar el código.",
+    "invalidOtp": "Por favor, introduzca el código OTP de 6 dígitos completo.",
+    "verifyFailed": "Error al verificar el correo electrónico.",
+    "logoAlt": "Logo",
+    "title": "Verifique su correo electrónico",
+    "subtitle": "Hemos enviado un código de verificación de 6 dígitos a su dirección de correo electrónico.",
+    "verifying": "Verificando...",
+    "button": "Verificar correo electrónico",
+    "noCode": "¿No recibió el código?",
+    "sending": "Enviando...",
+    "resendButton": "Reenviar código",
+    "resendCountdown": "Reenviar código en {seconds}s",
+    "alreadyVerified": "¿Ya está verificado?",
+    "loginNow": "Iniciar sesión ahora"
+  },
+  "google2fa": {
+    "invalidOtp": "Por favor, introduzca un código de 6 dígitos completo.",
+    "unexpectedResponse": "Respuesta inesperada del servidor.",
+    "verifyFailed": "Error de verificación. Por favor, inténtelo de nuevo.",
+    "logoAlt": "Logo de StripCard",
+    "title": "Autorizar Google Two Factor",
+    "subtitle": "Por favor, introduzca su código de autorización para acceder al panel.",
+    "verifying": "Verificando...",
+    "button": "Autorizar"
+  },
+  "passwordReset": {
+    "invalidRequest": "Solicitud no válida",
+    "mismatch": "Las contraseñas no coinciden.",
+    "missingOtp": "Falta el código de restablecimiento.",
+    "success": "¡Contraseña restablecida con éxito!",
+    "failed": "Error al restablecer la contraseña.",
+    "unexpected": "Ocurrió un error inesperado.",
+    "title": "Restablecer su contraseña",
+    "newPasswordLabel": "Nueva contraseña",
+    "newPasswordPlaceholder": "Introduzca la nueva contraseña",
+    "confirmPasswordLabel": "Confirmar contraseña",
+    "confirmPasswordPlaceholder": "Confirme la nueva contraseña",
+    "resetting": "Restableciendo...",
+    "button": "Restablecer contraseña",
+    "backToHome": "— Volver al inicio —"
+  },
+  "Notifications": {
+    "title": "Notificaciones",
+    "loading": "Buscando actualizaciones...",
+    "empty": "No hay notificaciones aún",
+    "emptyMsg": "Le avisaremos cuando ocurra algo",
+    "justNow": "Ahora mismo",
+    "minutesAgo": "hace {minutes} minutos",
+    "hoursAgo": "hace {hours} horas",
+    "yesterday": "Ayer",
+    "daysAgo": "hace {days} días"
+  }
+}

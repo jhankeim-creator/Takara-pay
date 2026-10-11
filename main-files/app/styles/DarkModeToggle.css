@@ -1,0 +1,285 @@
+/* ─── Root Variables ─── */
+.toggleRoot {
+  --track-w: 64px;
+  --track-h: 32px;
+  --knob-size: 24px;
+  --knob-inset: 4px;
+  --radius: 16px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur: 0.36s;
+}
+
+/* ─── Track ─── */
+.toggleTrack {
+  position: relative;
+  width: var(--track-w);
+  height: var(--track-h);
+  border-radius: var(--radius);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+  transition:
+    box-shadow var(--dur) var(--ease),
+    background var(--dur) var(--ease);
+}
+
+/* Light */
+.toggleTrack.light {
+  background: linear-gradient(135deg, #d4e8df 0%, #c2ddd2 100%);
+  box-shadow:
+    inset 0 2px 4px rgba(1, 44, 32, 0.2),
+    0 1px 2px rgba(255, 255, 255, 0.5);
+}
+.toggleTrack.light:hover {
+  background: linear-gradient(135deg, #c8e2d8 0%, #b5d6c8 100%);
+  box-shadow:
+    inset 0 2px 5px rgba(1, 44, 32, 0.25),
+    0 2px 6px rgba(1, 44, 32, 0.1);
+}
+
+/* Dark */
+.toggleTrack.dark {
+  background: linear-gradient(135deg, #1e2a3a 0%, #162230 100%);
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.35),
+    0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.toggleTrack.dark:hover {
+  background: linear-gradient(135deg, #223080 0%, #1a2835 100%);
+  box-shadow:
+    inset 0 2px 5px rgba(0, 0, 0, 0.4),
+    0 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.toggleTrack:focus-visible {
+  outline: 2px solid #012c20;
+  outline-offset: 2.5px;
+}
+
+/* ─── Gradient border ─── */
+.toggleTrack::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border-radius: inherit;
+  pointer-events: none;
+  border: 1.5px solid transparent;
+  background:
+    linear-gradient(var(--radius), var(--radius), transparent) padding-box,
+    linear-gradient(
+        135deg,
+        rgba(1, 44, 32, 0.25) 0%,
+        rgba(1, 44, 32, 0.08) 100%
+      )
+      border-box;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: background var(--dur) var(--ease);
+}
+.toggleTrack.dark::after {
+  background:
+    linear-gradient(var(--radius), var(--radius), transparent) padding-box,
+    linear-gradient(
+        135deg,
+        rgba(147, 197, 253, 0.3) 0%,
+        rgba(99, 102, 241, 0.15) 100%
+      )
+      border-box;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* ─── Particles ─── */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  transition: opacity 0.4s ease;
+}
+
+/* Stars */
+.particle.star {
+  background: #ffffff;
+  opacity: 0;
+  box-shadow: 0 0 2px 0.5px rgba(255, 255, 255, 0.6);
+}
+.toggleTrack.dark .particle.star {
+  opacity: 1;
+}
+.particle.s1 {
+  width: 3px;
+  height: 3px;
+  top: 5px;
+  right: 9px;
+}
+.particle.s2 {
+  width: 2.5px;
+  height: 2.5px;
+  top: 15px;
+  right: 4px;
+}
+.particle.s3 {
+  width: 2px;
+  height: 2px;
+  top: 23px;
+  right: 13px;
+}
+
+/* Clouds */
+.particle.cloud {
+  background: rgba(255, 255, 255, 0.85);
+  opacity: 0;
+  border-radius: 6px;
+}
+.toggleTrack.light .particle.cloud {
+  opacity: 1;
+}
+.particle.c1 {
+  width: 7px;
+  height: 4px;
+  top: 7px;
+  left: 15px;
+}
+.particle.c2 {
+  width: 4px;
+  height: 2.5px;
+  top: 21px;
+  left: 20px;
+}
+
+/* ─── Glow ─── */
+.toggleGlow {
+  position: absolute;
+  top: 50%;
+  width: var(--knob-size);
+  height: var(--knob-size);
+  border-radius: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+  transition:
+    left var(--dur) var(--ease),
+    box-shadow var(--dur) var(--ease);
+}
+.toggleGlow.light {
+  left: var(--knob-inset);
+  box-shadow: 0 0 11px 5px rgba(245, 158, 11, 0.45);
+}
+.toggleGlow.dark {
+  left: calc(var(--track-w) - var(--knob-size) - var(--knob-inset));
+  box-shadow: 0 0 14px 6px rgba(147, 197, 253, 0.45);
+}
+
+/* ─── Background icons ─── */
+.toggleBgIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+.toggleBgIcon.sun {
+  left: 7px;
+}
+.toggleBgIcon.moon {
+  right: 7px;
+}
+
+/* Light */
+.toggleTrack.light .toggleBgIcon.sun {
+  opacity: 0.9;
+}
+.toggleTrack.light .toggleBgIcon.moon {
+  opacity: 0.5;
+}
+
+/* Dark */
+.toggleTrack.dark .toggleBgIcon.sun {
+  opacity: 0.3;
+}
+.toggleTrack.dark .toggleBgIcon.moon {
+  opacity: 1;
+}
+
+/* ─── Knob ─── */
+.toggleKnob {
+  position: absolute;
+  top: var(--knob-inset);
+  width: var(--knob-size);
+  height: var(--knob-size);
+  border-radius: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    left var(--dur) var(--ease),
+    background var(--dur) var(--ease),
+    box-shadow var(--dur) var(--ease),
+    transform 0.12s var(--ease);
+}
+.toggleKnob:active {
+  transform: scale(0.91);
+}
+
+.toggleKnob.light {
+  left: var(--knob-inset);
+  background: linear-gradient(160deg, #fff 0%, #f4faf7 100%);
+  box-shadow:
+    0 2px 5px rgba(1, 44, 32, 0.22),
+    0 1px 2px rgba(1, 44, 32, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.toggleKnob.dark {
+  left: calc(var(--track-w) - var(--knob-size) - var(--knob-inset));
+  background: linear-gradient(160deg, #3a4a60 0%, #2c3e50 100%);
+  box-shadow:
+    0 2px 7px rgba(0, 0, 0, 0.45),
+    0 1px 2px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* ─── Knob icon crossfade ─── */
+.knobIcon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease;
+}
+
+.toggleKnob.light .knobIcon.sun {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+.toggleKnob.light .knobIcon.moon {
+  opacity: 0;
+  transform: scale(0.55) rotate(-30deg);
+}
+
+.toggleKnob.dark .knobIcon.sun {
+  opacity: 0;
+  transform: scale(0.55) rotate(30deg);
+}
+.toggleKnob.dark .knobIcon.moon {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}

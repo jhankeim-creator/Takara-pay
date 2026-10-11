@@ -1,0 +1,48 @@
+import "package:stripcard/base/utils/custom_loading_api.dart";
+import "package:stripcard/views/virtual_card_strowallet/controller/add_fund_strowallet_controller.dart";
+import "package:stripcard/base/themes/app_colors.dart";
+import "package:stripcard/base/themes/app_text_styles.dart";
+import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:stripcard/base/widgets/inputs/strowallet_fund_keybaord_widget.dart";
+
+class StrowalletAddFundScreen extends StatelessWidget {
+  StrowalletAddFundScreen({super.key});
+  final controller = Get.put(StrowalletAddFundController());
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: AppColors.bg,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: AppColors.text),
+          onPressed: Get.back,
+        ),
+        title: Text(
+          Strings.fund,
+          style: AppTextStyles.bodyMed.copyWith(color: AppColors.text),
+        ),
+      ),
+      body: SafeArea(
+        child: Obx(
+          () => controller.isLoadingCharge
+              ? const CustomLoadingAPI()
+              : _bodyWidget(context),
+        ),
+      ),
+    );
+  }
+
+  _bodyWidget(BuildContext context) {
+    return ListView(
+      physics: const BouncingScrollPhysics(),
+      children: [
+        StrowalletAddFundWidget(
+          buttonText: Strings.proceed,
+        ),
+      ],
+    );
+  }
+}

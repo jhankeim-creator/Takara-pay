@@ -1,0 +1,4 @@
+StripCard User App — Update v4.7.0 -> v4.8.0
+Files to delete from your project (none in this release)
+
+None

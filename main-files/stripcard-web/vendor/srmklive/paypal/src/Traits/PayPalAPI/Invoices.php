@@ -1,0 +1,418 @@
+<?php
+
+namespace Srmklive\PayPal\Traits\PayPalAPI;
+
+use Srmklive\PayPal\Services\Amount;
+use Psr\Http\Message\StreamInterface;
+
+trait Invoices
+{
+    /**
+     * Create a new draft invoice.
+     *
+     *
+     *
+     * @param array<string, mixed> $data
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_create
+     */
+    public function createInvoice(array $data)
+    {
+        $this->apiEndPoint = 'v2/invoicing/invoices';
+
+        $this->options['json'] = $data;
+
+        $this->verb = 'post';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Get list of invoices.
+     *
+     *
+     *
+     * @param list<string> $fields PayPal only accepts ['all'] (default) or ['none'].
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_list
+     */
+    public function listInvoices(array $fields = [])
+    {
+        $fields = count($fields) > 0 ? '&fields='.implode(',', $fields) : '';
+
+        $this->apiEndPoint = "v2/invoicing/invoices?page={$this->current_page}&page_size={$this->page_size}&total_required={$this->show_totals}{$fields}";
+
+        $this->verb = 'get';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Send an existing invoice.
+     *
+     * Note: PayPal ignores custom $subject and $note values and always uses
+     * system-defined texts; the parameters are kept for compatibility.
+     *
+     * @param list<string> $recipients Additional recipient email addresses.
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_send
+     */
+    public function sendInvoice(string $invoice_id, string $subject = '', string $note = '', bool $send_recipient = true, bool $send_merchant = false, array $recipients = [])
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/send";
+
+        $this->options['json'] = $this->getInvoiceMessagePayload($subject, $note, $recipients, $send_recipient, $send_merchant);
+
+        $this->verb = 'post';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Send reminder for an existing invoice.
+     *
+     * Note: PayPal ignores custom $subject and $note values and always uses
+     * system-defined texts; the parameters are kept for compatibility.
+     *
+     * @param list<string> $recipients Additional recipient email addresses.
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_remind
+     */
+    public function sendInvoiceReminder(string $invoice_id, string $subject = '', string $note = '', bool $send_recipient = true, bool $send_merchant = false, array $recipients = [])
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/remind";
+
+        $this->options['json'] = $this->getInvoiceMessagePayload($subject, $note, $recipients, $send_recipient, $send_merchant);
+
+        $this->verb = 'post';
+
+        return $this->doPayPalRequest(false);
+    }
+
+    /**
+     * Cancel an existing invoice which is already sent.
+     *
+     * Note: PayPal ignores custom $subject and $note values and always uses
+     * system-defined texts; the parameters are kept for compatibility.
+     *
+     * @param list<string> $recipients Additional recipient email addresses.
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_cancel
+     */
+    public function cancelInvoice(string $invoice_id, string $subject = '', string $note = '', bool $send_recipient = true, bool $send_merchant = false, array $recipients = [])
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/cancel";
+
+        $this->options['json'] = $this->getInvoiceMessagePayload($subject, $note, $recipients, $send_recipient, $send_merchant);
+
+        $this->verb = 'post';
+
+        return $this->doPayPalRequest(false);
+    }
+
+    /**
+     * Register payment against an existing invoice.
+     *
+     *
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_payments
+     */
+    public function registerPaymentInvoice(string $invoice_id, string $payment_date, string $payment_method, float $amount, string $payment_note = '', string $payment_id = '')
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/payments";
+
+        $data = [
+            'payment_id' => $payment_id,
+            'payment_date' => $payment_date,
+            'method' => $payment_method,
+            'note' => $payment_note,
+            'amount' => [
+                'currency_code' => $this->currency,
+                'value' => Amount::format($amount, $this->currency),
+            ],
+        ];
+
+        $this->options['json'] = $data;
+
+        $this->verb = 'post';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Delete payment against an existing invoice.
+     *
+     *
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_payments-delete
+     */
+    public function deleteExternalPaymentInvoice(string $invoice_id, string $transaction_id)
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/payments/{$transaction_id}";
+
+        $this->verb = 'delete';
+
+        return $this->doPayPalRequest(false);
+    }
+
+    /**
+     * Register payment against an existing invoice.
+     *
+     *
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_refunds
+     */
+    public function refundInvoice(string $invoice_id, string $payment_date, string $payment_method, float $amount)
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/refunds";
+
+        $data = [
+            'refund_date' => $payment_date,
+            'method' => $payment_method,
+            'amount' => [
+                'currency_code' => $this->currency,
+                'value' => Amount::format($amount, $this->currency),
+            ],
+        ];
+
+        $this->options['json'] = $data;
+
+        $this->verb = 'post';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Delete refund against an existing invoice.
+     *
+     *
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_refunds-delete
+     */
+    public function deleteRefundInvoice(string $invoice_id, string $transaction_id)
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/refunds/{$transaction_id}";
+
+        $this->verb = 'delete';
+
+        return $this->doPayPalRequest(false);
+    }
+
+    /**
+     * Generate QR code against an existing invoice.
+     *
+     * On success, returns the base64-encoded PNG image (usable as
+     * "data:image/png;base64,..."). If the response is not in the expected
+     * multipart format, the raw response body is returned instead.
+     *
+     * @param int    $width  Image width in pixels (150-500).
+     * @param int    $height Image height in pixels (150-500).
+     * @param string $action URL type encoded in the QR code: "pay" or "details".
+     *
+     * @return array<string, mixed>|string
+     *
+     * @throws \InvalidArgumentException|\Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_generate-qr-code
+     */
+    public function generateQRCodeInvoice(string $invoice_id, int $width = 500, int $height = 500, string $action = 'pay')
+    {
+        foreach (['width' => $width, 'height' => $height] as $name => $value) {
+            if ($value < 150 || $value > 500) {
+                throw new \InvalidArgumentException("QR code {$name} must be between 150 and 500 pixels, {$value} given.");
+            }
+        }
+
+        if (! in_array(strtolower($action), ['pay', 'details'], true)) {
+            throw new \InvalidArgumentException("QR code action must be 'pay' or 'details', '{$action}' given.");
+        }
+
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}/generate-qr-code";
+
+        $this->options['json'] = [
+            'width' => $width,
+            'height' => $height,
+            'action' => strtolower($action),
+        ];
+        $this->verb = 'post';
+
+        // The response is a multipart body with a base64 PNG, not JSON.
+        $response = $this->doPayPalRequest(false);
+
+        return is_string($response) ? $this->extractQRCodeImage($response) : $response;
+    }
+
+    /**
+     * Extract the base64 PNG from PayPal's multipart QR code response.
+     * Falls back to the raw body for any other format.
+     */
+    private function extractQRCodeImage(string $body): string
+    {
+        if (preg_match('#Content-Type:\s*application/octet-stream\s+([A-Za-z0-9+/=\s]+?)\s*(?:--|$)#i', $body, $matches) === 1) {
+            return preg_replace('/\s+/', '', $matches[1]) ?? $matches[1];
+        }
+
+        return $body;
+    }
+
+    /**
+     * Generate the next invoice number.
+     *
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_generate-next-invoice-number
+     */
+    public function generateInvoiceNumber()
+    {
+        $this->apiEndPoint = 'v2/invoicing/generate-next-invoice-number';
+
+        $this->options['json'] = (object) [];
+
+        $this->verb = 'post';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Show details for an existing invoice.
+     *
+     *
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_get
+     */
+    public function showInvoiceDetails(string $invoice_id)
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}";
+
+        $this->verb = 'get';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Update an existing invoice.
+     *
+     * By default PayPal emails both the recipient and the merchant about the
+     * update; pass false to suppress either notification.
+     *
+     * @param array<string, mixed> $data
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_update
+     */
+    public function updateInvoice(string $invoice_id, array $data, bool $send_to_recipient = true, bool $send_to_invoicer = true)
+    {
+        // Both default to true on PayPal's side, so only send them when disabled.
+        $query = http_build_query(array_filter([
+            'send_to_recipient' => $send_to_recipient ? null : 'false',
+            'send_to_invoicer' => $send_to_invoicer ? null : 'false',
+        ]));
+
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}".($query !== '' ? "?{$query}" : '');
+
+        $this->options['json'] = $data;
+
+        $this->verb = 'put';
+
+        return $this->doPayPalRequest();
+    }
+
+    /**
+     * Delete an invoice.
+     *
+     *
+     *
+     * @return array<string, mixed>|StreamInterface|string
+     *
+     * @throws \Throwable
+     *
+     * @see https://developer.paypal.com/docs/api/invoicing/v2/#invoices_delete
+     */
+    public function deleteInvoice(string $invoice_id)
+    {
+        $this->apiEndPoint = "v2/invoicing/invoices/{$invoice_id}";
+
+        $this->verb = 'delete';
+
+        return $this->doPayPalRequest(false);
+    }
+
+    /**
+     * Get Invoice Message Payload.
+     *
+     * The notification flags are always sent: send_to_recipient defaults to
+     * true on PayPal's side, so omitting a false value would still email the
+     * customer.
+     *
+     * @param array<array-key, string> $recipients Normalised to a JSON array.
+     *
+     * @return array<string, mixed>
+     */
+    protected function getInvoiceMessagePayload(string $subject, string $note, array $recipients, bool $send_recipient, bool $send_merchant): array
+    {
+        $data = [
+            'send_to_invoicer' => $send_merchant,
+            'send_to_recipient' => $send_recipient,
+        ];
+
+        if ($subject !== '') {
+            $data['subject'] = $subject;
+        }
+
+        if ($note !== '') {
+            $data['note'] = $note;
+        }
+
+        if (count($recipients) > 0) {
+            $data['additional_recipients'] = array_values($recipients);
+        }
+
+        return $data;
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "strip-card",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preview": "npx opennextjs-cloudflare build && npx wrangler dev",
+    "deploy": "npx opennextjs-cloudflare build && npx wrangler deploy",
+    "cf-typegen": "npx wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@heroicons/react": "^2.2.0",
+    "axios": "^1.13.2",
+    "axios-cache-interceptor": "^1.12.0",
+    "i18n-iso-countries": "^7.14.0",
+    "libphonenumber-js": "^1.12.33",
+    "lucide-react": "^0.556.0",
+    "next": "16.2.6",
+    "next-intl": "^4.8.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hot-toast": "^2.6.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-select": "^5.10.2",
+    "react-select-country-list": "^2.2.3"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.19.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "baseline-browser-mapping": "^2.10.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4"
+  }
+}

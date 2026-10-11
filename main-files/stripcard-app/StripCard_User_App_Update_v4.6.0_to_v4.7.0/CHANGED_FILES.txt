@@ -1,0 +1,29 @@
+StripCard User App — Update v4.7.0 -> v4.8.0
+Changed files (relative to your project root)
+
+ADDED (2)
+  CHANGELOG.md
+  lib/base/utils/data/strowallet_card_holder_options.dart
+
+MODIFIED (17)
+  .gitignore
+  analysis_options.yaml
+  assets/lang/en.json
+  lib/base/api/endpoint/api_endpoint.dart
+  lib/base/api/method/api_method.dart
+  lib/base/api/model/virtual_card/strowallet_models/strowallet_card_holder_model.dart
+  lib/base/api/model/virtual_card/strowallet_models/strowallet_card_model.dart
+  lib/base/api/services/strowallet_api_services.dart
+  lib/base/utils/language/strings.dart
+  lib/base/widgets/design_system/sc_network_image.dart
+  lib/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart
+  lib/views/virtual_card_strowallet/controller/update_customer_kyc_controller.dart
+  lib/views/virtual_card_strowallet/screen/strowallet_card_screen.dart
+  lib/views/virtual_card_strowallet/screen/strowallet_new_card_screen.dart
+  lib/views/virtual_card_strowallet/screen/update_customer_screen.dart
+  pubspec.lock
+  pubspec.yaml
+
+Note: .gitignore only adds an entry to ignore a local "release/" packaging
+output folder — it has no effect on how the app builds or runs. Safe to
+merge/skip if you don't use Git for this project.

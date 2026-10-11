@@ -1,0 +1,1754 @@
+{
+  "Common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "dashboard": "Dashboard",
+    "logout": "Logout"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "announcement": "Announcement",
+    "privacyPolicy": "Privacy Policy",
+    "applyCard": "Apply Virtual Card",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "language": "Language",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "welcomeBack": "Welcome Back"
+  },
+  "Hero": {
+    "badge": "Welcome To StripCard!",
+    "heading1": "Unveiling the",
+    "heading2": "Virtual Card",
+    "heading3": "Experience",
+    "description": "The payment needs of major online giants such as AliExpress, Netflix, Facebook-Google Advertising, Amazon, and various other shopping platforms.",
+    "cta": "Apply Virtual Card",
+    "activeUsers": "active users",
+    "topRated": "Top Rated",
+    "secure": "100% Secure",
+    "sslProtected": "SSL Protected",
+    "instant": "Instant",
+    "activation": "Activation",
+    "stars": "/ 5 stars",
+    "growth": "+24% Growth",
+    "monthlyUsers": "Monthly active users",
+    "liveBadge": "LIVE • Virtual Card Infrastructure",
+    "secureTitle": "Secure",
+    "topRatedStars": "4.9 Stars",
+    "monthlyUsersShort": "Monthly Users"
+  },
+  "Services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need for seamless virtual card management"
+  },
+  "WhyChooseUs": {
+    "title": "Why Choose StripCard?",
+    "subtitle": "We provide the best virtual card experience"
+  },
+  "HowItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started in just a few simple steps"
+  },
+  "ProjectOverview": {
+    "title": "Project Overview",
+    "subtitle": "A powerful virtual card platform"
+  },
+  "DownloadApp": {
+    "title": "Download Our App",
+    "subtitle": "Get the StripCard app on your device",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "company": "StripCard"
+  },
+  "Auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "forgotPassword": "Forgot password?"
+    },
+    "register": {
+      "title": "Create your account",
+      "name": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?"
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "StripCard - Virtual Credit Card Solution",
+      "description": "The best virtual card platform for online payments"
+    },
+    "login": {
+      "title": "Login",
+      "description": "Secure login to your StripCard account"
+    },
+    "register": {
+      "title": "Register",
+      "description": "Create your StripCard account"
+    },
+    "dashboard": {
+      "title": "Dashboard"
+    }
+  },
+  "ServiceProvide": {
+    "badge": "Service Provide",
+    "title": "Our Upheld Administrations",
+    "gradientPart": "What We Serve To You",
+    "description": "Unlock seamless digital transactions with our powerful services, from virtual card management and secure payments to multi-language support and real-time notifications—designed for convenience and security.",
+    "cta": {
+      "ready": "Ready to get started?",
+      "join": "Join thousands of users who trust our platform for their digital finances.",
+      "button": "Explore All Services"
+    },
+    "items": [
+      {
+        "tag": "Cards",
+        "title": "Buy Virtual Card",
+        "description": "Get your Virtual Card today and enjoy the ease of using the Virtual Card for online shopping, gaming, or your favorite subscriptions."
+      },
+      {
+        "tag": "Wallet",
+        "title": "Add Money",
+        "description": "Easily deposit funds into your digital wallet to ensure financial flexibility and convenience with our user-friendly and secure money-adding service."
+      },
+      {
+        "tag": "Transfer",
+        "title": "Money Transfer",
+        "description": "Swift and securely transfer money within the platform, providing convenience and peace of mind for all your financial needs."
+      },
+      {
+        "tag": "Withdraw",
+        "title": "Withdraw Money",
+        "description": "Effortlessly transfer funds from your account to your preferred bank account or digital wallet."
+      },
+      {
+        "tag": "Top Up",
+        "title": "Virtual Card TopUp",
+        "description": "Easily top up your virtual card balance to ensure uninterrupted spending for shopping, subscriptions, or gaming."
+      },
+      {
+        "tag": "Gifts",
+        "title": "Gift Card",
+        "description": "Purchase digital gift cards for popular services, directly from the app, for seamless gifting."
+      },
+      {
+        "tag": "API",
+        "title": "Setup Virtual Card API",
+        "description": "Configure the API to enable virtual card generation and management for secure online payments."
+      },
+      {
+        "tag": "Security",
+        "title": "Biometric Login",
+        "description": "Log in securely using biometric authentication using the fingerprint for added protection."
+      },
+      {
+        "tag": "Logs",
+        "title": "Transaction Logs",
+        "description": "Access detailed logs of all your transactions to track spending and monitor account activities."
+      },
+      {
+        "tag": "Global",
+        "title": "Multi-Language",
+        "description": "Use in multiple languages, making it accessible and user-friendly for a global audience."
+      }
+    ]
+  },
+  "WhyChooseUs": {
+    "badge": "Why Choose Us",
+    "title": {
+      "main": "What Makes Us Your",
+      "highlight": "Best Choice"
+    },
+    "description": "Discover why we stand out with unparalleled services, innovative solutions, and a commitment to excellence. Our user-first approach ensures reliability, security, and satisfaction, making us the trusted choice for all your needs.",
+    "features": [
+      {
+        "title": "Virtual Card Issuance",
+        "description": "Instantly create and manage virtual cards for secure online transactions, customized to suit your specific needs."
+      },
+      {
+        "title": "Secure Online Transactions",
+        "description": "Benefit from advanced encryption and authentication methods, ensuring that your online payments are protected."
+      },
+      {
+        "title": "Customizable Payment Plans",
+        "description": "Choose from a variety of flexible payment plans designed to accommodate different budgets and preferences."
+      },
+      {
+        "title": "Real-Time Transaction Monitoring",
+        "description": "Keep track of your spending with real-time notifications and detailed transaction history."
+      },
+      {
+        "title": "Multi-Currency Support",
+        "description": "Easily manage transactions in multiple currencies, perfect for international shopping and payments."
+      },
+      {
+        "title": "24/7 Customer Support",
+        "description": "Access round-the-clock customer support to resolve any payment-related issues or inquiries."
+      }
+    ]
+  },
+  "HowItWorks": {
+    "badge": "How It Works",
+    "title": {
+      "main": "How It Works",
+      "highlight": "Step-by-Step Process"
+    },
+    "description": "Discover how StripCard empowers you with an easy step-by-step process to manage virtual cards, add funds, transfer money, and ensure secure transactions—all designed for convenience, flexibility, and seamless financial management.",
+    "continueLabel": "continues",
+    "steps": [
+      {
+        "title": "Create Your Account",
+        "description": "Sign up easily by providing your details, verifying your email, and completing KYC verification for secure access.",
+        "tag": "Getting Started"
+      },
+      {
+        "title": "Loading Funds",
+        "description": "Deposit money into your digital wallet through multiple payment methods for a seamless experience.",
+        "tag": "Wallet"
+      },
+      {
+        "title": "Buy a Virtual Card",
+        "description": "Purchase a virtual card tailored to your needs for online shopping, gaming, or subscriptions.",
+        "tag": "Cards"
+      },
+      {
+        "title": "Manage Your Virtual Card",
+        "description": "Top up your card balance, track transactions, and use it across various platforms securely.",
+        "tag": "Management"
+      },
+      {
+        "title": "Make Transactions",
+        "description": "Transfer money, pay bills, and shop online with confidence using your virtual card.",
+        "tag": "Payments"
+      },
+      {
+        "title": "Stay Secure",
+        "description": "Leverage services like biometric login, 2FA, and detailed transaction logs to protect your account.",
+        "tag": "Security"
+      },
+      {
+        "title": "Access Support",
+        "description": "Reach out via the support ticket system for quick resolutions and assistance anytime.",
+        "tag": "Support"
+      },
+      {
+        "title": "Enjoy Global Flexibility",
+        "description": "Use multi-language support and gift card options for a versatile, global experience.",
+        "tag": "Global"
+      }
+    ]
+  },
+  "ProjectOverview": {
+    "badge": "Project Overview",
+    "title": {
+      "main": "Project Highlights",
+      "highlight": "at a Glance"
+    },
+    "description": "Explore key milestones and achievements of our project, brought to life with real-time counters showcasing our growth, success, and impact. See how we're delivering results and making a difference through our innovative solutions.",
+    "stats": {
+      "users": {
+        "title": "Total Users",
+        "subtitle": "Active community members"
+      },
+      "happy": {
+        "title": "Happy Users",
+        "subtitle": "Satisfied customers"
+      },
+      "services": {
+        "title": "Services",
+        "subtitle": "Delivered successfully"
+      }
+    },
+    "transactionsBadge": {
+      "label": "Transactions Processed",
+      "amount": "Over {value}M",
+      "subtitle": "transactions processed securely"
+    }
+  },
+  "DownloadApp": {
+    "imageAlt": "StripCard Mobile App",
+    "sectionBadge": "Download App",
+    "title": {
+      "part1": "Here Is",
+      "part2": "Realtime Apk."
+    },
+    "paragraph1": "Work with the pro, talented people at the most affordable price to get the most out of your time and cost using mobile apps.",
+    "paragraph2": "The internet is saturated with applications from developers and creators worldwide. Sometimes it can be hard to tell which are the best downloaded apps on the market. Our list features an assortment of social media, antivirus, VPN, game, and emulator apps, to name a few. Don't miss out on the latest Chrome, Bluetooth, Office, Youtube, and Web-cam file versions available today.",
+    "features": {
+      "fast": {
+        "title": "Fast",
+        "subtitle": "Lightning speed"
+      },
+      "secure": {
+        "title": "Secure",
+        "subtitle": "Protected data"
+      },
+      "free": {
+        "title": "Free",
+        "subtitle": "No hidden fees"
+      }
+    },
+    "downloadPrompt": "Download now on your favorite platform",
+    "qr": {
+      "googleAlt": "Google Play QR",
+      "appStoreAlt": "App Store QR"
+    },
+    "floatingBadge": {
+      "available": "Available Now",
+      "platforms": "iOS & Android"
+    },
+    "stats": {
+      "downloads": {
+        "count": "50K+",
+        "text": "downloads"
+      },
+      "rating": "4.8/5"
+    }
+  },
+  "Footer": {
+    "logoAlt": "StripCard Logo",
+    "thankYou": "Thank you for choosing StripCard as your trusted partner for secure online transactions. We are committed to providing you with a seamless and secure experience.",
+    "followUs": {
+      "title": "Follow Us"
+    },
+    "usefulLinks": {
+      "title": "Useful Links",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "subscribe": {
+      "title": "Subscribe",
+      "description": "Stay Connected! Subscribe to Our Latest Feeds – Just Fill Out the Form Below.",
+      "placeholder": "Enter Email Address",
+      "button": "Subscribe",
+      "sending": "Subscribing...",
+      "recaptchaError": "Please complete the reCAPTCHA verification.",
+      "successMessage": "Successfully subscribed!",
+      "errorMessage": "The email has already been taken."
+    },
+    "copyright": {
+      "allRights": "All Rights Reserved.",
+      "company": "StripCard"
+    }
+  },
+  "About": {
+    "badge": "About Us",
+    "title": {
+      "part1": "Empowering the Future of",
+      "part2": "Online Transactions"
+    },
+    "description": "We are at the forefront of revolutionizing the way people navigate the digital financial landscape. Our mission is clear: to provide users and entrepreneurs with a secure, efficient, and user-friendly platform for conducting online transactions through virtual credit cards.",
+    "highlights": {
+      "vision": {
+        "title": "Our Vision"
+      },
+      "difference": {
+        "title": "The StripCard Difference"
+      },
+      "commitment": {
+        "title": "Our Commitment"
+      },
+      "join": {
+        "title": "Join Us on this Journey"
+      }
+    },
+    "imageAlt": "StripCard platform - secure virtual credit cards"
+  },
+  "Testimonials": {
+    "header": {
+      "badge": "What Our Users Are Saying",
+      "title": {
+        "main": "Explore what our satisfied users have to say about",
+        "highlight": "their experiences",
+        "suffix": "with it."
+      },
+      "description": "We are at the forefront of revolutionizing the way people navigate the digital financial landscape. Our mission is clear: to provide users and entrepreneurs with a secure, efficient, and user-friendly platform for conducting online transactions through virtual credit cards."
+    },
+    "testimonials": [
+      {
+        "name": "Aisha Patel",
+        "role": "Freelance Graphic Designer",
+        "text": "We are at the forefront of revolutionizing the way people navigate the digital financial landscape. Our mission is clear: to provide users and entrepreneurs with a secure, efficient, and user-friendly platform for conducting online transactions through virtual credit cards."
+      },
+      {
+        "name": "James Carter",
+        "role": "E-commerce Entrepreneur",
+        "text": "As a small business owner, StripCard has been a game-changer. It allows me to offer convenient payment options to my clients while generating an extra revenue stream. The one-time-use codes provide peace of mind, knowing that my transactions are secure. StripCard is a win-win for both my clients and my business."
+      },
+      {
+        "name": "Lena Moreau",
+        "role": "Digital Nomad & Content Creator",
+        "text": "Shopping online has never been this secure and straightforward. StripCard's unique codes make me feel confident about the safety of my transactions. It's like having an extra layer of protection. I can't imagine going back to using my regular card for online purchases. StripCard has won me over!"
+      }
+    ],
+    "stats": {
+      "users": {
+        "count": "10,000+",
+        "label": "Happy Users"
+      },
+      "rating": "4.9/5 Average Rating"
+    }
+  },
+  "FAQ": {
+    "header": {
+      "badge": "Faq Section",
+      "title": {
+        "main": "Advanced Security Features Designed to",
+        "highlight": "Protect Your Information",
+        "suffix": "Effectively"
+      },
+      "description": "Our security system employs advanced technology to ensure the utmost protection for your sensitive information. With state-of-the-art encryption, multi-layered authentication, and real-time monitoring, your data is safeguarded against unauthorized access and breaches. Experience peace of mind knowing that our robust security measures are designed to keep your information secure and private at all times."
+    },
+    "questions": {
+      "left": [
+        {
+          "question": "How can I buy a virtual card?",
+          "answer": "To buy a virtual card, navigate to the \"Virtual Cards\" section, select your preferred card type, and follow the instructions to complete the purchase."
+        },
+        {
+          "question": "How can I top up my virtual card?",
+          "answer": "You can top up your virtual card by selecting it in the \"Virtual Card\" section, entering the top-up amount, and choosing a payment method."
+        },
+        {
+          "question": "How do I add money to my wallet?",
+          "answer": "You can add money to your wallet using various payment methods like PayPal, Stripe, and bank transfers. Simply go to the \"Add Money\" section, choose your payment method, and complete the transaction."
+        },
+        {
+          "question": "How do I purchase a gift card?",
+          "answer": "Purchase gift cards for different platforms by visiting the \"Gift Card\" section, selecting your desired gift card, and completing the payment."
+        }
+      ],
+      "right": [
+        {
+          "question": "How can I transfer money?",
+          "answer": "Transferring money is easy. Go to the \"Money Transfer\" section, enter the recipient's details, select the amount, and confirm the transaction."
+        },
+        {
+          "question": "How do I set up the Virtual Card API?",
+          "answer": "Configure the API to enable virtual card generation and management for secure online payments."
+        },
+        {
+          "question": "How do I withdraw money?",
+          "answer": "To withdraw money, visit the \"Withdraw\" page, select your withdrawal method, enter the necessary details, and submit your request."
+        },
+        {
+          "question": "Where can I view my transaction logs?",
+          "answer": "View and track all your transactions in the \"Transaction Logs\" section to stay updated on your financial activities."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Still have questions?",
+      "description": "Contact our 24/7 support team for assistance",
+      "button": "Get Help"
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "collect": {
+        "title": "What information do we collect?",
+        "content": "We gather data from you when you register on our site, submit a request, buy any services, react to an overview, or round out a structure. At the point when requesting any assistance or enrolling on our site, as suitable, you might be approached to enter your: name, email address, or telephone number. You may, nonetheless, visit our site anonymously."
+      },
+      "protect": {
+        "title": "How do we protect your information?",
+        "part1": "All provided delicate/credit data is sent through Stripe.",
+        "part2": "After an exchange, your private data (credit cards, social security numbers, financials, and so on) won be put away on our workers."
+      },
+      "disclose": {
+        "title": "Do we disclose any information to outside parties?",
+        "content": "We don sell, exchange, or in any case move to outside gatherings by and by recognizable data. This does exclude confided in outsiders who help us in working our site, leading our business, or adjusting you, since those gatherings consent to keep this data private. We may likewise deliver your data when we accept discharge is suitable to follow the law, implement our site strategies, or ensure our own or others rights, property, or wellbeing."
+      },
+      "coppa": {
+        "title": "Children's Online Privacy Protection Act Compliance",
+        "content": "We are consistent with the prerequisites of COPPA (Childrens Online Privacy Protection Act), we don gather any data from anybody under 13 years old. Our site, items, and administrations are completely coordinated to individuals who are in any event 13 years of age or more established."
+      },
+      "changes": {
+        "title": "Changes to our Privacy Policy",
+        "content": "If we decide to change our privacy policy, we will post those changes on this page."
+      },
+      "retain": {
+        "title": "How long we retain your information?",
+        "content": "At the point when you register for our site, we cycle and keep your information we have about you however long you don not erase the record or withdraw yourself (subject to laws and regulations)."
+      }
+    }
+  },
+  "Contact": {
+    "form": {
+      "badge": "Contact Us",
+      "title": {
+        "part1": "Feel Free To",
+        "highlight": "Get In Touch",
+        "part2": "With Us"
+      },
+      "labels": {
+        "name": "Name *",
+        "email": "Email *",
+        "phone": "Phone",
+        "subject": "Subject *",
+        "message": "Message *"
+      },
+      "placeholders": {
+        "name": "Enter Name",
+        "email": "Enter Email Address",
+        "phone": "Enter Phone",
+        "subject": "Enter Subject",
+        "message": "Write your message here..."
+      },
+      "recaptchaError": "Please complete the reCAPTCHA verification.",
+      "successMessage": "Message send successfully!",
+      "errorMessage": "Something went wrong. Please try again.",
+      "button": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Information",
+      "description": "We'd love to hear from you! If you have any questions or need assistance, please don't hesitate to get in touch with us using the following contact information:",
+      "phone": {
+        "label": "Mobile Number",
+        "value": "+1 (123) 456-7890"
+      },
+      "address": {
+        "label": "Address",
+        "value": "1234 Main Street City, State 56789 USA"
+      },
+      "email": {
+        "label": "Email Address",
+        "value": "info@example.com"
+      }
+    }
+  },
+
+  "Announcements": {
+    "list": {
+      "badge": "Announcement",
+      "title": {
+        "part1": "Our Recent",
+        "highlight": "Announcements"
+      },
+      "readMore": "Read More"
+    },
+    "detail": {
+      "backButton": "Back to Announcements",
+      "tagsTitle": "Tags",
+      "categoriesTitle": "Categories",
+      "recentPostsTitle": "Recent Posts",
+      "extraContent": {
+        "part1": "Virtual credit cards represent a paradigm shift in how we think about payment security. Unlike traditional physical cards, they generate unique card numbers for each transaction or merchant, dramatically reducing the risk of fraud and unauthorized charges. For entrepreneurs and businesses, this translates to greater control over expenditures and simplified reconciliation.",
+        "part2": "As the digital economy continues to expand, embracing virtual payment solutions is no longer optional — it is essential. Companies that integrate these technologies early gain a competitive edge, offering clients a seamless, secure experience that builds trust and long-term loyalty."
+      }
+    },
+    "announcements": [
+      {
+        "title": "Entrepreneurial Success with Virtual Credit Card Services",
+        "preview": "Are you an entrepreneur looking to diversify your business and boost revenue? In this blog, we explore how offering virt...",
+        "fullDescription": "Are you an entrepreneur looking to diversify your business and boost revenue? In this blog, we explore how offering virtual credit card services to your clients can be a game-changer. We discuss the opportunities, benefits, and strategies for entrepreneurs to leverage the virtual credit card trend and create a win-win scenario for their clients and their business."
+      },
+      {
+        "title": "The Future of Secure Online Payments",
+        "preview": "In today's digital age, online payments have become an integral part of our lives. But with convenience comes the need f...",
+        "fullDescription": "In today's digital age, online payments have become an integral part of our lives. But with convenience comes the need for security. This blog explores the phenomenon of virtual credit cards, their growing popularity, and how they are revolutionizing online payments. We delve into the benefits of virtual credit cards, their unique features, and why they are considered the future of secure online transactions."
+      },
+      {
+        "title": "The Rise of Virtual Credit Cards: Transforming Online Payments",
+        "preview": "In today's digital age, online payments have become an integral part of our lives. But with convenience comes the need f...",
+        "fullDescription": "In today's digital age, online payments have become an integral part of our lives. But with convenience comes the need for security. This blog explores the phenomenon of virtual credit cards, their growing popularity, and how they are revolutionizing online payments. We delve into the benefits of virtual credit cards, their unique features, and why they are considered the future of secure online transactions."
+      }
+    ]
+  },
+
+  "Login": {
+    "logoAlt": "StripCard Logo",
+    "title": "Welcome Back",
+    "subtitle": "Log in to access your account securely",
+    "form": {
+      "labels": {
+        "email": "Email Address",
+        "password": "Password"
+      },
+      "placeholders": {
+        "email": "Username OR Email Address",
+        "password": "Enter your password"
+      },
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot Password?",
+      "securityVerification": "Security Verification",
+      "verificationSuccess": "Verification successful",
+      "verificationRequired": "Please complete the verification",
+      "securityHelpText": "This helps us protect your account from unauthorized access",
+      "button": "Log In",
+      "recaptchaError": "Please complete the CAPTCHA verification",
+      "invalidResponse": "Invalid response from server",
+      "genericError": "Something went wrong. Please try again later."
+    },
+    "footer": {
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "goBack": "Go back to",
+      "home": "Home"
+    }
+  },
+  "Register": {
+    "logoAlt": "StripCard Logo",
+    "title": "Create Your Account",
+    "subtitle": "Sign up to get started with StripCard",
+    "form": {
+      "labels": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "password": "Password"
+      },
+      "placeholders": {
+        "firstName": "Enter First Name",
+        "lastName": "Enter Last Name",
+        "email": "Enter Email Address",
+        "password": "Create a strong password"
+      },
+      "termsAgreement": {
+        "part1": "I have agreed with",
+        "termsLink": "Terms of Use",
+        "and": "&",
+        "privacyLink": "Privacy Policy"
+      },
+      "termsError": "Please agree to the Terms of Use & Privacy Policy",
+      "recaptchaError": "Please complete the CAPTCHA verification",
+      "registrationFailed": "Registration was not successful",
+      "tokenMissing": "Couldn’t complete your registration. Please try again",
+      "successMessage": "Registration successful! Redirecting...",
+      "genericError": "Registration failed. Please try again.",
+      "securityVerification": "Security Verification",
+      "verificationSuccess": "Verification successful",
+      "verificationRequired": "Please complete the verification",
+      "securityHelpText": "This helps us keep bots away and protect your account",
+      "button": "Sign Up",
+      "loading": "Signing Up..."
+    },
+    "footer": {
+      "alreadyHaveAccount": "Already have an account?",
+      "login": "Log In",
+      "goBack": "Go back to",
+      "home": "Home"
+    }
+  },
+  "ForgotPassword": {
+    "logoAlt": "StripCard Logo",
+    "emailStage": {
+      "title": "Forgot Password?",
+      "description": "Enter your email and we'll send you a One-Time Password (OTP).",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter Email Address",
+      "securityVerification": "Security Verification",
+      "verificationSuccess": "Verification successful",
+      "verificationRequired": "Please complete the verification",
+      "securityHelpText": "This helps prevent automated requests",
+      "button": "Send OTP",
+      "loading": "Sending...",
+      "recaptchaError": "Please complete the CAPTCHA verification",
+      "genericError": "An unexpected error occurred."
+    },
+    "otpStage": {
+      "title": "Enter the Code",
+      "description": "We've sent a 6-digit code to",
+      "resendCountdown": {
+        "part1": "Resend available in"
+      },
+      "resendPrompt": "Didn't receive the code?",
+      "resendButton": "Resend Code",
+      "resending": "Resending...",
+      "invalidOtp": "Please enter the complete 6-digit OTP",
+      "verificationError": "An unexpected error occurred during OTP verification.",
+      "button": "Verify OTP",
+      "verifying": "Verifying..."
+    },
+    "footer": {
+      "emailStage": "Remember your password?",
+      "otpStage": "Already have an account?",
+      "loginLink": "Log In"
+    }
+  },
+
+  "Sidebar": {
+    "logoAlt": "StripCard Logo",
+    "closeMenu": "Close menu",
+    "main": {
+      "title": "Main",
+      "dashboard": "Dashboard"
+    },
+    "moneyManagement": {
+      "title": "Money Management",
+      "addMoney": "Add Money",
+      "transferMoney": "Transfer Money",
+      "withdrawMoney": "Withdraw Money"
+    },
+    "services": {
+      "title": "Services",
+      "virtualCard": "Virtual Card",
+      "giftCard": "Gift Card",
+      "transactions": "Transactions"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "My Profile",
+      "kyc": "KYC Verification",
+      "twoFactor": "2FA Security",
+      "support": "Get Support"
+    }
+  },
+  "addMoney": {
+    "title": "Add Money",
+    "fields": {
+      "gateway": {
+        "label": "Payment Gateway",
+        "placeholder": "Select Gateway"
+      },
+      "amount": {
+        "label": "Enter Amount",
+        "placeholder": "Enter Amount"
+      }
+    },
+    "info": {
+      "availableBalance": "Available Balance",
+      "charge": "Charge"
+    },
+    "button": {
+      "confirm": "Confirm",
+      "processing": "Processing..."
+    },
+    "errors": {
+      "loadFailed": "Failed to load payment gateways",
+      "loadGeneric": "Something went wrong while loading data",
+      "selectGateway": "Please select a payment gateway",
+      "invalidAmount": "Please enter a valid amount",
+      "submitFailed": "Submission failed",
+      "approvalLinkUnavailable": "Payment approval link not available. Please try again.",
+      "invalidGatewayResponse": "Gateway response is not valid",
+      "processGeneric": "Failed to process request"
+    },
+    "success": {
+      "submitted": "Add money request submitted!"
+    }
+  },
+  "addMoneyPreview": {
+    "title": "Add Money Preview",
+    "rows": {
+      "enterAmount": "Enter Amount",
+      "exchangeRate": "Exchange Rate",
+      "feesCharges": "Fees & Charges",
+      "conversionAmount": "Conversion Amount",
+      "willGet": "Will Get",
+      "totalPayable": "Total Payable Amount"
+    }
+  },
+  "addMoneyLog": {
+    "title": "Add Money Log",
+    "viewMore": "View More",
+    "empty": "No transactions found",
+    "columns": {
+      "addBalanceVia": "Add Balance via",
+      "status": "Status",
+      "transactionId": "Transaction ID",
+      "exchangeRate": "Exchange Rate",
+      "feesCharges": "Fees & Charges",
+      "currentBalance": "Current Balance",
+      "timeDate": "Time & Date",
+      "requestAmount": "Requested Amount",
+      "payableAmount": "Payable Amount"
+    },
+    "rows": {
+      "addBalanceVia": "Add Balance via {gateway}"
+    },
+    "errors": {
+      "loadFailed": "Failed to load logs",
+      "loadGeneric": "Failed to load add money logs"
+    }
+  },
+  "limitInformation": {
+    "title": "Limit Information",
+    "rows": {
+      "transactionLimit": "Transaction Limit",
+      "dailyLimit": "Daily Limit",
+      "remainingDaily": "Remaining Daily",
+      "monthlyLimit": "Monthly Limit",
+      "remainingMonthly": "Remaining Monthly"
+    },
+    "errors": {
+      "loadRemainingFailed": "Failed to load remaining limits",
+      "errorShort": "Error"
+    }
+  },
+  "manualPayment": {
+    "title": "Manual Payment Via {gateway}",
+    "fallbackGateway": "Manual Gateway",
+    "loading": "Loading payment details...",
+    "noFieldsRequired": "No additional information required for this gateway",
+    "fieldPlaceholder": "Enter {label}",
+    "button": {
+      "confirm": "Confirm Payment",
+      "submitting": "Submitting..."
+    },
+    "errors": {
+      "invalidData": "Invalid payment data",
+      "noPending": "No pending manual payment found",
+      "submitFailed": "Failed to submit payment details",
+      "unexpectedResponse": "Unexpected response from server",
+      "submissionFailed": "Submission failed. Please re-upload the payment proof"
+    },
+    "success": {
+      "submitted": "Payment proof submitted successfully!"
+    }
+  },
+  "paymentInformation": {
+    "title": "Payment Information",
+    "empty": "No payment information available",
+    "rows": {
+      "enteredAmount": "Entered Amount",
+      "exchangeRate": "Exchange Rate",
+      "feesCharges": "Fees & Charges",
+      "conversionAmount": "Conversion Amount",
+      "willGet": "You Will Get",
+      "totalPayable": "Total Payable Amount"
+    },
+    "errors": {
+      "conversionFailed": "Conversion calculation failed"
+    }
+  },
+
+  "transferMoney": {
+    "title": "Transfer Money",
+    "fields": {
+      "email": {
+        "label": "Receiver Email",
+        "placeholder": "Receiver Email"
+      },
+      "amount": {
+        "label": "Enter Amount",
+        "placeholder": "Enter Amount"
+      }
+    },
+    "info": {
+      "availableBalance": "Available Balance",
+      "transferFee": "Transfer Fee"
+    },
+    "button": {
+      "confirm": "Confirm",
+      "processing": "Processing..."
+    },
+    "errors": {
+      "loadInfoFailed": "Failed to load transfer information",
+      "unexpectedResponse": "Unexpected response from server",
+      "checkReceiverFailed": "Failed to check receiver",
+      "emailRequired": "Receiver email is required",
+      "invalidAmount": "Enter a valid amount",
+      "insufficientBalance": "Insufficient balance",
+      "selectCurrency": "Select currency",
+      "transferFailed": "Transfer failed. Please try again."
+    }
+  },
+
+  "transferMoneyPreview": {
+    "title": "Transfer Money Preview",
+    "rows": {
+      "enterAmount": "Enter Amount",
+      "transferFee": "Transfer Fee",
+      "recipientReceived": "Recipient Received",
+      "totalPayable": "Total Payable Amount"
+    }
+  },
+
+  "moneyTransferLimit": {
+    "title": "Limit Information",
+    "rows": {
+      "transactionLimit": "Transaction Limit",
+      "dailyLimit": "Daily Limit",
+      "remainingDaily": "Remaining Daily",
+      "monthlyLimit": "Monthly Limit",
+      "remainingMonthly": "Remaining Monthly"
+    },
+    "errors": {
+      "noChargeFound": "No transfer Money Charge found",
+      "updateFailed": "Update didn't succeed. Please refresh or try again",
+      "loadFailed": "Error loading transfer limits / remaining"
+    }
+  },
+
+  "transferMoneyLog": {
+    "title": "Transfer Money Log",
+    "viewMore": "View More",
+    "columns": {
+      "transferTo": "Transfer Money to",
+      "status": "Status",
+      "transactionId": "Transaction ID",
+      "feesCharges": "Fees & Charges",
+      "recipientReceived": "Recipient Received",
+      "currentBalance": "Current Balance",
+      "timeDate": "Time & Date",
+      "requestAmount": "Requested Amount",
+      "payableAmount": "Payable Amount"
+    },
+    "empty": {
+      "title": "No data found",
+      "subtitle": "No transfer records available yet"
+    },
+    "errors": {
+      "loadFailed": "Failed to fetch transfer logs"
+    }
+  },
+
+  "withdrawMoney": {
+    "title": "Withdraw Money",
+    "fields": {
+      "gateway": {
+        "label": "Payment Gateway",
+        "placeholder": "Select Gateway"
+      },
+      "amount": {
+        "label": "Enter Amount",
+        "placeholder": "Enter Amount"
+      }
+    },
+    "info": {
+      "availableBalance": "Available Balance",
+      "charge": "Charge"
+    },
+    "button": {
+      "confirm": "Confirm",
+      "processing": "Processing..."
+    },
+    "errors": {
+      "loadDataFailed": "Failed to load data",
+      "loadInfoFailed": "Failed to load withdrawal information",
+      "invalidAmount": "Enter a valid amount",
+      "selectGateway": "Select payment gateway",
+      "withdrawFailed": "Withdrawal failed",
+      "genericError": "Something went wrong. Please try again."
+    },
+    "success": {
+      "initiated": "Withdrawal initiated successfully"
+    }
+  },
+
+  "withdrawMoneyPreview": {
+    "title": "Withdraw Money Preview",
+    "rows": {
+      "enterAmount": "Enter Amount",
+      "exchangeRate": "Exchange Rate",
+      "feesCharges": "Fees & Charges",
+      "conversionAmount": "Conversion Amount",
+      "willGet": "Will Get",
+      "totalPayable": "Total Payable Amount"
+    },
+    "errors": {
+      "loadDataFailed": "Failed to load data",
+      "loadGeneric": "Something went wrong while loading withdrawal info"
+    }
+  },
+
+  "moneyWithdrawalLimit": {
+    "title": "Limit Information",
+    "rows": {
+      "transactionLimit": "Transaction Limit",
+      "dailyLimit": "Daily Limit",
+      "remainingDaily": "Remaining Daily",
+      "monthlyLimit": "Monthly Limit",
+      "remainingMonthly": "Remaining Monthly"
+    },
+    "errors": {
+      "unavailable": "The requested information is currently unavailable"
+    }
+  },
+  "withdrawMoneyLog": {
+    "title": "Withdraw Money Log",
+    "viewMore": "View More",
+    "empty": "No withdrawal transactions found",
+    "columns": {
+      "withdrawBy": "Withdraw Money by",
+      "status": "Status",
+      "transactionId": "Transaction ID",
+      "exchangeRate": "Exchange Rate",
+      "feesCharges": "Fees & Charges",
+      "willGet": "Will Get",
+      "currentBalance": "Current Balance",
+      "timeDate": "Time & Date",
+      "requestAmount": "Requested Amount",
+      "payableAmount": "Payable Amount"
+    },
+    "errors": {
+      "noData": "No transaction data available",
+      "loadFailed": "Failed to load withdrawal history"
+    }
+  },
+  "manualWithdraw": {
+    "title": "Withdraw Via {gateway}",
+    "loading": "Loading withdrawal details...",
+    "button": {
+      "confirm": "Confirm",
+      "submitting": "Submitting..."
+    },
+    "errors": {
+      "loadFailed": "Failed to load withdrawal details. Please try again.",
+      "loadFailedToast": "Failed to load withdrawal details",
+      "noPending": "No pending withdrawal found.",
+      "fillField": "Please fill {label}",
+      "submitFailed": "Failed to complete withdrawal request",
+      "unexpected": "An unexpected error occurred. Please try again later.",
+      "submissionFailed": "Failed to withdrawal submission"
+    },
+    "success": {
+      "submitted": "Withdrawal request sent successfully!"
+    }
+  },
+  "withdrawPaymentInformation": {
+    "title": "Payment Information",
+    "subtitle": "Please review the details of your withdrawal request below.",
+    "loading": "Loading payment information...",
+    "fields": {
+      "enterAmount": "Enter Amount",
+      "exchangeRate": "Exchange Rate",
+      "feesCharges": "Fees & Charges",
+      "conversionAmount": "Conversion Amount",
+      "willGet": "Will Get",
+      "totalPayable": "Total Payable Amount"
+    },
+    "errors": {
+      "noPending": "No pending withdrawal found. Please start a new withdrawal.",
+      "loadSummaryFailed": "Failed to load payment summary. Please try again.",
+      "unableToLoad": "Unable to load payment details"
+    }
+  },
+  "allTransactionLog": {
+    "pageTitle": "Transaction Log",
+    "tableTitle": "All Transactions",
+    "searchPlaceholder": "Ex: TRX ID, Add Money",
+    "searchResults": "Found {count} transaction{count, plural, one {} other {s}} matching \"{term}\"",
+    "types": {
+      "addMoney": "Add Money",
+      "transferMoney": "Transfer Money",
+      "virtualCard": "Virtual Card",
+      "withdrawMoney": "Withdraw Money",
+      "giftCard": "Gift Card"
+    },
+    "columns": {
+      "transaction": "Transaction",
+      "status": "Status",
+      "transactionId": "Transaction ID",
+      "amount": "Request Amount",
+      "feesCharges": "Fees & Charges",
+      "currentBalance": "Current Balance",
+      "timeDate": "Time & Date",
+      "payable": "Payable Amount"
+    },
+    "empty": {
+      "noMatch": "No matching transactions found",
+      "noTransactions": "No transactions found"
+    },
+    "modal": {
+      "title": "Transaction Details",
+      "close": "Close",
+      "unknown": "Unknown",
+      "status": "Status",
+      "transactionId": "Transaction ID",
+      "feesCharges": "Fees & Charges",
+      "currentBalance": "Current Balance",
+      "timeDate": "Time & Date",
+      "transactionType": "Transaction Type",
+      "transactionHeading": "Transaction Heading",
+      "addBalanceVia": "Add Balance via",
+      "exchangeRate": "Exchange Rate",
+      "recipientReceived": "Recipient Received",
+      "withdrawMoney": "Withdraw Money",
+      "willGet": "Will Get",
+      "cardAmount": "Card Amount",
+      "cardMasked": "Card Masked",
+      "cardName": "Card Name",
+      "receiverEmail": "Receiver Email",
+      "receiverPhone": "Receiver Phone",
+      "cardUnitPrice": "Card Unit Price",
+      "cardQuantity": "Card Quantity",
+      "cardTotalPrice": "Card Total Price",
+      "requestAmount": "Request Amount",
+      "payable": "Payable Amount"
+    },
+    "errors": {
+      "invalidResponse": "Invalid response format",
+      "loadFailed": "Could not load transactions"
+    }
+  },
+  "myProfile": {
+    "title": "My Profile",
+    "profileImageAlt": "Profile",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "country": "Country",
+      "countryPlaceholder": "Select country",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter phone number",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "zipCode": "Zip Code"
+    },
+    "buttons": {
+      "deleteAccount": "Delete Account",
+      "updateProfile": "Update Profile"
+    },
+    "deleteModal": {
+      "title": "Delete Account?",
+      "description": "Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently removed.",
+      "cancel": "Cancel",
+      "confirm": "Yes, Delete"
+    },
+    "errors": {
+      "deleteUnexpected": "An unexpected error occurred during account deletion."
+    }
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "fields": {
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "placeholders": {
+      "currentPassword": "Enter Current Password",
+      "newPassword": "Enter New Password",
+      "confirmPassword": "Enter Confirmed Password"
+    },
+    "button": {
+      "change": "Change"
+    }
+  },
+  "verifiedKYC": {
+    "title": "KYC Verification",
+    "statusLabel": "Status",
+    "selectPlaceholder": "Select {label}",
+    "status": {
+      "unverified": "Unverified",
+      "verified": "Verified",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    },
+    "statusMessages": {
+      "underReview": "Your KYC is under review. Please wait for approval.",
+      "verifiedSuccess": "Your KYC is verified successfully."
+    },
+    "button": {
+      "submit": "Submit KYC"
+    },
+    "success": {
+      "submitted": "KYC submitted successfully"
+    },
+    "errors": {
+      "loadFailed": "Failed to load KYC data.",
+      "submitFailed": "Submission failed",
+      "serverError": "Server Error",
+      "connectionError": "Something went wrong. Please check your connection"
+    }
+  },
+  "twoFactorAuth": {
+    "title": "Two Factor Authenticator",
+    "badge": {
+      "enabled": "Enabled",
+      "notEnabled": "Not Enabled"
+    },
+    "secretPlaceholder": "No secret available",
+    "copyAriaLabel": "Copy code",
+    "qrAlt": "2FA QR Code",
+    "qrNotAvailable": "No QR Code",
+    "button": {
+      "enable": "Enable",
+      "disable": "Disable",
+      "processing": "Processing..."
+    },
+    "modal": {
+      "titleEnable": "Enable Two-Factor Authentication",
+      "titleDisable": "Disable Two-Factor Authentication",
+      "confirmEnable": "Are you sure to Enable 2 factor authentication (Powered by google)?",
+      "confirmDisable": "Are you sure you want to disable 2FA? You will lose an extra layer of security.",
+      "cancel": "Cancel",
+      "confirmButtonEnable": "Enable",
+      "confirmButtonDisable": "Disable",
+      "codeLabel": "Enter the 6-digit code from your authenticator app",
+      "invalidCode": "Please enter the full 6-digit code"
+    },
+    "success": {
+      "enabled": "2FA Enabled Successfully!",
+      "disabled": "2FA Disabled Successfully!"
+    },
+    "errors": {
+      "loadFailed": "Failed to load 2FA data",
+      "loadGeneric": "An error occurred while loading 2FA setup",
+      "operationFailed": "Operation failed",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "downloadAuthenticator": {
+    "title": "Download Google Authenticator App",
+    "description": "Google Authenticator is a product-based authenticator by Google that provides two-factor authentication services for verifying users of various applications.",
+    "imageAlt": "Google Authenticator",
+    "button": "Download App"
+  },
+  "paymentSuccess": {
+    "title": "Payment Success",
+    "description": "Everything went through perfectly. Your account has been updated.",
+    "button": "Return Home"
+  },
+  "paymentCancel": {
+    "title": "Add Money Cancelled",
+    "description": "Your add money process was cancelled. No changes have been made to your account.",
+    "button": "Return Home"
+  },
+
+  "GiftCardTable": {
+    "header": {
+      "title": "My Gift Card",
+      "button": "Gift Cards"
+    },
+    "emptyState": {
+      "message": "No gift card transactions found yet",
+      "button": "Buy Gift Cards"
+    },
+    "errors": {
+      "loadFailed": "Failed to load gift card history",
+      "genericError": "Something went wrong while loading gift cards"
+    },
+    "table": {
+      "headers": {
+        "cardDetails": "Card Details",
+        "receiverInfo": "Receiver Info",
+        "cardPricing": "Card Pricing",
+        "paymentDetails": "Payment Details",
+        "status": "Status"
+      },
+      "labels": {
+        "trxId": "TRX ID",
+        "cardName": "Card Name",
+        "receiverEmail": "Receiver Email",
+        "receiverPhone": "Phone",
+        "unitPrice": "Unit Price",
+        "quantity": "Quantity",
+        "totalPrice": "Total Price",
+        "exchangeRate": "Exchange Rate",
+        "payableUnit": "Payable Unit",
+        "charge": "Charge",
+        "totalPayable": "Total Payable"
+      }
+    },
+    "status": {
+      "success": "Success",
+      "pending": "Pending",
+      "failed": "Failed"
+    }
+  },
+
+  "ProductDetails": {
+    "title": "Purchase Details",
+    "form": {
+      "title": "Purchase Details",
+      "amount": {
+        "label": "Amount",
+        "fixedHint": "Select an amount",
+        "rangeHint": "Select an amount between {min} - {max} {currency}",
+        "placeholder": "Enter Amount"
+      },
+      "receiverEmail": {
+        "label": "Receiver Email",
+        "placeholder": "Enter Receiver Email Address"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Select country",
+        "loading": "Loading countries..."
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter Phone Number"
+      },
+      "fromName": {
+        "label": "From Name",
+        "placeholder": "Your Name"
+      },
+      "quantity": {
+        "label": "Quantity"
+      },
+      "wallet": {
+        "label": "Wallet",
+        "placeholder": "Select wallet",
+        "loading": "Loading wallets...",
+        "noWallets": "No wallets available"
+      },
+      "button": "Buy Now"
+    },
+    "preview": {
+      "availableBalance": "Available balance"
+    },
+    "errors": {
+      "noProductId": "No product ID provided in URL",
+      "loadFailed": "Failed to load gift card details",
+      "productNotFound": "Gift card product data not found in response",
+      "genericError": "Something went wrong",
+      "fillAllFields": "Please complete all required fields",
+      "invalidFixedAmount": "Please select a valid amount: {amounts}",
+      "amountOutOfRange": "Amount must be between {min} and {max}",
+      "loadCountriesFailed": "Failed to load country list",
+      "loadWalletsFailed": "Failed to load wallet options"
+    },
+    "success": {
+      "purchaseSent": "Purchase request sent!"
+    },
+    "buttons": {
+      "goBack": "Go Back"
+    }
+  },
+
+  "GiftCardList": {
+    "header": {
+      "title": "Gift Cards"
+    },
+    "buttons": {
+      "search": "Search"
+    },
+    "emptyState": {
+      "message": "No gift cards found"
+    },
+    "errors": {
+      "loadFailed": "Failed to load gift cards"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "allCountries": "All Countries"
+  },
+
+  "Strowallet": {
+    "header": {
+      "title": "My Virtual Cards",
+      "createButton": "Create New Card"
+    },
+    "emptyState": {
+      "title": "No virtual cards yet",
+      "description": "Create your first virtual card to start making secure online payments.",
+      "button": "Create First Card"
+    },
+    "transactions": {
+      "title": "Transaction History",
+      "subtitle": "All activity related to your virtual cards (Strowallet)",
+      "empty": "No transactions found yet.",
+      "headers": {
+        "date": "Date",
+        "transaction": "Transaction",
+        "type": "Transaction Type",
+        "requestAmount": "Request Amount",
+        "payable": "Payable",
+        "totalCharge": "Total Charge",
+        "cardAmount": "Card Amount",
+        "currentBalance": "Current Balance",
+        "status": "Status"
+      }
+    },
+    "card": {
+      "expiry": "exp. end:",
+      "defaultName": "USER NAME"
+    },
+    "status": {
+      "unknown": "Unknown"
+    },
+    "errors": {
+      "loadFailed": "Failed to load virtual cards",
+      "genericError": "Something went wrong. Please try again later."
+    }
+  },
+  "VirtualCardDetails": {
+    "header": {
+      "title": "Virtual Card Details"
+    },
+    "actions": {
+      "fund": "Fund",
+      "makeDefault": "Make Default",
+      "removeDefault": "Remove Default",
+      "transactions": "Transactions",
+      "freezing": "Freezing card...",
+      "unfreezing": "Unfreezing card...",
+      "freeze": "Freeze",
+      "unfreeze": "Unfreeze",
+      "settingDefault": "Setting default...",
+      "removingDefault": "Removing default..."
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "card": {
+      "expiryLabel": "exp. end:",
+      "defaultName": "USER NAME"
+    },
+    "billing": {
+      "title": "Billing Address",
+      "country": "Billing Country",
+      "city": "Billing City",
+      "address": "Billing State / Address Line",
+      "zipCode": "Billing Zip Code"
+    },
+    "additionalInfo": {
+      "title": "Additional Information",
+      "cardAmount": "Card Amount",
+      "cardType": "Card Type",
+      "cardId": "Card Id",
+      "customerId": "Customer Id",
+      "cardNumber": "Card Number",
+      "cvv": "CVV",
+      "expiration": "Expiration",
+      "city": "City",
+      "state": "State",
+      "zipCode": "Zip Code",
+      "status": "Status"
+    },
+    "cardBack": {
+      "title": "Card Back Details"
+    },
+    "modals": {
+      "removeDefaultTitle": "Remove as Default Card?",
+      "removeDefaultDescription": "Do you want to remove default status from this card?",
+      "removeDefaultNote": "You can set another card as default later.",
+      "setDefaultTitle": "Set as Default Card?",
+      "setDefaultDescription": "Do you want to make this card your default card?",
+      "setDefaultNote": "This card will be used as the primary card for transactions where possible.",
+      "freezeTitle": "Freeze Card?",
+      "freezeDescription": "Do you want to freeze this card?",
+      "freezeNote": "The card will be temporarily blocked and cannot be used for transactions until unfrozen.",
+      "unfreezeTitle": "Unfreeze Card?",
+      "unfreezeDescription": "Do you want to unfreeze this card?",
+      "unfreezeNote": "The card will become active and can be used for transactions again."
+    },
+    "transactions": {
+      "title": "Virtual Card Transactions",
+      "empty": "No transactions found",
+      "defaultType": "Transaction"
+    },
+    "webhook": {
+      "title": "Webhook Logs",
+      "button": "Webhook Logs",
+      "empty": "No webhook logs found",
+      "defaultEvent": "Webhook Event",
+      "event": "Event",
+      "amount": "Amount",
+      "transitionId": "Transition ID",
+      "cardId": "Card ID",
+      "reference": "Reference",
+      "narrative": "Narrative",
+      "reason": "Reason",
+      "status": "Status",
+      "chargeAmount": "Charge Amount",
+      "balanceBeforeTermination": "Balance Before Termination"
+    },
+    "buttons": {
+  "cancel": "Cancel",
+  "close": "Close",
+  "setDefault": "Set Default",
+  "removeDefault": "Remove Default",
+  "freeze": "Freeze",
+  "unfreeze": "Unfreeze"
+},
+    "errors": {
+      "noCardSelected": "No card selected",
+      "noCardFound": "No card found. Please select a card from the list.",
+      "loadFailed": "Failed to load card details",
+      "defaultActionFailed": "Failed to update default status",
+      "refreshFailed": "Failed to refresh card details after default action",
+      "freezeActionFailed": "Action failed",
+      "loadTransactionsFailed": "Failed to load transactions",
+      "loadWebhookLogsFailed": "Failed to load webhook logs"
+    },
+    "success": {
+      "defaultUpdated": "Status Updated Successfully",
+      "frozen": "Card frozen successfully",
+      "unfrozen": "Card unfrozen successfully"
+    }
+  },
+  "fundVirtualCard": {
+    "mainWallet": "Main Wallet",
+    "backButton": "Back",
+    "form": {
+      "title": "Fund Virtual Card",
+      "amountLabel": "Card Amount",
+      "amountPlaceholder": "Enter Amount",
+      "fromWalletLabel": "From Wallet",
+      "fees": "Fees:",
+      "availableBalance": "Available Balance:",
+      "button": {
+        "submit": "Fund Card",
+        "processing": "Processing..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "fundAmount": "Fund Amount",
+      "exchangeRate": "Exchange Rate",
+      "totalCharge": "Total Charge",
+      "totalPayable": "Total Payable Amount"
+    },
+    "limits": {
+      "title": "Limit Information",
+      "transactionLimit": "Transaction Limit",
+      "dailyLimit": "Daily Limit",
+      "remainingDaily": "Remaining Daily Limit",
+      "monthlyLimit": "Monthly Limit",
+      "remainingMonthly": "Remaining Monthly Limit"
+    },
+    "errors": {
+      "noCard": "No card selected",
+      "loadFailed": "Failed to load data",
+      "loadCardFailed": "Failed to load card details",
+      "invalidAmount": "Invalid amount or insufficient balance",
+      "generic": "Something went wrong. Please try again",
+      "network": "Network error. Try again."
+    }
+  },
+  "CreateVirtualCard": {
+    "header": {
+      "title": "Create Virtual Card",
+      "subtitle": "Complete your KYC profile to start issuing virtual cards"
+    },
+    "kycStatus": {
+      "title": "Your KYC Status",
+      "currentStatus": "Current KYC Status",
+      "successMessage": "Your KYC verification is complete and approved.",
+      "unreviewed": "Unreviewed KYC"
+    },
+    "updateForm": {
+      "title": "Update KYC Information"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "submitUpdate": "Submit Update",
+      "updating": "Updating...",
+      "updateCustomer": "Update Customer",
+      "tryAgain": "Try Again"
+    },
+    "success": {
+      "customerUpdated": "Customer updated successfully!"
+    },
+    "errors": {
+      "loadFailed": "Failed to load information",
+      "genericError": "Something went wrong. Please try again.",
+      "loadError": "Error Loading Information",
+      "updateFailed": "Update failed. Please check your input.",
+      "unexpectedResponse": "Unexpected response from server."
+    }
+  },
+  "CreateCardCustomer": {
+    "title": "Create Customer",
+    "description": "Please provide the required information to set up your customer profile",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "customerCreated": "Customer created successfully!",
+    "somethingWentWrong": "Something went wrong. Please try again.",
+    "failedToCreateCustomer": "Failed to create customer",
+    "enter": "Enter",
+    "fields": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "date_of_birth": "Date of Birth",
+      "house_number": "House Number",
+      "address": "Address",
+      "zip_code": "Zip Code"
+    },
+    "placeholders": {
+      "firstName": "Enter first name",
+      "lastName": "Enter last name",
+      "phone": "Enter phone number",
+      "email": "Enter email address",
+      "houseNumber": "Enter house number",
+      "address": "Enter address",
+      "zipCode": "Enter zip code"
+    }
+  },
+  "CreateCardPage": {
+    "title": "Create Virtual Card",
+    "preview": "Preview",
+    "fromWallet": "From Wallet",
+    "selectWallet": "Select wallet",
+    "fees": "Fees",
+    "availableBalance": "Available Balance",
+    "processing": "Processing...",
+    "confirm": "Confirm",
+    "cardAmount": "Card Amount",
+    "exchangeRate": "Exchange Rate",
+    "totalCharge": "Total Charge",
+    "totalPayableAmount": "Total Payable Amount",
+    "limitInformation": "Limit Information",
+    "dailyLimit": "Daily Limit",
+    "remainingDailyLimit": "Remaining Daily Limit",
+    "monthlyLimit": "Monthly Limit",
+    "remainingMonthlyLimit": "Remaining Monthly Limit",
+    "failedToLoadData": "Failed to load data",
+    "failedToLoadRequiredData": "Failed to load required data",
+    "somethingWentWrong": "Something went wrong",
+    "unexpectedServerResponse": "Unexpected response from server",
+    "failedToCreateVirtualCard": "Failed to create virtual card",
+    "fields": {
+      "amount": "Amount"
+    },
+    "placeholders": {
+      "enterAmount": "Enter {field}",
+      "enterField": "Enter {field}"
+    },
+    "validation": {
+      "enterCardHolderName": "Please enter Card Holder's Name",
+      "enterValidCardAmount": "Please enter a valid Card Amount",
+      "amountRange": "Amount must be between {min} and {max} {currency}",
+      "selectWallet": "Please select a wallet",
+      "insufficientBalance": "Insufficient balance in selected wallet"
+    }
+  },
+  "WalletBalanceSection": {
+    "currentBalance": "Current Balance",
+    "totalAddMoney": "Total Add Money",
+    "totalTransactions": "Total Transactions",
+    "activeTickets": "Active Tickets",
+    "activeCard": "Active Card",
+    "totalGiftCards": "Total Gift Cards",
+    "totalWalletBalance": "Total Wallet Balance",
+    "hideBalance": "Hide balance",
+    "showBalance": "Show balance",
+    "addMoney": "Add Money",
+    "sendMoney": "Send Money"
+  },
+  "TransactionHistory": {
+    "transactionId": "Transaction ID",
+    "payable": "Payable",
+    "requestAmount": "Request Amount",
+    "type": "Type",
+    "remark": "Remark",
+    "transactionType": "Transaction Type",
+    "status": "Status",
+    "dateTime": "Date & Time",
+    "latestTransactions": "Latest Transactions",
+    "viewMore": "View More",
+    "noTransactionsFound": "No transactions found"
+  },
+  "UserMenu": {
+    "loading": "Loading...",
+    "kycVerification": "KYC Verification",
+    "twoFaVerification": "2FA Verification",
+    "logout": "Logout",
+    "modal": {
+      "loggingOut": "Logging Out...",
+      "areYouSure": "Are you sure?",
+      "pleaseWait": "Please wait while we securely log you out.",
+      "willBeLoggedOut": "You will be logged out of your account.",
+      "cancel": "Cancel",
+      "yesLogout": "Yes, Logout",
+      "loggingOutButton": "Logging out..."
+    }
+  },
+  "BuyGiftCardModal": {
+    "title": "Buy Gift Card",
+    "summary": {
+      "productName": "Product Name:",
+      "receiverEmail": "Receiver Email:",
+      "receiverCountry": "Receiver Country:",
+      "receiverPhone": "Receiver Phone:",
+      "fromName": "From Name:",
+      "unitPrice": "Unit Price:",
+      "quantity": "Quantity:",
+      "totalPrice": "Total Price:"
+    },
+    "feesAndLimits": {
+      "exchangeRate": "Exchange Rate:",
+      "conversionAmount": "Conversion Amount:",
+      "totalFees": "Total Fees & Charges:",
+      "dailyLimit": "Daily Limit:",
+      "remainingDailyLimit": "Remaining Daily Limit:",
+      "monthlyLimit": "Monthly Limit:",
+      "remainingMonthlyLimit": "Remaining Monthly Limit:",
+      "totalPayableAmount": "Total Payable Amount:"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "processing": "Processing...",
+      "insufficientBalance": "Insufficient Balance",
+      "confirm": "Confirm"
+    },
+    "toast": {
+      "success": "Gift card order placed successfully!",
+      "orderFailed": "Order failed",
+      "failedToPlaceOrder": "Failed to place order. Please try again."
+    },
+    "na": "N/A"
+  },
+  "emailVerify": {
+    "unauthorized": "Sorry, You are unauthorized user",
+    "resendFailed": "Failed to resend code",
+    "invalidOtp": "Please enter the complete 6-digit OTP",
+    "verifyFailed": "Failed to verify email",
+    "logoAlt": "Logo",
+    "title": "Verify Your Email",
+    "subtitle": "We've sent a 6-digit verification code to your email address",
+    "verifying": "Verifying...",
+    "button": "Verify Email",
+    "noCode": "Didn't get the code?",
+    "sending": "Sending...",
+    "resendButton": "Resend Code",
+    "resendCountdown": "Resend code in {seconds}s",
+    "alreadyVerified": "Already verified?",
+    "loginNow": "Login Now"
+  },
+  "google2fa": {
+    "invalidOtp": "Please enter a complete 6-digit code",
+    "unexpectedResponse": "Unexpected response from server",
+    "verifyFailed": "Verification failed. Please try again.",
+    "logoAlt": "StripCard Logo",
+    "title": "Authorize Google Two Factor",
+    "subtitle": "Please enter your authorization code to access dashboard",
+    "verifying": "Verifying...",
+    "button": "Authorize"
+  },
+  "passwordReset": {
+    "invalidRequest": "Invalid Request",
+    "mismatch": "Passwords do not match.",
+    "missingOtp": "Reset code is missing.",
+    "success": "Password reset successful!",
+    "failed": "Failed to reset password.",
+    "unexpected": "An unexpected error occurred.",
+    "title": "Reset Your Password",
+    "newPasswordLabel": "New Password",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+    "resetting": "Resetting...",
+    "button": "Reset Password",
+    "backToHome": "— Back To Home —"
+  },
+  "Notifications": {
+    "title": "Notifications",
+    "loading": "Checking for updates...",
+    "empty": "No notifications yet",
+    "emptyMsg": "We'll let you know when something happens",
+    "justNow": "Just now",
+    "minutesAgo": "{minutes} minutes ago",
+    "hoursAgo": "{hours} hours ago",
+    "yesterday": "Yesterday",
+    "daysAgo": "{days} days ago"
+  }
+}

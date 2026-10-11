@@ -1,0 +1,64 @@
+{
+  "name": "reachead/laravel-sdk",
+  "description": "Official PHP and Laravel SDK for the Reachead Developer API",
+  "keywords": [
+    "reachead",
+    "laravel",
+    "email",
+    "transactional-email"
+  ],
+  "homepage": "https://reachead.com/developers",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^8.1",
+    "illuminate/http": "^10.0 || ^11.0 || ^12.0 || ^13.0",
+    "illuminate/mail": "^10.0 || ^11.0 || ^12.0 || ^13.0",
+    "illuminate/support": "^10.0 || ^11.0 || ^12.0 || ^13.0",
+    "symfony/mailer": "^6.2 || ^7.0 || ^8.0",
+    "symfony/mime": "^6.2 || ^7.0 || ^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+    "phpunit/phpunit": "^10.5 || ^11.0 || ^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Reachead\\Laravel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Reachead\\Laravel\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Reachead\\Laravel\\Laravel\\ReacheadServiceProvider"
+      ],
+      "aliases": {
+        "Reachead": "Reachead\\Laravel\\Facades\\Reachead"
+      }
+    }
+  },
+  "archive": {
+    "name": "reachead-laravel-sdk",
+    "exclude": [
+      "/.gitignore",
+      "/.phpunit.cache",
+      "/tests",
+      "/vendor",
+      "/composer.lock",
+      "/phpunit.xml"
+    ]
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

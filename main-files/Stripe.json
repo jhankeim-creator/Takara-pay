@@ -1,0 +1,4285 @@
+{
+  "info": {
+    "_postman_id": "0cdcf079-8f4d-4614-9058-a749d3406860",
+    "name": "StripeCard",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54869642",
+    "_collection_link": "https://go.postman.co/collection/54869642-0cdcf079-8f4d-4614-9058-a749d3406860?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Email-Verification",
+          "item": [
+            {
+              "name": "resend-code",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/send-code",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "send-code"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "email-verify",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "code",
+                      "value": "368574",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/email-verify",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "email-verify"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Forget-Password",
+          "item": [
+            {
+              "name": "send-code",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "email",
+                      "value": "user@appdevs.net",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/forget/password?lang=ar",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "forget",
+                    "password"
+                  ],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "ar"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "verify-code",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "code",
+                      "value": "846828",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/forget/verify/code",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "forget",
+                    "verify",
+                    "code"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "reset-password",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "code",
+                      "value": "846828",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "appdevs",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_confirmation",
+                      "value": "appdevs",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/forget/reset/password",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "forget",
+                    "reset",
+                    "password"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "G2fa-Verify",
+          "item": [
+            {
+              "name": "verify-2fa",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "otp",
+                      "value": "422843",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/google-2fa/otp/verify",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "google-2fa",
+                    "otp",
+                    "verify"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "user@appdevs.net",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "appdevs",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/user/login?lang=es",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user",
+                "login"
+              ],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "es"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "register",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "firstname",
+                  "value": "User",
+                  "type": "text"
+                },
+                {
+                  "key": "lastname",
+                  "value": "Islam",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "user@appdevs.net",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "appdevs",
+                  "type": "text"
+                },
+                {
+                  "key": "agree",
+                  "value": "on",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/user/register",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "logout",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/user/logout",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user",
+                "logout"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "item": [
+        {
+          "name": "Profile",
+          "item": [
+            {
+              "name": "profile",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/profile?lang=ar",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "profile"
+                  ],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "ar",
+                      "type": "text"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "profile-update",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "firstname",
+                      "value": "Ayon Islam",
+                      "type": "text"
+                    },
+                    {
+                      "key": "lastname",
+                      "value": "Islam",
+                      "type": "text"
+                    },
+                    {
+                      "key": "country",
+                      "value": "Bangldesh",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone_code",
+                      "value": "880",
+                      "type": "text"
+                    },
+                    {
+                      "key": "phone",
+                      "value": "1646789381",
+                      "type": "text"
+                    },
+                    {
+                      "key": "state",
+                      "value": "Dhaka",
+                      "type": "text"
+                    },
+                    {
+                      "key": "city",
+                      "value": "Dhaka",
+                      "type": "text"
+                    },
+                    {
+                      "key": "zip_code",
+                      "value": "1230",
+                      "type": "text"
+                    },
+                    {
+                      "key": "address",
+                      "value": "Uttara,Dhaka",
+                      "type": "text"
+                    },
+                    {
+                      "key": "image",
+                      "type": "file",
+                      "src": "/C:/Users/User/Music/Md.Mehedi.jpg"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/profile/update?lang=ar",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "profile",
+                    "update"
+                  ],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "ar",
+                      "type": "text"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "password-update",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "current_password",
+                      "value": "appdevs1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "appdevs",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_confirmation",
+                      "value": "appdevs",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/password/update",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "password",
+                    "update"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "delete-account",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/delete/account",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "delete",
+                    "account"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "get-remaing-balance",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": []
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/get-remaining?transaction_type=ADD-MONEY&attribute=SEND&sender_amount=1&currency_code=USD&charge_id=62&extra_rate=",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "get-remaining"
+                  ],
+                  "query": [
+                    {
+                      "key": "transaction_type",
+                      "value": "ADD-MONEY"
+                    },
+                    {
+                      "key": "attribute",
+                      "value": "SEND"
+                    },
+                    {
+                      "key": "sender_amount",
+                      "value": "1"
+                    },
+                    {
+                      "key": "currency_code",
+                      "value": "USD"
+                    },
+                    {
+                      "key": "charge_id",
+                      "value": "62",
+                      "description": "providing id from gateway currency id only for Add Money & Withdraw Money.Others Time Providing form charge id."
+                    },
+                    {
+                      "key": "extra_rate",
+                      "value": "",
+                      "description": "Only for BILLPAY, MOBILETOPUP,VIRTUALCARD"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Virtual Card",
+          "item": [
+            {
+              "name": "Virtual-Card(CardyFie)",
+              "item": [
+                {
+                  "name": "Customer",
+                  "item": [
+                    {
+                      "name": "create-page-info",
+                      "request": {
+                        "auth": {
+                          "type": "bearer",
+                          "bearer": [
+                            {
+                              "key": "token",
+                              "value": "{{token}}",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                          "raw": "{{base_url}}/user/cardyfie-card/create/info",
+                          "host": [
+                            "{{base_url}}"
+                          ],
+                          "path": [
+                            "user",
+                            "cardyfie-card",
+                            "create",
+                            "info"
+                          ]
+                        }
+                      },
+                      "response": []
+                    },
+                    {
+                      "name": "create-customer",
+                      "request": {
+                        "auth": {
+                          "type": "bearer",
+                          "bearer": [
+                            {
+                              "key": "token",
+                              "value": "{{token}}",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                          "mode": "formdata",
+                          "formdata": [
+                            {
+                              "key": "first_name",
+                              "value": "Local",
+                              "type": "text"
+                            },
+                            {
+                              "key": "last_name",
+                              "value": "User2",
+                              "type": "text"
+                            },
+                            {
+                              "key": "email",
+                              "value": "local2@gmail.com",
+                              "type": "text"
+                            },
+                            {
+                              "key": "date_of_birth",
+                              "value": "10/08/1199",
+                              "type": "text"
+                            },
+                            {
+                              "key": "identity_type",
+                              "value": "nid",
+                              "type": "text",
+                              "description": "(accept: passport, nid, bvn)"
+                            },
+                            {
+                              "key": "identity_number",
+                              "value": "54646675677",
+                              "type": "text"
+                            },
+                            {
+                              "key": "id_front_image",
+                              "type": "file",
+                              "src": "/C:/Users/AppDevs/Downloads/identity image/font.png"
+                            },
+                            {
+                              "key": "id_back_image",
+                              "type": "file",
+                              "src": "/C:/Users/AppDevs/Downloads/identity image/back.png"
+                            },
+                            {
+                              "key": "user_image",
+                              "type": "file",
+                              "src": "/C:/Users/AppDevs/Downloads/identity image/user.png"
+                            },
+                            {
+                              "key": "house_number",
+                              "type": "text",
+                              "fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+                              "filesNotInWorkingDirectory": [
+                                "/C:/Users/AppDevs/Downloads/google-authenticator.webp"
+                              ],
+                              "value": "22"
+                            },
+                            {
+                              "key": "country",
+                              "type": "text",
+                              "fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+                              "filesNotInWorkingDirectory": [
+                                "/C:/Users/AppDevs/Downloads/app.png"
+                              ],
+                              "value": "BD"
+                            },
+                            {
+                              "key": "city",
+                              "value": "Dhaka",
+                              "type": "text",
+                              "uuid": "b797fa79-775e-49aa-a59c-bf34a0e1e030"
+                            },
+                            {
+                              "key": "state",
+                              "value": "Bangladesh",
+                              "type": "text",
+                              "uuid": "83d0e239-3054-47a8-b493-577905b55a6f"
+                            },
+                            {
+                              "key": "zip_code",
+                              "value": "1230",
+                              "type": "text",
+                              "uuid": "c256a5a6-3607-43d4-a6f6-6ac0e134f0ab"
+                            },
+                            {
+                              "key": "address",
+                              "value": "Dhaka,Bangladesh",
+                              "type": "text",
+                              "uuid": "b5592a05-253e-4377-98b7-a14140deffce"
+                            }
+                          ]
+                        },
+                        "url": {
+                          "raw": "{{base_url}}/user/cardyfie-card/create/customer",
+                          "host": [
+                            "{{base_url}}"
+                          ],
+                          "path": [
+                            "user",
+                            "cardyfie-card",
+                            "create",
+                            "customer"
+                          ]
+                        }
+                      },
+                      "response": []
+                    },
+                    {
+                      "name": "edit-customer-info",
+                      "request": {
+                        "auth": {
+                          "type": "bearer",
+                          "bearer": [
+                            {
+                              "key": "token",
+                              "value": "{{token}}",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                          "raw": "{{base_url}}/user/cardyfie-card/edit/customer/page",
+                          "host": [
+                            "{{base_url}}"
+                          ],
+                          "path": [
+                            "user",
+                            "cardyfie-card",
+                            "edit",
+                            "customer",
+                            "page"
+                          ]
+                        }
+                      },
+                      "response": []
+                    },
+                    {
+                      "name": "update-customer",
+                      "request": {
+                        "auth": {
+                          "type": "bearer",
+                          "bearer": [
+                            {
+                              "key": "token",
+                              "value": "{{token}}",
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                          "mode": "formdata",
+                          "formdata": [
+                            {
+                              "key": "first_name",
+                              "value": "Test",
+                              "type": "text"
+                            },
+                            {
+                              "key": "last_name",
+                              "value": "Hello",
+                              "type": "text"
+                            },
+                            {
+                              "key": "id_image_font",
+                              "type": "file",
+                              "fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+                              "filesNotInWorkingDirectory": [
+                                "/C:/Users/AppDevs/Downloads/hello-8628461_1280.webp"
+                              ],
+                              "src": "/C:/Users/AppDevs/Downloads/hello-8628461_1280.webp"
+                            },
+                            {
+                              "key": "user_image",
+                              "type": "file",
+                              "fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+                              "filesNotInWorkingDirectory": [
+                                "/C:/Users/AppDevs/Downloads/google-authenticator.webp"
+                              ],
+                              "src": "/C:/Users/AppDevs/Downloads/google-authenticator.webp"
+                            }
+                          ]
+                        },
+                        "url": {
+                          "raw": "{{base_url}}/user/strowallet-card/update/customer",
+                          "host": [
+                            "{{base_url}}"
+                          ],
+                          "path": [
+                            "user",
+                            "strowallet-card",
+                            "update",
+                            "customer"
+                          ]
+                        }
+                      },
+                      "response": []
+                    }
+                  ]
+                },
+                {
+                  "name": "my-cards",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Issue Card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "name_on_card",
+                          "value": "Local User2",
+                          "type": "text"
+                        },
+                        {
+                          "key": "card_tier",
+                          "value": "universal",
+                          "type": "text",
+                          "description": " (accept: universal/platinum)"
+                        },
+                        {
+                          "key": "card_type",
+                          "value": "visa",
+                          "description": "(accept: visa/mastercard)",
+                          "type": "text",
+                          "uuid": "c3032906-4452-4a72-aac3-a46cf5a6b529"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "5a31905c-7f3b-44e1-9677-e44c3e38478c"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "3b05dcbe-0c51-49bb-bc99-421fd2bb1770"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/create",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "create"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-details",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/details?card_id=01KAB2GBS49NSQTGCTMFABQBHR",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "details"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "01KAB2GBS49NSQTGCTMFABQBHR"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-freeze-unfreeze",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "01KAB2GBS49NSQTGCTMFABQBHR",
+                          "type": "text"
+                        },
+                        {
+                          "key": "status",
+                          "value": "FREEZE",
+                          "description": "Status can Be: ENABLED, FREEZE",
+                          "type": "text",
+                          "uuid": "01669a82-5a63-47d4-94dd-ec649718a829"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/change/status",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "change",
+                        "status"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "makeOrRemovedDefault",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "01K6Z2XRP46DK1JV1TWQYZFDN2",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/make-remove/default",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "make-remove",
+                        "default"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "deposit-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "01KAB2GBS49NSQTGCTMFABQBHR",
+                          "type": "text"
+                        },
+                        {
+                          "key": "deposit_amount",
+                          "value": "10",
+                          "type": "text"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "647163e3-5cce-45c0-8f0c-3bca23eb9377"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "6637702b-0233-4747-a4c0-0c2e582fffbe"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/deposit",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "deposit"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "withdraw-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "01KAB2GBS49NSQTGCTMFABQBHR",
+                          "type": "text"
+                        },
+                        {
+                          "key": "withdraw_amount",
+                          "value": "10",
+                          "type": "text"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "647163e3-5cce-45c0-8f0c-3bca23eb9377"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "6637702b-0233-4747-a4c0-0c2e582fffbe"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/withdraw",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "withdraw"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-transactions",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/transaction?card_id=01K6Z2XRP46DK1JV1TWQYZFDN2",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "transaction"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "01K6Z2XRP46DK1JV1TWQYZFDN2"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "close-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "01KAB2GBS49NSQTGCTMFABQBHR",
+                          "type": "text",
+                          "uuid": "5b4fd99d-bb34-496a-8ca5-44a06666ca23"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/cardyfie-card/close",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "cardyfie-card",
+                        "close"
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Virtual-Card (stripe)",
+              "item": [
+                {
+                  "name": "my-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/stripe",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "stripe"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-details",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/stripe/details?card_id=ic_1NkObZK6kUt0Aggqoj321ygl",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "stripe",
+                        "details"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "ic_1NkObZK6kUt0Aggqoj321ygl"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "sensitive-data",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "ic_1R68JBK6kUt0Aggq7nTu94xi",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/stripe/get/sensitive/data",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "stripe",
+                        "get",
+                        "sensitive",
+                        "data"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-inactive",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "ic_1NkObZK6kUt0Aggqoj321ygl",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/stripe/inactive",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "stripe",
+                        "inactive"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-active",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "ic_1NkObZK6kUt0Aggqoj321ygl",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/stripe/active",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "stripe",
+                        "active"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "buy-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_amount",
+                          "value": "100",
+                          "type": "text"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/stripe/create",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "stripe",
+                        "create"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-transactions",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/stripe/transaction?card_id=ic_1NkObZK6kUt0Aggqoj321ygl",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "stripe",
+                        "transaction"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "ic_1NkObZK6kUt0Aggqoj321ygl"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "makeOrRemovedDefault",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "11ac4e7e-8d28-435e-ac03-a91c60f087bf",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/make-remove/default",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "make-remove",
+                        "default"
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Virtual-Card(FlutterWave)",
+              "item": [
+                {
+                  "name": "my-cards",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "fess&charges",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/charges",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "charges"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-details",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/details?card_id=6a71111c-0f8f-47df-8ffe-06f064a7fe30",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "details"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "6a71111c-0f8f-47df-8ffe-06f064a7fe30"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-block",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "c0187217-e45f-4dbe-8f30-ab7675cefd74",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/block",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "block"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-unblock",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "c0187217-e45f-4dbe-8f30-ab7675cefd74",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/unblock",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "unblock"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "buy-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_amount",
+                          "value": "100",
+                          "type": "text"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "69fff639-2300-4b58-8ae5-d4281e1f278b"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "55e49968-67cf-4f6f-9c54-da3f41dd5dac"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/create",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "create"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-fund",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "c0187217-e45f-4dbe-8f30-ab7675cefd74",
+                          "type": "text"
+                        },
+                        {
+                          "key": "fund_amount",
+                          "value": "100",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/fund",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "fund"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-transactions",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/transaction?card_id=798b6bca-be3c-401a-a658-36ed8102330e",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "transaction"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "798b6bca-be3c-401a-a658-36ed8102330e"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "makeOrRemovedDefault",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "aaa8f562-4b5c-4af8-ba53-e5191898ffcc",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/make-remove/default?lang=ar",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "make-remove",
+                        "default"
+                      ],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "ar"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Virtual-Card (Sudo)",
+              "item": [
+                {
+                  "name": "my-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "fess&charges",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/charges",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "charges"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-details",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/details?card_id=65fa8a65d465cc764cbfec4d",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "details"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "65fa8a65d465cc764cbfec4d"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-block",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "654869cbd83880e81808466d",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/block",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "block"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-unblock",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "654869cbd83880e81808466d",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/unblock",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "unblock"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "buy-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_amount",
+                          "value": "100",
+                          "type": "text"
+                        },
+                        {
+                          "key": "date_of_birth",
+                          "value": "1990/01/01",
+                          "type": "text"
+                        },
+                        {
+                          "key": "identity_type",
+                          "value": "BVN",
+                          "type": "text"
+                        },
+                        {
+                          "key": "identity_number",
+                          "value": "123456789",
+                          "type": "text"
+                        },
+                        {
+                          "key": "phone_number",
+                          "value": "8801791205442",
+                          "type": "text"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/create?lang=ar",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "create"
+                      ],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "ar"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-transactions",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/transaction?card_id=654869cbd83880e81808466d",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "transaction"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "654869cbd83880e81808466d"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "makeOrRemovedDefault",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "65af6b5c88f8c13e6070f646",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/make-remove/default?lang=en",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "make-remove",
+                        "default"
+                      ],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-fund",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "67c6c6a8dbe08d0417e6f557",
+                          "type": "text"
+                        },
+                        {
+                          "key": "fund_amount",
+                          "value": "100",
+                          "type": "text"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "341885fb-401a-4a02-a884-93393c93c532"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "85342580-c303-470d-b552-e4364d947c74"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/my-card/sudo/fund?lang=en",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "my-card",
+                        "sudo",
+                        "fund"
+                      ],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Virtual-Card(Strowallet)",
+              "item": [
+                {
+                  "name": "my-cards",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "fess&charges",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/charges",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "charges"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "buy-card",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "name",
+                          "value": "Test User",
+                          "type": "text",
+                          "description": "required|string|min:2|max:100"
+                        },
+                        {
+                          "key": "card_amount",
+                          "value": "100",
+                          "type": "text",
+                          "description": "required|numeric|gt:0"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "description": "required|string",
+                          "type": "text",
+                          "uuid": "5a31905c-7f3b-44e1-9677-e44c3e38478c"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "description": "required|string|exists:currencies,code",
+                          "type": "text",
+                          "uuid": "3b05dcbe-0c51-49bb-bc99-421fd2bb1770"
+                        },
+                        {
+                          "key": "first_name",
+                          "value": "Test",
+                          "description": "required|string|min:2|max:50",
+                          "type": "text",
+                          "uuid": "83de9435-a0c4-4f5a-9b53-ff10585a7285"
+                        },
+                        {
+                          "key": "last_name",
+                          "value": "User",
+                          "description": "required|string|min:2|max:50",
+                          "type": "text",
+                          "uuid": "5796462c-42c3-43c7-85d4-faa503f95fdf"
+                        },
+                        {
+                          "key": "dob",
+                          "value": "1999-06-12",
+                          "description": "required|date|before:today(1999-06-12)",
+                          "type": "text",
+                          "uuid": "f19b990c-f526-42d8-a4be-578a5b71624a"
+                        },
+                        {
+                          "key": "id_type",
+                          "value": "national_id",
+                          "description": "required|string|in:national_id,passport,drivers_license",
+                          "type": "text",
+                          "uuid": "c9972543-c915-4c42-9271-78164aa10edc"
+                        },
+                        {
+                          "key": "id_number",
+                          "value": "123456789",
+                          "description": "required|string|min:3|max:50",
+                          "type": "text",
+                          "uuid": "30cb5028-0a97-449c-a354-375fbff8727e"
+                        },
+                        {
+                          "key": "email",
+                          "value": "user@appdevs.net",
+                          "description": "required|email|max:100",
+                          "type": "text",
+                          "uuid": "1c98b235-f0a3-4f08-9712-34099b05fd31"
+                        },
+                        {
+                          "key": "line1",
+                          "value": "123 Main Street",
+                          "description": "required|string|max:250",
+                          "type": "text",
+                          "uuid": "02bd5c6f-6b4e-467f-9863-751aa65483d3"
+                        },
+                        {
+                          "key": "city",
+                          "value": "San Francisco",
+                          "description": "required|string|max:100",
+                          "type": "text",
+                          "uuid": "6184be2f-1aab-4658-a970-9e362eadbd59"
+                        },
+                        {
+                          "key": "state",
+                          "value": "California (CA)",
+                          "description": "required|string|max:100",
+                          "type": "text",
+                          "uuid": "ed49ec24-af50-4fdd-81ed-0bc2b0b5a851"
+                        },
+                        {
+                          "key": "postal_code",
+                          "value": "94111",
+                          "description": "required|string|max:20, 3 code example Nigeria NGA, Haiti is HTI",
+                          "type": "text",
+                          "uuid": "f814d365-3864-412e-8766-aa709c66f03b"
+                        },
+                        {
+                          "key": "country",
+                          "value": "USA",
+                          "description": "required|string",
+                          "type": "text",
+                          "uuid": "6f8d19cd-9c26-423b-851e-147714c77876"
+                        },
+                        {
+                          "key": "phone_code",
+                          "value": "1",
+                          "description": "required|string|max:6",
+                          "type": "text",
+                          "uuid": "c5ed8f67-4ea6-483b-a3dd-3759eb5a36b4"
+                        },
+                        {
+                          "key": "phone",
+                          "value": "18008675309",
+                          "description": "required|string|max:20",
+                          "type": "text",
+                          "uuid": "9a2fc9d5-062a-40c9-af08-04f2d44eef94"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/create",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "create"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-details",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/details?card_id=1cebaa-b985-00457b3f9a8a",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "details"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "1cebaa-b985-00457b3f9a8a"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-freezed",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "1cebaa-b985-00457b3f9a8a",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/block",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "block"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-unfreeze",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "1cebaa-b985-00457b3f9a8a",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/unblock",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "unblock"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-fund",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "1cebaa-b985-00457b3f9a8a",
+                          "type": "text"
+                        },
+                        {
+                          "key": "fund_amount",
+                          "value": "100",
+                          "type": "text"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "647163e3-5cce-45c0-8f0c-3bca23eb9377"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "6637702b-0233-4747-a4c0-0c2e582fffbe"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/fund",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "fund"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "withdraw-card-balance",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "1cebaa-b985-00457b3f9a8a",
+                          "type": "text",
+                          "description": "required|string"
+                        },
+                        {
+                          "key": "withdraw_amount",
+                          "value": "100",
+                          "type": "text",
+                          "description": "required|numeric|gt:0"
+                        },
+                        {
+                          "key": "currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "647163e3-5cce-45c0-8f0c-3bca23eb9377",
+                          "description": "required|string"
+                        },
+                        {
+                          "key": "from_currency",
+                          "value": "USD",
+                          "type": "text",
+                          "uuid": "6637702b-0233-4747-a4c0-0c2e582fffbe",
+                          "description": "required|string|exists:currencies,code"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/withdraw",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "withdraw"
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "card-transactions",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/transaction?card_id=1cebaa-b985-00457b3f9a8a",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "transaction"
+                      ],
+                      "query": [
+                        {
+                          "key": "card_id",
+                          "value": "1cebaa-b985-00457b3f9a8a"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "makeOrRemovedDefault",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "card_id",
+                          "value": "11ac4e7e-8d28-435e-ac03-a91c60f087bf",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "{{base_url}}/user/strowallet-card/make-remove/default",
+                      "host": [
+                        "{{base_url}}"
+                      ],
+                      "path": [
+                        "user",
+                        "strowallet-card",
+                        "make-remove",
+                        "default"
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add-Money",
+          "item": [
+            {
+              "name": "tatum-confirmed",
+              "item": [
+                {
+                  "name": "pay-confirmed",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": [
+                        {
+                          "key": "txn_hash",
+                          "value": "0xd183ef6a0640feeeb256a1a55889139c2b0b11e19b991055c9a0a413b03a7495",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "raw": "https://mehedi.appdevs.net/stripcard/api/user/add-money/payment/crypto/confirm/AM34576328",
+                      "protocol": "https",
+                      "host": [
+                        "mehedi",
+                        "appdevs",
+                        "net"
+                      ],
+                      "path": [
+                        "stripcard",
+                        "api",
+                        "user",
+                        "add-money",
+                        "payment",
+                        "crypto",
+                        "confirm",
+                        "AM34576328"
+                      ],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "ar",
+                          "type": "text",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "add-money-information",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "",
+                    "value": "",
+                    "type": "text",
+                    "disabled": true
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/user/add-money/information?lang=es",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "add-money",
+                    "information"
+                  ],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "es"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "addmoney-insert",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "amount",
+                      "value": "20",
+                      "type": "text"
+                    },
+                    {
+                      "key": "currency",
+                      "value": "add-money-sslcommerz-bdt-automatic",
+                      "type": "text",
+                      "description": "add-money-paystack-zar-automatic,add-money-paystack-usd-automatic"
+                    },
+                    {
+                      "key": "source",
+                      "value": "APP",
+                      "type": "text",
+                      "description": "nullable|string|in:WEB,APP"
+                    },
+                    {
+                      "key": "success_url",
+                      "value": "https://qrpaypro.appdevs.net",
+                      "type": "text",
+                      "description": "should be url/link"
+                    },
+                    {
+                      "key": "cancel_url",
+                      "value": "https://qrpaypro.appdevs.net/developer",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/add-money/submit-data?lang=en",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "add-money",
+                    "submit-data"
+                  ],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "en"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "manual-payment-confirmed",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "track",
+                      "value": "qAF6bN1rkOfiMaY6",
+                      "type": "text"
+                    },
+                    {
+                      "key": "screenshoot",
+                      "type": "file",
+                      "fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+                      "filesNotInWorkingDirectory": [
+                        "/C:/Users/AppDevs/Downloads/web_logo.png"
+                      ],
+                      "src": "/C:/Users/AppDevs/Downloads/web_logo.png"
+                    },
+                    {
+                      "key": "transaction_id",
+                      "value": "md@gmail.xcxzc",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/add-money/manual/payment/confirmed",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "add-money",
+                    "manual",
+                    "payment",
+                    "confirmed"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Kyc",
+          "item": [
+            {
+              "name": "List",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": []
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/kyc/input-fields",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "kyc",
+                    "input-fields"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Submit",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "back",
+                      "type": "file",
+                      "fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+                      "filesNotInWorkingDirectory": [
+                        "/C:/Users/AppDevs/Downloads/web_logo.png"
+                      ],
+                      "src": "/C:/Users/AppDevs/Downloads/web_logo.png"
+                    },
+                    {
+                      "key": "front",
+                      "type": "file",
+                      "src": "/C:/Users/AppDevs/Downloads/Nib-National-Investment-Bank-Pakistan-1-320.jpg"
+                    },
+                    {
+                      "key": "id_type",
+                      "value": "NID",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/kyc/submit",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "kyc",
+                    "submit"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Transfer-Money",
+          "item": [
+            {
+              "name": "transfer-money-info",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/transfer-money/info",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "transfer-money",
+                    "info"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "check-user",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "email",
+                      "value": "user2@appdevs.net",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/transfer-money/exist",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "transfer-money",
+                    "exist"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Transfer-money",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "email",
+                      "value": "user2@appdevs.net",
+                      "type": "text",
+                      "description": "email/username"
+                    },
+                    {
+                      "key": "amount",
+                      "value": "10001",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/transfer-money/confirmed",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "transfer-money",
+                    "confirmed"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Withdraw",
+          "item": [
+            {
+              "name": "wihdraw-information",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/withdraw/info",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "withdraw",
+                    "info"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "wihdraw-insert",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "amount",
+                      "value": "15",
+                      "type": "text"
+                    },
+                    {
+                      "key": "gateway",
+                      "value": "stripcardmanual-usd-money-out",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/withdraw/insert",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "withdraw",
+                    "insert"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "manual-confirmed",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "trx",
+                      "value": "98T1DmuR4hO3XK7m",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "type": "text",
+                      "value": "user@appdevs.net"
+                    },
+                    {
+                      "key": "card_number",
+                      "value": "4242424242424242",
+                      "type": "text"
+                    },
+                    {
+                      "key": "card_expiry",
+                      "value": "12/30",
+                      "type": "text"
+                    },
+                    {
+                      "key": "cvc",
+                      "value": "123",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/withdraw/manual/confirmed",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "withdraw",
+                    "manual",
+                    "confirmed"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Gift Card",
+          "item": [
+            {
+              "name": "my-gift-cards",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/gift-card",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "gift-card"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "gift-cards-list",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/gift-card/all",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "gift-card",
+                    "all"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "search-card-by-iso",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "country",
+                      "value": "BD",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/gift-card/search?country=BD",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "gift-card",
+                    "search"
+                  ],
+                  "query": [
+                    {
+                      "key": "country",
+                      "value": "BD"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "gift-card-details",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/gift-card/details?product_id=15363",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "gift-card",
+                    "details"
+                  ],
+                  "query": [
+                    {
+                      "key": "product_id",
+                      "value": "15363"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "order-card",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json",
+                    "type": "text"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "product_id",
+                      "value": "14552",
+                      "type": "text"
+                    },
+                    {
+                      "key": "amount",
+                      "value": "20",
+                      "type": "text"
+                    },
+                    {
+                      "key": "receiver_email",
+                      "value": "user3@appdevs.net",
+                      "type": "text"
+                    },
+                    {
+                      "key": "receiver_country",
+                      "value": "BD",
+                      "type": "text"
+                    },
+                    {
+                      "key": "receiver_phone_code",
+                      "value": "880",
+                      "type": "text"
+                    },
+                    {
+                      "key": "receiver_phone",
+                      "value": "1791205437",
+                      "type": "text"
+                    },
+                    {
+                      "key": "from_name",
+                      "value": "Appdevs",
+                      "type": "text"
+                    },
+                    {
+                      "key": "quantity",
+                      "value": "2",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wallet_currency",
+                      "value": "USD",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/gift-card/order",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "gift-card",
+                    "order"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Pusher Beams",
+          "item": [
+            {
+              "name": "puser-beams-auth",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/user/pusher/beams-auth?user_id=1",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "pusher",
+                    "beams-auth"
+                  ],
+                  "query": [
+                    {
+                      "key": "user_id",
+                      "value": "1"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Google 2fa",
+          "item": [
+            {
+              "name": "google-2fa",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/user/security/google-2fa?lang=ar",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "security",
+                    "google-2fa"
+                  ],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "ar"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "2f-status-update",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": []
+                },
+                "url": {
+                  "raw": "{{base_url}}/user/security/google-2fa/status/update",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "user",
+                    "security",
+                    "google-2fa",
+                    "status",
+                    "update"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "dashboard",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/user/dashboard",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user",
+                "dashboard"
+              ],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "ar",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "notifications",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/user/dashboard",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user",
+                "dashboard"
+              ],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "ar",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "transactions",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/user/transactions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user",
+                "transactions"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "App Settings",
+      "item": [
+        {
+          "name": "app-settings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/app-settings?lang=en",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "app-settings"
+              ],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "en"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Public API",
+      "item": [
+        {
+          "name": "contact-submit",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "Md. Mehedi hasan",
+                  "description": "required|string",
+                  "type": "text",
+                  "uuid": "1b4f1224-6735-4db8-91ee-442304d0c5a1"
+                },
+                {
+                  "key": "email",
+                  "value": "md.mehedihasaniubat@gmail.com",
+                  "description": "required|email",
+                  "type": "text",
+                  "uuid": "83c25732-3af3-447e-924d-a844fe6414b6"
+                },
+                {
+                  "key": "mobile",
+                  "value": "+8801791205437",
+                  "description": "required",
+                  "type": "text",
+                  "uuid": "ffd61025-1e5f-4226-803a-2e33b73ecb47"
+                },
+                {
+                  "key": "subject",
+                  "value": "Test Doze",
+                  "description": "required|string",
+                  "type": "text",
+                  "uuid": "b952cb61-458c-48f2-927c-252ef260a05d"
+                },
+                {
+                  "key": "message",
+                  "value": "Hello Dear",
+                  "description": "required|string",
+                  "type": "text",
+                  "uuid": "15b90876-6ab4-48b2-a672-16b0b380457f"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/global/contact/message",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "global",
+                "contact",
+                "message"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "subscribe-request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "md.mehedihasaniubat@gmail.com",
+                  "type": "text",
+                  "uuid": "d805bf3c-e77a-4e57-804d-0139a94cfde6"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/global/subscribe/request",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "global",
+                "subscribe",
+                "request"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "site-section-data",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "Md. Mehedi hasan",
+                  "description": "required|string",
+                  "type": "text",
+                  "uuid": "1b4f1224-6735-4db8-91ee-442304d0c5a1"
+                },
+                {
+                  "key": "email",
+                  "value": "md.mehedihasaniubat@gmail.com",
+                  "description": "required|email",
+                  "type": "text",
+                  "uuid": "83c25732-3af3-447e-924d-a844fe6414b6"
+                },
+                {
+                  "key": "mobile",
+                  "value": "+8801791205437",
+                  "description": "required",
+                  "type": "text",
+                  "uuid": "ffd61025-1e5f-4226-803a-2e33b73ecb47"
+                },
+                {
+                  "key": "subject",
+                  "value": "Test Doze",
+                  "description": "required|string",
+                  "type": "text",
+                  "uuid": "b952cb61-458c-48f2-927c-252ef260a05d"
+                },
+                {
+                  "key": "message",
+                  "value": "Hello Dear",
+                  "description": "required|string",
+                  "type": "text",
+                  "uuid": "15b90876-6ab4-48b2-a672-16b0b380457f"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/global/site-section-data?lang=ar",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "global",
+                "site-section-data"
+              ],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "ar"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "clear-cache",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/clear-cache",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "clear-cache"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "useful-links",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/useful-links?lang=ar",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "useful-links"
+          ],
+          "query": [
+            {
+              "key": "lang",
+              "value": "ar",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "languages",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/app-settings/languages?lang=es",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "app-settings",
+            "languages"
+          ],
+          "query": [
+            {
+              "key": "lang",
+              "value": "es"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": ""
+    },
+    {
+      "key": "token",
+      "value": ""
+    },
+    {
+      "key": "base_url",
+      "value": "",
+      "disabled": true
+    }
+  ]
+}

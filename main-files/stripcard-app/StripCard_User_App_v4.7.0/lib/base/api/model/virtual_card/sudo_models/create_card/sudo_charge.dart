@@ -1,0 +1,97 @@
+
+class SudoCardChargesModel {
+  Message message;
+  Data data;
+
+  SudoCardChargesModel({
+    required this.message,
+    required this.data,
+  });
+
+  factory SudoCardChargesModel.fromJson(Map<String, dynamic> json) =>
+      SudoCardChargesModel(
+        message: Message.fromJson(json["message"]),
+        data: Data.fromJson(json["data"]),
+      );
+
+  Map<String, dynamic> toJson() => {
+        "message": message.toJson(),
+        "data": data.toJson(),
+      };
+}
+
+class Data {
+  String baseCurr;
+  CardCharge cardCharge;
+
+  Data({
+    required this.baseCurr,
+    required this.cardCharge,
+  });
+
+  factory Data.fromJson(Map<String, dynamic> json) => Data(
+        baseCurr: json["base_curr"],
+        cardCharge: CardCharge.fromJson(json["cardCharge"]),
+      );
+
+  Map<String, dynamic> toJson() => {
+        "base_curr": baseCurr,
+        "cardCharge": cardCharge.toJson(),
+      };
+}
+
+class CardCharge {
+  int id;
+  String slug;
+  String title;
+  int fixedCharge;
+  int percentCharge;
+  int minLimit;
+  int maxLimit;
+
+  CardCharge({
+    required this.id,
+    required this.slug,
+    required this.title,
+    required this.fixedCharge,
+    required this.percentCharge,
+    required this.minLimit,
+    required this.maxLimit,
+  });
+
+  factory CardCharge.fromJson(Map<String, dynamic> json) => CardCharge(
+        id: json["id"],
+        slug: json["slug"],
+        title: json["title"],
+        fixedCharge: json["fixed_charge"],
+        percentCharge: json["percent_charge"],
+        minLimit: json["min_limit"],
+        maxLimit: json["max_limit"],
+      );
+
+  Map<String, dynamic> toJson() => {
+        "id": id,
+        "slug": slug,
+        "title": title,
+        "fixed_charge": fixedCharge,
+        "percent_charge": percentCharge,
+        "min_limit": minLimit,
+        "max_limit": maxLimit,
+      };
+}
+
+class Message {
+  List<String> success;
+
+  Message({
+    required this.success,
+  });
+
+  factory Message.fromJson(Map<String, dynamic> json) => Message(
+        success: List<String>.from(json["success"].map((x) => x)),
+      );
+
+  Map<String, dynamic> toJson() => {
+        "success": List<dynamic>.from(success.map((x) => x)),
+      };
+}

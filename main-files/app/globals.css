@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+@variant dark (.dark &);
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* ✅ Primary (Blue Theme) */
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), sans-serif;
+}
+
+/* Remove number input arrows (spinner buttons) */
+.no-spinner {
+  /* Makes number input look like a normal text field */
+  appearance: textfield;
+}
+
+/* Remove spinner buttons in Chrome, Edge, Safari */
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  /* Hides the up/down arrows */
+  appearance: none;
+  margin: 0;
+}
+
+/* Prevent browser default focus outline on Headless UI dropdown options */
+[role="listbox"],
+[role="option"] {
+  outline: none;
+}
+
+@layer components {
+  /* Primary button background - Main gradient used for most call-to-action buttons */
+  /* Gradient: from #0EBE98 (teal-green) to #50C631 (bright green) at ~77deg angle */
+  .btn-primary {
+    @apply text-white font-semibold rounded-xl transition;
+    background-image: linear-gradient(
+      76.84deg,
+      var(--color-primary-600) -2.66%,
+      var(--color-primary-500) 105.87%
+    );
+  }
+
+  .dark .btn-primary {
+    background-image: linear-gradient(
+      76.84deg,
+      var(--color-primary-700) -2.66%,
+      var(--color-primary-600) 105.87%
+    );
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+/* Country dropdown color config */
+/* Country list container */
+.react-tel-input .country-list {
+  background-color: #ffffff !important;
+  color: #111827 !important;
+}
+
+/* Each country row */
+.react-tel-input .country-list .country {
+  color: #111827 !important;
+}
+
+/* Country name text */
+.react-tel-input .country-list .country-name {
+  color: #111827 !important;
+}
+
+/* Dial code text */
+.react-tel-input .country-list .dial-code {
+  color: #6b7280 !important;
+}
+
+/* Hover & selected state */
+.react-tel-input .country-list .country:hover,
+.react-tel-input .country-list .country.highlight {
+  background-color: #f3f4f6 !important;
+}
+
+/* Country dropdown — dark theme (overrides the light rules above) */
+.dark .react-tel-input .country-list {
+  background-color: #1f2937 !important;
+  color: #f3f4f6 !important;
+}
+
+.dark .react-tel-input .country-list .country {
+  color: #f3f4f6 !important;
+}
+
+.dark .react-tel-input .country-list .country-name {
+  color: #f3f4f6 !important;
+}
+
+.dark .react-tel-input .country-list .dial-code {
+  color: #9ca3af !important;
+}
+
+.dark .react-tel-input .country-list .country:hover,
+.dark .react-tel-input .country-list .country.highlight {
+  background-color: #374151 !important;
+}
+
+.dark .react-tel-input .country-list .divider {
+  border-bottom-color: #4b5563 !important;
+}
+
+/* Flag button: keep it in step with the input next to it */
+.dark .react-tel-input .selected-flag:hover,
+.dark .react-tel-input .selected-flag:focus,
+.dark .react-tel-input .flag-dropdown.open .selected-flag {
+  background-color: #4b5563 !important;
+}

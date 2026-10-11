@@ -32,3 +32,5 @@ Frontend Next: `cd main-files && npm install && npm run dev`
 Flutter: `cd main-files/stripcard-app/StripCard_User_App_v4.7.0 && flutter pub get`
 
 Docs: [stripcard.app/documentation](https://stripcard.app/documentation/welcome)
+
+Odit konplè repo / zip: gade [REPO_AUDIT.md](./REPO_AUDIT.md).

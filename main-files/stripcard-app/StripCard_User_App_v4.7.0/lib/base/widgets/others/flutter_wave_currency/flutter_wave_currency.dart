@@ -1,7 +1,7 @@
 import 'package:google_fonts/google_fonts.dart';
-import "package:stripcard/base/api/model/virtual_card/my_card_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/my_card_model.dart";
 
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class FlutterWaveCurrency extends StatelessWidget {
   final RxString selectMethod;

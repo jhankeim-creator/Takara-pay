@@ -1,19 +1,19 @@
 import 'package:flutter/services.dart';
 
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/flutter_wave_card_create_controller.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_chip.dart";
-import "package:stripcard/base/widgets/design_system/sc_surface_card.dart";
-import "package:stripcard/base/widgets/design_system/sc_text_field.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/flutter_wave_card_create_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_chip.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_surface_card.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_text_field.dart";
 
 class CreateNewScreen extends StatefulWidget {
   const CreateNewScreen({super.key});
@@ -861,7 +861,7 @@ class _CardPreview extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                'STRIPCARD · VIRTUAL',
+                'TAKARA PAY · VIRTUAL',
                 style: TextStyle(
                   fontFamily: 'Inter',
                   fontSize: 10,

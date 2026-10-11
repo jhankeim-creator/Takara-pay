@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/widgets/design_system/sc_shimmer.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_shimmer.dart";
 
 /// Lazy-loading network image used app-wide. Streams + caches via
 /// [CachedNetworkImage], shows a consistent [SCShimmer] placeholder while

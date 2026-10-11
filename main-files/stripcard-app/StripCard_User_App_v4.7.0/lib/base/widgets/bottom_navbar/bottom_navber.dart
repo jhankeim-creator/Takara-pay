@@ -1,8 +1,8 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter_svg/svg.dart';
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 Widget buildBottomNavigationMenu(
   BuildContext context,

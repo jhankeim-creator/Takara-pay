@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/profile/profile_info_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/widgets/others/image_picker/image_picker.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/profile/profile_info_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/widgets/others/image_picker/image_picker.dart";
 
 class UpdateProfileController extends GetxController {
   final firstNameController = TextEditingController();

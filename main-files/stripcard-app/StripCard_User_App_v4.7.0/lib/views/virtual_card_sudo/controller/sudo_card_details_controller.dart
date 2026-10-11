@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 
-import "package:stripcard/base/api/model/virtual_card/sudo_models/sudo_card_details_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/sudo_models/sudo_card_details_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
 
 class SudoCardDetailsController extends GetxController {
   RxBool isSelected = false.obs;

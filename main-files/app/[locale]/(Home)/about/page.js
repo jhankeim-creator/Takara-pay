@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export const metadata = {
-  title: "StripCard - About",
+  title: "TAKARA PAY - About",
 };
 
 export default function AboutPage() {

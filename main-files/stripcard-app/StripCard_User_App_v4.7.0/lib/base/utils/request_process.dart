@@ -2,7 +2,7 @@
 
 import 'package:get/get.dart';
 
-import "package:stripcard/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
 
 class RequestProcess extends GetxController {
   Future<T?> request<T>({

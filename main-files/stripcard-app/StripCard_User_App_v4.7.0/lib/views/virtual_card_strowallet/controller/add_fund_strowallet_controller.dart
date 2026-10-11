@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/charge_strowallet_model.dart";
-import "package:stripcard/base/api/services/strowallet_api_services.dart";
-import "package:stripcard/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/charge_strowallet_model.dart";
+import "package:TAKARA PAY/base/api/services/strowallet_api_services.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
 
-import "package:stripcard/base/utils/language/strings.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/custom_style.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
-import "package:stripcard/base/widgets/text_labels/custom_title_heading_widget.dart";
-import "package:stripcard/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/custom_style.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/custom_title_heading_widget.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
 
 class StrowalletAddFundController extends GetxController {
   final amountTextController = TextEditingController();

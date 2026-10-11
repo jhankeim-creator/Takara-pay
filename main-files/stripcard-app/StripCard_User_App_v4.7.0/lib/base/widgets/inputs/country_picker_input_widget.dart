@@ -1,6 +1,6 @@
 import 'package:google_fonts/google_fonts.dart';
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/api/model/profile/profile_info_model.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/profile/profile_info_model.dart";
 
 class CountryDropDown extends StatelessWidget {
   final RxString selectMethod;

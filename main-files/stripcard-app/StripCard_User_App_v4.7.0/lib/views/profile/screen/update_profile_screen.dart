@@ -1,22 +1,22 @@
 import 'dart:io';
 
 import 'package:flutter/services.dart';
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 import 'package:image_picker/image_picker.dart';
 
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/views/profile/controller/update_profile_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/error_state_widget.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
-import "package:stripcard/base/widgets/design_system/sc_shimmer.dart";
-import "package:stripcard/base/widgets/design_system/sc_text_field.dart";
-import "package:stripcard/base/widgets/others/image_picker/image_picker.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/views/profile/controller/update_profile_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/error_state_widget.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_shimmer.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_text_field.dart";
+import "package:TAKARA PAY/base/widgets/others/image_picker/image_picker.dart";
 
 class UpdateProfileScreen extends StatelessWidget {
   UpdateProfileScreen({super.key});

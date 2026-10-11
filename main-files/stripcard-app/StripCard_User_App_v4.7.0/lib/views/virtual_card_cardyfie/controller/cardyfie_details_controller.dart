@@ -1,11 +1,11 @@
-import "package:stripcard/base/api/services/cardyfie_api_services.dart";
-import "package:stripcard/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/cardyfie_model/card_details_model_cardyfie.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/strowallet_details_controller.dart";
-import "package:stripcard/base/api/services/strowallet_api_services.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/services/cardyfie_api_services.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/cardyfie_model/card_details_model_cardyfie.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/strowallet_details_controller.dart";
+import "package:TAKARA PAY/base/api/services/strowallet_api_services.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class CardyfieDetailsController extends GetxController {
   RxBool isShowSensitive = false.obs;

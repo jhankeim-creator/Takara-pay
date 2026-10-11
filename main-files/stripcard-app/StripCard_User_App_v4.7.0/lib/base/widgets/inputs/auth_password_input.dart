@@ -1,8 +1,8 @@
 import 'package:iconsax/iconsax.dart';
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 import 'package:google_fonts/google_fonts.dart';
 
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 
 class AuthPasswordInputWidget extends StatefulWidget {
   final String hint, icon, label;

@@ -2957,7 +2957,7 @@
                       ]
                     },
                     "url": {
-                      "raw": "https://mehedi.appdevs.net/stripcard/api/user/add-money/payment/crypto/confirm/AM34576328",
+                      "raw": "https://mehedi.appdevs.net/TAKARA PAY/api/user/add-money/payment/crypto/confirm/AM34576328",
                       "protocol": "https",
                       "host": [
                         "mehedi",
@@ -2965,7 +2965,7 @@
                         "net"
                       ],
                       "path": [
-                        "stripcard",
+                        "TAKARA PAY",
                         "api",
                         "user",
                         "add-money",
@@ -3447,7 +3447,7 @@
                     },
                     {
                       "key": "gateway",
-                      "value": "stripcardmanual-usd-money-out",
+                      "value": "TAKARA PAYmanual-usd-money-out",
                       "type": "text"
                     }
                   ]

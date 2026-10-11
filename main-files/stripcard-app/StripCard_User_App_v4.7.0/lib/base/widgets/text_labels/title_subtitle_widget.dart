@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading4_widget.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading4_widget.dart";
 import 'package:flutter/material.dart';
 
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading1_widget.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading1_widget.dart";
 
 class TitleSubTitleWidget extends StatelessWidget {
   const TitleSubTitleWidget(

@@ -1,14 +1,14 @@
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/views/kyc/controller/kyc_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_section_header.dart";
-import "package:stripcard/base/widgets/design_system/sc_shimmer.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/views/kyc/controller/kyc_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_section_header.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_shimmer.dart";
 
 class KycMobileScreenLayout extends StatelessWidget {
   KycMobileScreenLayout({

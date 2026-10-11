@@ -8,7 +8,7 @@ import WhyChooseUs from "./(Home)/components/homePageSections/WhyChooseUs";
 import Navbar from "./(Home)/components/Navbar";
 
 export const metadata = {
-  title: "StripCard - Virtual Credit Card Solution ",
+  title: "TAKARA PAY - Virtual Credit Card Solution ",
 };
 
 function RootHomePage() {

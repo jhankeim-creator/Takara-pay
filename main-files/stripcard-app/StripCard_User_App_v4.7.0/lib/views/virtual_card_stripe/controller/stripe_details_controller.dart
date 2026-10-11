@@ -1,11 +1,11 @@
 
-import "package:stripcard/views/virtual_card_stripe/controller/stripe_two_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_stripe/controller/stripe_two_controller.dart";
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/stripe_models/stripe_card_details_model.dart";
-import "package:stripcard/base/api/model/virtual_card/stripe_models/stripe_card_sensitive_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/stripe_models/stripe_card_details_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/stripe_models/stripe_card_sensitive_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class StripeCardDetailsController extends GetxController {
   RxBool isSelected = false.obs;

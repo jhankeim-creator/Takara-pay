@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/custom_style.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/utils/size.dart";
-import "package:stripcard/base/widgets/text_labels/custom_title_heading_widget.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/custom_style.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/utils/size.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/custom_title_heading_widget.dart";
 
 class DetailsRowWidget extends StatelessWidget {
   DetailsRowWidget({super.key, required this.variable, required this.value});

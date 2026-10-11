@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
 
 extension NumberParsing on String {
   int parseInt() {

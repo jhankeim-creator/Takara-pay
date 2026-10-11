@@ -269,7 +269,7 @@ export default function StrowalletCardDetails() {
             <div className="relative h-full p-6 flex flex-col justify-between z-10">
               <div className="flex justify-between items-start">
                 <span className="text-lg font-bold tracking-widest">
-                  {(card.site_title || "STRIPCARD").toUpperCase()}
+                  {(card.site_title || "TAKARA PAY").toUpperCase()}
                 </span>
                 {card.site_logo && (
                   <Image

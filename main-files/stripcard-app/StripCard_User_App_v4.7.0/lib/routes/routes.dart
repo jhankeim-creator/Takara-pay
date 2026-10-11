@@ -1,4 +1,4 @@
-import "package:stripcard/routes/route_pages.dart";
+import "package:TAKARA PAY/routes/route_pages.dart";
 
 class Routes {
   // Page List
@@ -17,7 +17,7 @@ class Routes {
   //!dashboard
   static const String bottomNavBarScreen = '/bottomNavBarScreen';
   static const String dashboardScreen = '/dashboardScreen';
-  static const String stripCardPreview = '/stripCardPreview';
+  static const String stripCardPreview = '/TAKARA PAYPreview';
 
   static const String notificationScreen = '/notificationScreen';
 

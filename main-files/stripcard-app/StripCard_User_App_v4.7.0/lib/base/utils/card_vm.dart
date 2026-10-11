@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
-import "package:stripcard/views/virtual_card_stripe/controller/stripe_two_controller.dart";
-import "package:stripcard/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
-import "package:stripcard/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/widgets/design_system/sc_virtual_card.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_stripe/controller/stripe_two_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_virtual_card.dart";
 
 /// A provider-agnostic view-model for a single virtual card.
 ///

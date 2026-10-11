@@ -1,6 +1,6 @@
-import "package:stripcard/base/api/model/transfer_money/transfer_money_info_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/transfer_money/transfer_money_info_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class MoneyTransferInfoController extends GetxController {
   @override

@@ -493,7 +493,7 @@ function VirtualCard({ dark }) {
                 marginBottom: 2,
               }}
             >
-              STRIPCARD PRO
+              TAKARA PAY PRO
             </p>
             <p
               style={{

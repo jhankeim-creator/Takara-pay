@@ -21,8 +21,8 @@ class SetupEmailSeeder extends Seeder
             "MAIL_PASSWORD"     => "QP2fsLk?80Ac",
             "MAIL_ENCRYPTION"   => "ssl",
             "MAIL_FROM_ADDRESS" => "system@appdevs.net",
-            "MAIL_FROM_NAME"    => "StripCard",
-            "APP_NAME"          => "StripCard",
+            "MAIL_FROM_NAME"    => "TAKARA PAY",
+            "APP_NAME"          => "TAKARA PAY",
         ];
 
         modifyEnv($env_modify_keys);

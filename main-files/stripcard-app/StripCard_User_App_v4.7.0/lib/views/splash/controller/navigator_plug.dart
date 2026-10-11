@@ -1,6 +1,6 @@
 import 'dart:async';
-import "package:stripcard/base/maintenance/maintanance_dialoge.dart";
-import "package:stripcard/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/base/maintenance/maintanance_dialoge.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
 
 /// Gates splash → next-route navigation on maintenance status only.
 ///

@@ -15,7 +15,7 @@ class SetupPageSectionSeeder extends Seeder
      */
     public function run()
     {
-        /* `stripcard`.`setup_page_has_sections` */
+        /* `TAKARA PAY`.`setup_page_has_sections` */
         $setup_page_has_sections = [
             ['id' => '1', 'setup_page_id' => '1', 'site_section_id' => '2', 'position' => '1', 'status' => '1', 'created_at' => '2025-09-01 10:04:17', 'updated_at' => '2025-09-01 10:04:17'],
             ['id' => '2', 'setup_page_id' => '1', 'site_section_id' => '3', 'position' => '7', 'status' => '0', 'created_at' => '2025-09-01 10:04:17', 'updated_at' => '2025-09-01 10:12:33'],

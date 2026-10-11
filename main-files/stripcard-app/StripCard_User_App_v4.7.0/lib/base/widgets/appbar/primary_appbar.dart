@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/widgets/appbar/back_button.dart";
+import "package:TAKARA PAY/base/widgets/appbar/back_button.dart";
 
 // custom appbar
 class PrimaryAppBar extends StatelessWidget implements PreferredSizeWidget {

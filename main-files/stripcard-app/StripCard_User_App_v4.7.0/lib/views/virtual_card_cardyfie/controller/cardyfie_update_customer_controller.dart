@@ -1,13 +1,13 @@
 import 'package:intl/intl.dart';
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/cardyfie_model/card_edit_info_model_cardyfie.dart";
-import "package:stripcard/base/api/model/virtual_card/sudo_models/sudo_card_model.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
-import "package:stripcard/base/utils/request_process.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/utils/basic_widget_import.dart";
-import "package:stripcard/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/cardyfie_model/card_edit_info_model_cardyfie.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/sudo_models/sudo_card_model.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/utils/request_process.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
 
 class UpdateCustomerCardyfieController extends GetxController {
   final firstNameController = TextEditingController();

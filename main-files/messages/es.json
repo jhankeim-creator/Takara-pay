@@ -26,7 +26,7 @@
     "welcomeBack": "Bienvenido de nuevo"
   },
   "Hero": {
-    "badge": "¡Bienvenido a StripCard!",
+    "badge": "¡Bienvenido a TAKARA PAY!",
     "heading1": "Descubriendo la",
     "heading2": "Experiencia de",
     "heading3": "Tarjeta Virtual",
@@ -51,7 +51,7 @@
     "subtitle": "Todo lo que necesitas para una gestión perfecta de tarjetas virtuales"
   },
   "WhyChooseUs": {
-    "title": "¿Por qué elegir StripCard?",
+    "title": "¿Por qué elegir TAKARA PAY?",
     "subtitle": "Ofrecemos la mejor experiencia con tarjetas virtuales"
   },
   "HowItWorks": {
@@ -64,13 +64,13 @@
   },
   "DownloadApp": {
     "title": "Descarga Nuestra App",
-    "subtitle": "Obtén la app StripCard en tu dispositivo",
+    "subtitle": "Obtén la app TAKARA PAY en tu dispositivo",
     "appStore": "App Store",
     "googlePlay": "Google Play"
   },
   "Footer": {
     "rights": "Todos los derechos reservados.",
-    "company": "StripCard"
+    "company": "TAKARA PAY"
   },
   "Auth": {
     "login": {
@@ -92,16 +92,16 @@
   },
   "Metadata": {
     "home": {
-      "title": "StripCard - Solución de Tarjetas Virtuales",
+      "title": "TAKARA PAY - Solución de Tarjetas Virtuales",
       "description": "La mejor plataforma de tarjetas virtuales para pagos en línea"
     },
     "login": {
       "title": "Iniciar sesión",
-      "description": "Acceso seguro a tu cuenta de StripCard"
+      "description": "Acceso seguro a tu cuenta de TAKARA PAY"
     },
     "register": {
       "title": "Registrarse",
-      "description": "Crea tu cuenta en StripCard"
+      "description": "Crea tu cuenta en TAKARA PAY"
     },
     "dashboard": {
       "title": "Panel de control"
@@ -210,7 +210,7 @@
       "main": "Cómo Funciona",
       "highlight": "Proceso Paso a Paso"
     },
-    "description": "Descubre cómo StripCard te permite gestionar tarjetas virtuales, agregar fondos, transferir dinero y realizar transacciones seguras de manera sencilla — todo diseñado para ofrecer comodidad, flexibilidad y una gestión financiera fluida.",
+    "description": "Descubre cómo TAKARA PAY te permite gestionar tarjetas virtuales, agregar fondos, transferir dinero y realizar transacciones seguras de manera sencilla — todo diseñado para ofrecer comodidad, flexibilidad y una gestión financiera fluida.",
     "continueLabel": "continúa",
     "steps": [
       {
@@ -283,7 +283,7 @@
     }
   },
   "DownloadApp": {
-    "imageAlt": "Aplicación Móvil StripCard",
+    "imageAlt": "Aplicación Móvil TAKARA PAY",
     "sectionBadge": "Descargar App",
     "title": {
       "part1": "Aquí Está",
@@ -323,8 +323,8 @@
     }
   },
   "Footer": {
-    "logoAlt": "Logo de StripCard",
-    "thankYou": "Gracias por elegir StripCard como tu socio confiable para transacciones seguras en línea. Estamos comprometidos a brindarte una experiencia fluida y segura.",
+    "logoAlt": "Logo de TAKARA PAY",
+    "thankYou": "Gracias por elegir TAKARA PAY como tu socio confiable para transacciones seguras en línea. Estamos comprometidos a brindarte una experiencia fluida y segura.",
     "followUs": {
       "title": "Síguenos"
     },
@@ -344,7 +344,7 @@
     },
     "copyright": {
       "allRights": "Todos los derechos reservados.",
-      "company": "StripCard"
+      "company": "TAKARA PAY"
     }
   },
   "About": {
@@ -359,7 +359,7 @@
         "title": "Nuestra Visión"
       },
       "difference": {
-        "title": "La Diferencia de StripCard"
+        "title": "La Diferencia de TAKARA PAY"
       },
       "commitment": {
         "title": "Nuestro Compromiso"
@@ -368,7 +368,7 @@
         "title": "Únete a Nosotros en este Viaje"
       }
     },
-    "imageAlt": "Plataforma StripCard - tarjetas de crédito virtuales seguras"
+    "imageAlt": "Plataforma TAKARA PAY - tarjetas de crédito virtuales seguras"
   },
   "Testimonials": {
     "header": {
@@ -389,12 +389,12 @@
       {
         "name": "James Carter",
         "role": "Emprendedor de Comercio Electrónico",
-        "text": "Como propietario de un pequeño negocio, StripCard ha sido un cambio de juego. Me permite ofrecer opciones de pago convenientes a mis clientes mientras genero un flujo de ingresos adicional. Los códigos de un solo uso me dan tranquilidad, sabiendo que mis transacciones son seguras. StripCard es una situación de ganar-ganar tanto para mis clientes como para mi negocio."
+        "text": "Como propietario de un pequeño negocio, TAKARA PAY ha sido un cambio de juego. Me permite ofrecer opciones de pago convenientes a mis clientes mientras genero un flujo de ingresos adicional. Los códigos de un solo uso me dan tranquilidad, sabiendo que mis transacciones son seguras. TAKARA PAY es una situación de ganar-ganar tanto para mis clientes como para mi negocio."
       },
       {
         "name": "Lena Moreau",
         "role": "Nómada Digital y Creadora de Contenido",
-        "text": "Comprar en línea nunca había sido tan seguro y sencillo. Los códigos únicos de StripCard me hacen sentir confiada sobre la seguridad de mis transacciones. Es como tener una capa extra de protección. No puedo imaginar volver a usar mi tarjeta regular para compras en línea. ¡StripCard me ha conquistado!"
+        "text": "Comprar en línea nunca había sido tan seguro y sencillo. Los códigos únicos de TAKARA PAY me hacen sentir confiada sobre la seguridad de mis transacciones. Es como tener una capa extra de protección. No puedo imaginar volver a usar mi tarjeta regular para compras en línea. ¡TAKARA PAY me ha conquistado!"
       }
     ],
     "stats": {
@@ -575,7 +575,7 @@
   },
 
   "Login": {
-    "logoAlt": "Logo de StripCard",
+    "logoAlt": "Logo de TAKARA PAY",
     "title": "Bienvenido de nuevo",
     "subtitle": "Inicia sesión para acceder a tu cuenta de forma segura",
     "form": {
@@ -606,9 +606,9 @@
     }
   },
   "Register": {
-    "logoAlt": "Logo de StripCard",
+    "logoAlt": "Logo de TAKARA PAY",
     "title": "Crea tu Cuenta",
-    "subtitle": "Regístrate para comenzar con StripCard",
+    "subtitle": "Regístrate para comenzar con TAKARA PAY",
     "form": {
       "labels": {
         "firstName": "Nombre",
@@ -650,7 +650,7 @@
   },
 
   "ForgotPassword": {
-    "logoAlt": "Logo de StripCard",
+    "logoAlt": "Logo de TAKARA PAY",
     "emailStage": {
       "title": "¿Olvidaste tu contraseña?",
       "description": "Ingresa tu correo electrónico y te enviaremos una contraseña de un solo uso (OTP).",
@@ -687,7 +687,7 @@
   },
 
   "Sidebar": {
-    "logoAlt": "Logo de StripCard",
+    "logoAlt": "Logo de TAKARA PAY",
     "closeMenu": "Cerrar menú",
     "main": {
       "title": "Principal",
@@ -1722,7 +1722,7 @@
     "invalidOtp": "Por favor, introduzca un código de 6 dígitos completo.",
     "unexpectedResponse": "Respuesta inesperada del servidor.",
     "verifyFailed": "Error de verificación. Por favor, inténtelo de nuevo.",
-    "logoAlt": "Logo de StripCard",
+    "logoAlt": "Logo de TAKARA PAY",
     "title": "Autorizar Google Two Factor",
     "subtitle": "Por favor, introduzca su código de autorización para acceder al panel.",
     "verifying": "Verificando...",

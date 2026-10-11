@@ -1,13 +1,13 @@
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/error_state_widget.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/views/virtual_card_strowallet/screen/strowallet_slider.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/error_state_widget.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/screen/strowallet_slider.dart";
 
 class StrowalletCardScreen extends StatelessWidget {
   const StrowalletCardScreen({super.key, required this.controller});

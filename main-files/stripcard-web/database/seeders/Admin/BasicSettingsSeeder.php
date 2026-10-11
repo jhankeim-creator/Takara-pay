@@ -16,7 +16,7 @@ class BasicSettingsSeeder extends Seeder
     public function run()
     {
         $data = [
-            'site_name'          => "StripCard",
+            'site_name'          => "TAKARA PAY",
             'site_title'         => " Virtual Credit Card Solution",
             'base_color'         => "#635BFF",
             'web_version'        => "4.7.0",
@@ -41,7 +41,7 @@ class BasicSettingsSeeder extends Seeder
                 "username"   => "system@appdevs.net",
                 "password"   => "QP2fsLk?80Ac",
                 "from"       => "system@appdevs.net",
-                "app_name"   => "StripCard",
+                "app_name"   => "TAKARA PAY",
             ],
             'storage_config' => [
                 'method' => 'public',

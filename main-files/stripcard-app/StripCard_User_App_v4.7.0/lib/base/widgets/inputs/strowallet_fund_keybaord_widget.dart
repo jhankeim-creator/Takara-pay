@@ -1,12 +1,12 @@
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/virtual_card_strowallet/controller/add_fund_strowallet_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_amount_input.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_numpad.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/add_fund_strowallet_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_amount_input.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_numpad.dart";
 
 class StrowalletAddFundWidget extends StatelessWidget {
   StrowalletAddFundWidget({

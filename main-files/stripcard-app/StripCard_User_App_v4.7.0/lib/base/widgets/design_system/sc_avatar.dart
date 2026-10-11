@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
 
 class SCAvatar extends StatelessWidget {
   const SCAvatar({

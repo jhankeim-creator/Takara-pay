@@ -1,16 +1,16 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'package:flutter/services.dart';
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/views/two_fa/controller/two_fa_otp_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/views/two_fa/controller/two_fa_otp_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
 
 class Otp2FaScreen extends StatefulWidget {
   const Otp2FaScreen({super.key});

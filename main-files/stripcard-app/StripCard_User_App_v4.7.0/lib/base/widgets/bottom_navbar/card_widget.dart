@@ -1,8 +1,8 @@
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flip_card/flip_card.dart';
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
 // import 'dart:io' show Platform;
 
 class CardWidget extends StatelessWidget {

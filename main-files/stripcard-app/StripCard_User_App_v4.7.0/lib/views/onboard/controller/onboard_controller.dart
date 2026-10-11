@@ -1,14 +1,14 @@
-import "package:stripcard/custom_assets/assets.gen.dart";
-import "package:stripcard/base/utils/data/onboard_data.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/widgets/others/custom_image_widget.dart";
+import "package:TAKARA PAY/custom_assets/assets.gen.dart";
+import "package:TAKARA PAY/base/utils/data/onboard_data.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/widgets/others/custom_image_widget.dart";
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
 
 class OnBoardController extends GetxController {
   var selectedIndex = 0.obs;

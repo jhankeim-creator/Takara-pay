@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import "package:stripcard/base/utils/responsive_layout.dart";
-import "package:stripcard/views/kyc/controller/kyc_controller.dart";
-import "package:stripcard/views/kyc/screen/kyc_mobile_screen_layout.dart";
+import "package:TAKARA PAY/base/utils/responsive_layout.dart";
+import "package:TAKARA PAY/views/kyc/controller/kyc_controller.dart";
+import "package:TAKARA PAY/views/kyc/screen/kyc_mobile_screen_layout.dart";
 
 
 class KycScreen extends StatelessWidget {

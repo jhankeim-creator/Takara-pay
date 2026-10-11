@@ -1,10 +1,10 @@
-import "package:stripcard/base/extensions/custom_extensions.dart";
+import "package:TAKARA PAY/base/extensions/custom_extensions.dart";
 
 class ApiEndpoint {
   /* test server */
-  static const String mainDomain = "https://demo.stripcard.app";
+  static const String mainDomain = "https://demo.TAKARA PAY.app";
   /* live server */
-  // static const String mainDomain = "https://demo.stripcard.app";
+  // static const String mainDomain = "https://demo.TAKARA PAY.app";
 
   static const String baseUrl = "$mainDomain/api";
   static String loginURL = '/user/login'.addBaseURl();

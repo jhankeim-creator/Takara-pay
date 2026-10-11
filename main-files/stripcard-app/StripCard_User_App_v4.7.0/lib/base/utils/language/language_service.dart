@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
-import "package:stripcard/base/utils/language/language_model.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/utils/language/language_model.dart";
 
 class LanguageService {
   Future<List<Language>> fetchLanguages() async {

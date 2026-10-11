@@ -1,4 +1,4 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class CheckBoxWidget extends StatelessWidget {
   const CheckBoxWidget({

@@ -1,7 +1,7 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
 
 class LogOutController extends GetxController {
   final _isLoading = false.obs;

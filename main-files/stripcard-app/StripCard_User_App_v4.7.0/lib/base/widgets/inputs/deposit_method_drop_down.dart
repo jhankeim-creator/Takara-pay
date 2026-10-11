@@ -1,6 +1,6 @@
 import 'package:google_fonts/google_fonts.dart';
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/api/model/add_money/add_money_info_model.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/add_money/add_money_info_model.dart";
 
 class DepositMethodDropDown extends StatelessWidget {
   final RxString selectMethod;

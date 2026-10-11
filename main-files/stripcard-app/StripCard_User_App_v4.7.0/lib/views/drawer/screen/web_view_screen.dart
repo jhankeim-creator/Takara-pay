@@ -1,9 +1,9 @@
 // ignore_for_file: must_be_immutable
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import "package:stripcard/base/utils/basic_widget_import.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
 
 class WebViewScreen extends StatelessWidget {
   WebViewScreen({super.key, required this.title, required this.url});

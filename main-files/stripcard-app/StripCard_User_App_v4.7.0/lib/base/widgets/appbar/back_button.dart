@@ -1,6 +1,6 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
-import "package:stripcard/base/widgets/others/custom_image_widget.dart";
+import "package:TAKARA PAY/base/widgets/others/custom_image_widget.dart";
 import 'dart:io' show Platform;
 
 class BackButtonWidget extends StatelessWidget {

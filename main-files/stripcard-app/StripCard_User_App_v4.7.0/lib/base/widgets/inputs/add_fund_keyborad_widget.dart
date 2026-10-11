@@ -1,15 +1,15 @@
 import 'dart:io';
 import 'package:flutter/services.dart';
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/base/widgets/others/limit_widget.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/widgets/others/custom_image_widget.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/adfund_controller.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/flutter_wave_card_create_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading5_widget.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/base/widgets/others/limit_widget.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/widgets/others/custom_image_widget.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/adfund_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/flutter_wave_card_create_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading5_widget.dart";
 
 class AddFundWidget extends StatelessWidget {
   AddFundWidget({

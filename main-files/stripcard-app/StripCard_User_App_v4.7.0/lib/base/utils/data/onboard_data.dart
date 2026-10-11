@@ -1,4 +1,4 @@
-import "package:stripcard/base/utils/language/strings.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
 
 
 class OnboardModel {

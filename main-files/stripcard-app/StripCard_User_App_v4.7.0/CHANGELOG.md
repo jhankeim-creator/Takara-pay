@@ -1,4 +1,4 @@
-# StripCard User App — v4.8.0 Changelog
+# TAKARA PAY User App — v4.8.0 Changelog
 
 ## New
 - **Strowallet card holder: new required details** — Account Purpose, Employment Status, and Occupation are now collected via dropdowns when creating a card holder for the first time.

@@ -1,10 +1,10 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import "package:stripcard/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/views/virtual_card_strowallet/screen/card_widget.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/screen/card_widget.dart";
 
 class StrowalletSlider extends StatelessWidget {
   StrowalletSlider({

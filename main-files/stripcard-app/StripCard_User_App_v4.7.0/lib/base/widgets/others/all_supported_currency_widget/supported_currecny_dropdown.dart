@@ -1,5 +1,5 @@
-import "package:stripcard/base/api/model/virtual_card/stripe_models/stripe_card_info_model.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/stripe_models/stripe_card_info_model.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class StripSupportedCurrency extends StatelessWidget {
   final RxString selectMethod;

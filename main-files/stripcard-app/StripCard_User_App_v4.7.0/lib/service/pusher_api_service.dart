@@ -1,9 +1,9 @@
 
 
-import "package:stripcard/base/api/model/pusher_model/pusher_model.dart";
-import "package:stripcard/base/api/method/api_method.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/api/model/pusher_model/pusher_model.dart";
+import "package:TAKARA PAY/base/api/method/api_method.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
 
 class PusherApiServices {
   // Get Pusher Beams Auth

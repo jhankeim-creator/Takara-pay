@@ -1,5 +1,5 @@
-import "package:stripcard/base/utils/basic_widget_import.dart";
-import "package:stripcard/base/widgets/appbar/back_button.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/base/widgets/appbar/back_button.dart";
 
 class TransactionAppBarWidget extends AppBar {
   final String text;

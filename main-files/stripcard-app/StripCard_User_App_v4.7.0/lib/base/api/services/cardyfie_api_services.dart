@@ -1,13 +1,13 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/views/virtual_card_cardyfie/model/my_card_model_cardyfie.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/cardyfie_model/card_details_model_cardyfie.dart";
-import "package:stripcard/base/api/model/virtual_card/cardyfie_model/card_transaction_model_cardyfie.dart";
-import "package:stripcard/base/api/model/virtual_card/cardyfie_model/my_card_model_cardyfie.dart";
-import "package:stripcard/base/api/method/api_method.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/model/my_card_model_cardyfie.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/cardyfie_model/card_details_model_cardyfie.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/cardyfie_model/card_transaction_model_cardyfie.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/cardyfie_model/my_card_model_cardyfie.dart";
+import "package:TAKARA PAY/base/api/method/api_method.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
 
 class CardyfieApiServices {
   // cardyfie card info api

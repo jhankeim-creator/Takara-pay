@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import "package:stripcard/base/utils/network_check/internet_connection_controller.dart";
+import "package:TAKARA PAY/base/utils/network_check/internet_connection_controller.dart";
 
 class InternetCheckDependencyInjection {
   static void init() async {

@@ -1,4 +1,4 @@
-# Takara-pay — Odit repo (StripCard)
+# TAKARA PAY — Odit repo
 
 Dat: 2026-10-11 (UTC)
 

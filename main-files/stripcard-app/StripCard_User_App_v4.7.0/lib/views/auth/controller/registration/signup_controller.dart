@@ -1,9 +1,9 @@
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/routes/routes.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/routes/routes.dart";
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import "package:stripcard/base/api/model/auth/sign_up_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/api/model/auth/sign_up_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
 
 class RegistrationController extends GetxController {
   final firstNameController = TextEditingController();

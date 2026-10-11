@@ -1,21 +1,21 @@
 import 'package:google_fonts/google_fonts.dart';
 
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/widgets/others/glass_widget.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/widgets/others/glass_widget.dart";
 
-import "package:stripcard/views/auth/controller/login/signin_controller.dart";
-import "package:stripcard/views/fingerprint/controller/fingerprint_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_brand_logo.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_text_field.dart";
-import "package:stripcard/base/widgets/inputs/forgot_password_input.dart";
+import "package:TAKARA PAY/views/auth/controller/login/signin_controller.dart";
+import "package:TAKARA PAY/views/fingerprint/controller/fingerprint_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_brand_logo.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_text_field.dart";
+import "package:TAKARA PAY/base/widgets/inputs/forgot_password_input.dart";
 
 class SignInScreen extends StatelessWidget {
   SignInScreen({super.key});

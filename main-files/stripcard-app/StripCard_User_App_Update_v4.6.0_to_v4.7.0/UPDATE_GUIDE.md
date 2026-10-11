@@ -1,4 +1,4 @@
-# StripCard User App — Update Guide (v4.7.0 → v4.8.0)
+# TAKARA PAY User App — Update Guide (v4.7.0 → v4.8.0)
 
 This package contains only the files that changed between v4.7.0 and v4.8.0. Follow these steps in order.
 

@@ -22,7 +22,7 @@ function FlipCard({ card, cardBasicInfo, user, onDetails }) {
   const [flipped, setFlipped] = useState(false);
 
   const holder = card.card_holder;
-  const title = card.site_title || cardBasicInfo?.site_title || "StripCard";
+  const title = card.site_title || cardBasicInfo?.site_title || "TAKARA PAY";
   const logo =
     card.site_logo || cardBasicInfo?.site_logo || "/Others/card-user.webp";
   const backText =

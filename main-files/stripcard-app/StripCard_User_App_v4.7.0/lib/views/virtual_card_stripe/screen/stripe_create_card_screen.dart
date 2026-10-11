@@ -1,17 +1,17 @@
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/virtual_card_stripe/controller/stripe_two_controller.dart";
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_spacing.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_section_header.dart";
-import "package:stripcard/base/widgets/design_system/sc_surface_card.dart";
-import "package:stripcard/base/widgets/design_system/sc_text_field.dart";
-import "package:stripcard/base/widgets/design_system/sc_virtual_card.dart";
-import "package:stripcard/base/widgets/others/all_supported_currency_widget/supported_currecny_dropdown.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/virtual_card_stripe/controller/stripe_two_controller.dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_spacing.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_section_header.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_surface_card.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_text_field.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_virtual_card.dart";
+import "package:TAKARA PAY/base/widgets/others/all_supported_currency_widget/supported_currecny_dropdown.dart";
 
 class StripeCreateCardScreen extends StatelessWidget {
   StripeCreateCardScreen({super.key, required this.controller});

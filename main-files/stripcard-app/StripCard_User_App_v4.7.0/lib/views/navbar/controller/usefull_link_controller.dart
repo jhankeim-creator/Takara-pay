@@ -1,6 +1,6 @@
-import "package:stripcard/base/api/model/others/usefull_link_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/others/usefull_link_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class UseFullLinkController extends GetxController {
   RxString privacyPolicy = ''.obs;

@@ -1,16 +1,16 @@
 import 'package:intl/intl.dart';
-import "package:stripcard/views/virtual_card_cardyfie/screen/cardyfie_update_customer_screen.dart/widget/update_image.dart";
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/views/virtual_card_cardyfie/controller/cardyfie_update_customer_controller.dart";
-import "package:stripcard/views/profile/controller/update_profile_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_text_field.dart";
-import "package:stripcard/base/widgets/inputs/country_picker_input_widget.dart";
-import "package:stripcard/base/widgets/dropdown/cardyfie_wallet_card_dropdown.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/screen/cardyfie_update_customer_screen.dart/widget/update_image.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/controller/cardyfie_update_customer_controller.dart";
+import "package:TAKARA PAY/views/profile/controller/update_profile_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_text_field.dart";
+import "package:TAKARA PAY/base/widgets/inputs/country_picker_input_widget.dart";
+import "package:TAKARA PAY/base/widgets/dropdown/cardyfie_wallet_card_dropdown.dart";
 
 class UpdateCustomerScreen extends StatelessWidget {
   UpdateCustomerScreen({Key? key}) : super(key: key);

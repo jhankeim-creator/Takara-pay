@@ -369,7 +369,7 @@ class Strings {
   static const String fundsHeldByFdicPartnerBank = "Funds held by Member FDIC partner bank.";
   static const String good = "Good";
   static const String howMuchToLoad = "How much to load?";
-  static const String iAgreeToStripcards = "I agree to StripCard's ";
+  static const String iAgreeToTAKARA PAYs = "I agree to TAKARA PAY's ";
   static const String initialBalance = "Initial balance";
   static const String instant = "Instant";
   static const String instantTransfer = "Instant transfer";
@@ -420,7 +420,7 @@ class Strings {
   static const String seeAll = "See all";
   static const String selectedDestination = "Selected destination";
   static const String send = "send";
-  static const String sendInstantlyToStripCardUser = "Send instantly to another StripCard user by email.";
+  static const String sendInstantlyToStripCardUser = "Send instantly to another TAKARA PAY user by email.";
   static const String sendMoney = "Send money";
   static const String sendToDifferentPerson = "Send to a different person";
   static const String sendingEllipsis = "Sending...";
@@ -436,7 +436,7 @@ class Strings {
   static const String singleUse = "Single-use";
   static const String singleUseDescription = "Burns after first charge. Best for one-time merchants you don't trust.";
   static const String sixDigitCode = "6-digit code";
-  static const String stripCardUser = "StripCard user";
+  static const String stripCardUser = "TAKARA PAY user";
   static const String strong = "Strong";
   static const String takesAbout30Seconds = "Takes about 30 seconds.";
   static const String tapPlusToBuyFirstGiftCard = "Tap + to buy your first gift card.";

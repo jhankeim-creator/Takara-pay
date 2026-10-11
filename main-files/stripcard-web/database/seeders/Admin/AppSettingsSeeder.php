@@ -31,7 +31,7 @@ class AppSettingsSeeder extends Seeder
             [
               'id'  => 1,
               'title'  =>"Create Unlimited Virtual Cards for Unlimited Usage",
-              'sub_title'   => "Users can easily create virtual credit cards from here. Use anytime anywhere and unlimited. Thanks for start a new journey with StripCard.",
+              'sub_title'   => "Users can easily create virtual credit cards from here. Use anytime anywhere and unlimited. Thanks for start a new journey with TAKARA PAY.",
               'image'   => 'seeder/Onboard1.png',
               'status'      => 1,
               'last_edit_by' => 1,
@@ -41,7 +41,7 @@ class AppSettingsSeeder extends Seeder
             [
               'id'  => 2,
               'title'  =>"Easy, Quick & Secure System for Create Virtual Card",
-              'sub_title'   => "StripCard has the most secure system which is very useful for money transactions. Get ready to use unlimited virtual credit card system.",
+              'sub_title'   => "TAKARA PAY has the most secure system which is very useful for money transactions. Get ready to use unlimited virtual credit card system.",
               'image'   => 'seeder/Onboard2.png',
               'status'      => 1,
               'last_edit_by' => 1,

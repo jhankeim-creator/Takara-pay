@@ -2,11 +2,11 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:r_dotted_line_border/r_dotted_line_border.dart';
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/others/image_picker_sheet.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading5_widget.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/others/image_picker_sheet.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading5_widget.dart";
 
 File? imageFile;
 

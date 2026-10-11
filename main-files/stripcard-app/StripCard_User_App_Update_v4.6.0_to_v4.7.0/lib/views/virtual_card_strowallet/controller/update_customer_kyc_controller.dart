@@ -5,17 +5,17 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/profile/profile_info_model.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/api/services/strowallet_api_services.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/utils/data/strowallet_card_holder_options.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/utils/language/strings.dart";
-import "package:stripcard/base/utils/request_process.dart";
-import "package:stripcard/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/profile/profile_info_model.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/api/services/strowallet_api_services.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/utils/data/strowallet_card_holder_options.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
+import "package:TAKARA PAY/base/utils/request_process.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
 
 /// Manages the Strowallet "Card Holder" record (latest API):
 ///   GET  /user/strowallet-card/get/card-holder    → prefill

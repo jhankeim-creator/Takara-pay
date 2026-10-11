@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import "package:stripcard/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
 
 class Themes {
   final _box = GetStorage();

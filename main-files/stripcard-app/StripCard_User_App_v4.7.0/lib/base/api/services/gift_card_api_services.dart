@@ -1,11 +1,11 @@
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/gift_card/gift_card_list_model.dart";
-import "package:stripcard/base/api/model/gift_card/gift_details_model.dart";
-import "package:stripcard/base/api/model/gift_card/my_gift_card_model.dart";
-import "package:stripcard/base/api/method/api_method.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/gift_card/gift_card_list_model.dart";
+import "package:TAKARA PAY/base/api/model/gift_card/gift_details_model.dart";
+import "package:TAKARA PAY/base/api/model/gift_card/my_gift_card_model.dart";
+import "package:TAKARA PAY/base/api/method/api_method.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
 
 class GiftCardApiServices {
   // my gift card info api

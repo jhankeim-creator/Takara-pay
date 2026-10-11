@@ -1,10 +1,10 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 
-import "package:stripcard/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/bottom_navbar/card_widget.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/bottom_navbar/card_widget.dart";
 
 class SudoDashboardSlider extends StatelessWidget {
   final myCardController = Get.put(VirtualSudoCardController());

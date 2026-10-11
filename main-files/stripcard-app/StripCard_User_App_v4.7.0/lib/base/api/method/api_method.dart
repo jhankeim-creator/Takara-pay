@@ -2,13 +2,13 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
-import "package:stripcard/base/utils/basic_widget_import.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/model/common/error_message_model.dart";
-import "package:stripcard/base/api/model/maintainance/maintanance_model.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/utils/logger.dart";
-import "package:stripcard/base/maintenance/maintanance_dialoge.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/model/common/error_message_model.dart";
+import "package:TAKARA PAY/base/api/model/maintainance/maintanance_model.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/utils/logger.dart";
+import "package:TAKARA PAY/base/maintenance/maintanance_dialoge.dart";
 
 final log = logger(ApiMethod);
 

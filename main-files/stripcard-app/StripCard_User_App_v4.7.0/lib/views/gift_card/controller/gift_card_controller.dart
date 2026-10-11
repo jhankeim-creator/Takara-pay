@@ -1,8 +1,8 @@
 
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/api/model/gift_card/my_gift_card_model.dart";
-import "package:stripcard/base/api/services/gift_card_api_services.dart";
-import "package:stripcard/base/api/method/api_method.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/gift_card/my_gift_card_model.dart";
+import "package:TAKARA PAY/base/api/services/gift_card_api_services.dart";
+import "package:TAKARA PAY/base/api/method/api_method.dart";
 
 class GiftCardController extends GetxController {
   @override

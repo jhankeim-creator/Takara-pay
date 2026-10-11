@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import "package:stripcard/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
 
 class ResponsiveLayout extends StatelessWidget {
   final Widget mobileScaffold;

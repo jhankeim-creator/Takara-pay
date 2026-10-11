@@ -1,8 +1,8 @@
 import 'package:shimmer/shimmer.dart';
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
 
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading5_widget.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading5_widget.dart";
 
 class LimitInformationWidget extends StatelessWidget {
   LimitInformationWidget({

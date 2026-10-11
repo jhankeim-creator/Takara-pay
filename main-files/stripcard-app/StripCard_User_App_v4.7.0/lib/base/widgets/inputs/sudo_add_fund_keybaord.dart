@@ -6,18 +6,18 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/custom_style.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/views/virtual_card_sudo/controller/sudo_adfund_controller.dart";
-import "package:stripcard/base/utils/language/strings.dart";
-import "package:stripcard/base/utils/size.dart";
-import "package:stripcard/base/widgets/buttons/primary_button.dart";
-import "package:stripcard/base/widgets/dropdown/limit_widget.dart";
-import "package:stripcard/base/widgets/text_labels/custom_title_heading_widget.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading4_widget.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading5_widget.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/custom_style.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/sudo_adfund_controller.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
+import "package:TAKARA PAY/base/utils/size.dart";
+import "package:TAKARA PAY/base/widgets/buttons/primary_button.dart";
+import "package:TAKARA PAY/base/widgets/dropdown/limit_widget.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/custom_title_heading_widget.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading4_widget.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading5_widget.dart";
 
 class SudoAddFundCustomAmountWidget extends StatelessWidget {
   SudoAddFundCustomAmountWidget({

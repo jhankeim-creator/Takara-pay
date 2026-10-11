@@ -9,7 +9,7 @@ import 'dart:ffi';
 import 'package:meta/meta.dart';
 import 'dart:convert';
 
-import "package:stripcard/base/widgets/dropdown/cardyfie_wallet_card_dropdown.dart";
+import "package:TAKARA PAY/base/widgets/dropdown/cardyfie_wallet_card_dropdown.dart";
 
 MyCardCardyfieModel myCardCardyfieModelFromJson(String str) =>
     MyCardCardyfieModel.fromJson(json.decode(str));

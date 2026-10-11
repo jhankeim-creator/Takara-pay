@@ -244,7 +244,7 @@ export default function CardyFie() {
                 <div className="relative h-full p-6 flex flex-col justify-between z-10">
                   <div className="flex justify-between items-start">
                     <div className="text-xl font-bold tracking-wide">
-                      {card_basic_info?.site_title || "StripCard"}
+                      {card_basic_info?.site_title || "TAKARA PAY"}
                     </div>
                     <div className="w-12 h-12 rounded-full overflow-hidden">
                       <Image

@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
 
-import "package:stripcard/base/api/model/virtual_card/card_charges_model.dart";
-import "package:stripcard/base/api/model/virtual_card/card_charges_model.dart" as ccm;
-import "package:stripcard/base/api/model/virtual_card/my_card_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/routes/routes.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/card_charges_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/card_charges_model.dart" as ccm;
+import "package:TAKARA PAY/base/api/model/virtual_card/my_card_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/routes/routes.dart";
 
 class CreateCardController extends GetxController {
   List<SupportedCurrency> supportedCurrencyList = [];

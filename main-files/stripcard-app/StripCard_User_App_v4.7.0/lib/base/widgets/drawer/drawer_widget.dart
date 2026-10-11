@@ -1,12 +1,12 @@
 import 'package:iconsax/iconsax.dart';
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/views/auth/controller/log_out/log_out.dart";
-import "package:stripcard/base/utils/theme.dart";
-import "package:stripcard/base/widgets/others/custom_image_widget.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/views/auth/controller/log_out/log_out.dart";
+import "package:TAKARA PAY/base/utils/theme.dart";
+import "package:TAKARA PAY/base/widgets/others/custom_image_widget.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
 
 class CustomDrawer extends StatelessWidget {
   CustomDrawer({Key? key}) : super(key: key);

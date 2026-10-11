@@ -1,8 +1,8 @@
-import "package:stripcard/views/navbar/controller/navbar_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/navbar/controller/navbar_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/widgets/design_system/sc_bottom_nav.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_bottom_nav.dart";
 
 class BottomNavBarScreen extends StatelessWidget {
   BottomNavBarScreen({super.key});

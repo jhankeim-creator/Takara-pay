@@ -1,15 +1,15 @@
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/views/deposit/controller/deposit_controller.dart";
-import "package:stripcard/views/deposit/controller/manual_gateway_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_section_header.dart";
-import "package:stripcard/base/widgets/design_system/sc_surface_card.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/views/deposit/controller/deposit_controller.dart";
+import "package:TAKARA PAY/views/deposit/controller/manual_gateway_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_section_header.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_surface_card.dart";
 
 class DepositPreviewScreen extends StatelessWidget {
   DepositPreviewScreen({super.key});

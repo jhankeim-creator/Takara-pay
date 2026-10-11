@@ -1,17 +1,17 @@
 import 'dart:math' as math;
 
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/model/onboard/app_settings_model.dart";
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
-import "package:stripcard/views/onboard/controller/onboard_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_virtual_card.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/model/onboard/app_settings_model.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/views/onboard/controller/onboard_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_virtual_card.dart";
 
 class _OnboardPage {
   const _OnboardPage({
@@ -53,7 +53,7 @@ const List<_OnboardPage> _pages = [
   _OnboardPage(
     title: 'Move money in seconds. Across currencies.',
     subtitle:
-        'Add money from any linked bank, send to anyone on StripCard, and hold USD, EUR and GBP side by side.',
+        'Add money from any linked bank, send to anyone on TAKARA PAY, and hold USD, EUR and GBP side by side.',
     cardName: 'Travel',
     balance: r'$2,150.00',
     variant: SCCardVariant.forest,

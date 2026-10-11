@@ -1,8 +1,8 @@
-import "package:stripcard/views/virtual_card_stripe/controller/stripe_two_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_stripe/controller/stripe_two_controller.dart";
 
-import "package:stripcard/base/api/model/virtual_card/stripe_models/stripe_transaction_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/stripe_models/stripe_transaction_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class StripeTransactionController extends GetxController {
   final controller = Get.put(StripeTwoController());

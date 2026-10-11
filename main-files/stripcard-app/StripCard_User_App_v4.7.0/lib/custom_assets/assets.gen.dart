@@ -214,12 +214,12 @@ class $AssetsLogoGen {
       const AssetGenImage('assets/logo/android_launcher.png');
 
   /// File path: assets/logo/basic_logo_dark.png
-  /// Dark/colored "StripCard" wordmark — use on LIGHT backgrounds.
+  /// Dark/colored "TAKARA PAY" wordmark — use on LIGHT backgrounds.
   AssetGenImage get basicLogoDark =>
       const AssetGenImage('assets/logo/basic_logo_dark.png');
 
   /// File path: assets/logo/basic_logo_light.png
-  /// White "StripCard" wordmark — use on DARK backgrounds.
+  /// White "TAKARA PAY" wordmark — use on DARK backgrounds.
   AssetGenImage get basicLogoLight =>
       const AssetGenImage('assets/logo/basic_logo_light.png');
 

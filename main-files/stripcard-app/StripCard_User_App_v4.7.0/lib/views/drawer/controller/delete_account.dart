@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/routes/routes.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/routes/routes.dart";
 
 class SettingController extends GetxController {
   RxBool fingerprint = false.obs;

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/custom_style.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/widgets/text_labels/custom_title_heading_widget.dart";
-import "package:stripcard/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/custom_style.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/custom_title_heading_widget.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/controller/strowallelt_info_controller.dart";
 
 class StrowalletBuyController extends GetxController {
   final amountTextController = TextEditingController();

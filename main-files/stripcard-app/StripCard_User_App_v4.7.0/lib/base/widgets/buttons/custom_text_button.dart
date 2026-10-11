@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
 
 class CustomTextButton extends StatelessWidget {
   final String text;

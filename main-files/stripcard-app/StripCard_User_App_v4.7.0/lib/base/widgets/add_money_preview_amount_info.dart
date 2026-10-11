@@ -1,7 +1,7 @@
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/views/deposit/controller/deposit_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/views/deposit/controller/deposit_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class AddMoneyPreviewAmountInfo extends StatelessWidget {
   AddMoneyPreviewAmountInfo({super.key});

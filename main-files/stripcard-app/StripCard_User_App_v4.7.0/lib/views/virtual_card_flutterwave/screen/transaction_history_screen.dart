@@ -1,11 +1,11 @@
 import 'package:intl/intl.dart';
 
-import "package:stripcard/views/virtual_card_flutterwave/controller/transaction_history_conntroller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_shimmer.dart";
-import "package:stripcard/base/widgets/design_system/sc_transaction_row.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/transaction_history_conntroller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_shimmer.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_transaction_row.dart";
 
 class TransactionHistoryScreen extends StatelessWidget {
   TransactionHistoryScreen({super.key});

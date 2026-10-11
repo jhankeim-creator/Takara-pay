@@ -1,10 +1,10 @@
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/transfer_money/transfer_exist_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_success_screen.dart";
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
-import "package:stripcard/views/money_transfer/controller/money_transfer_info_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/transfer_money/transfer_exist_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_success_screen.dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/views/money_transfer/controller/money_transfer_info_controller.dart";
 
 class MoneyTransferController extends GetxController {
   final receiverEmailController = TextEditingController();
@@ -84,7 +84,7 @@ class MoneyTransferController extends GetxController {
     } else {
       // ApiMethod already surfaces the backend reason (e.g. "User not found")
       // as a snackbar; keep an inline message too.
-      verifyError.value = 'No StripCard user found with this email.';
+      verifyError.value = 'No TAKARA PAY user found with this email.';
     }
 
     _isVerifying.value = false;

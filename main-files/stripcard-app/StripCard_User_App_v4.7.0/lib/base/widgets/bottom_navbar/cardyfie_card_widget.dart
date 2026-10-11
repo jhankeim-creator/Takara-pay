@@ -1,7 +1,7 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/bottom_navbar/stripe_slider_card.dart";
-import "package:stripcard/views/virtual_card_cardyfie/screen/cardyfie_card_screen/cardyfie_card_screen.dart";
-import "package:stripcard/views/virtual_card_strowallet/screen/strowallet_slider.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/bottom_navbar/stripe_slider_card.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/screen/cardyfie_card_screen/cardyfie_card_screen.dart";
+import "package:TAKARA PAY/views/virtual_card_strowallet/screen/strowallet_slider.dart";
 
 class CardyfieCardWidget extends StatelessWidget {
   const CardyfieCardWidget({super.key});

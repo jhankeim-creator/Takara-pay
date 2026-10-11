@@ -25,7 +25,7 @@ function FlipCard({ card, cardBasicInfo, user, onDetails }) {
     card.name ||
     `${user?.firstname || ""} ${user?.lastname || ""}`.trim() ||
     "CARD HOLDER";
-  const title = card.site_title || cardBasicInfo?.site_title || "StripCard";
+  const title = card.site_title || cardBasicInfo?.site_title || "TAKARA PAY";
   const logo =
     card.site_logo || cardBasicInfo?.site_logo || "/Others/card-user.webp";
   const backText =

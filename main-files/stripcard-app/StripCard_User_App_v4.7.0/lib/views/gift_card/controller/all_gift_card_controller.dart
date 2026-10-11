@@ -1,7 +1,7 @@
-import "package:stripcard/base/api/model/gift_card/gift_card_list_model.dart";
-import "package:stripcard/base/api/services/gift_card_api_services.dart";
-import "package:stripcard/base/api/method/api_method.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/api/model/gift_card/gift_card_list_model.dart";
+import "package:TAKARA PAY/base/api/services/gift_card_api_services.dart";
+import "package:TAKARA PAY/base/api/method/api_method.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class AllGiftCardController extends GetxController {
   RxInt selectedIndex = (-1).obs;

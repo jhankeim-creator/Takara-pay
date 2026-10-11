@@ -1,12 +1,12 @@
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/model/virtual_card/stripe_models/stripe_card_sensitive_model.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/stripe_models/stripe_card_info_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/stripe_models/stripe_card_sensitive_model.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/stripe_models/stripe_card_info_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
 
 class StripeTwoController extends GetxController {
   final dashbaordController = Get.put(DashBoardController());

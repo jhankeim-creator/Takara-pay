@@ -36,7 +36,7 @@ const dmMono = DM_Mono({
 
 export const metadata = {
   title: {
-    default: "StripCard",
+    default: "TAKARA PAY",
     template: "%s",
   },
   icons: {

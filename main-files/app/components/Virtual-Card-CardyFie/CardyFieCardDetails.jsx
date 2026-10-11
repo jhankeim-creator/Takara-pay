@@ -345,7 +345,7 @@ export default function CardyFieCardDetails() {
               <div className="relative h-full p-6 flex flex-col justify-between z-10">
                 <div className="flex justify-between items-start">
                   <div className="text-xl font-bold tracking-wide">
-                    STRIPCARD
+                    TAKARA PAY
                   </div>
                   <div className="flex justify-between items-start">
                     <div className="w-12 h-12 rounded-full overflow-hidden bg-white/10 backdrop-blur-sm border border-white/20 shadow-sm flex items-center justify-center">

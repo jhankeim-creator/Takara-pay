@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
 
 /// StripCard shimmer system — ONE consistent shimmer look used app-wide for
 /// API loading states. Wrap any tree of [SCSkeletonBox]es in a single

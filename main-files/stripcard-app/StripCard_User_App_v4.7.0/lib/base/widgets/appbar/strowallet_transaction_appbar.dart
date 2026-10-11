@@ -1,5 +1,5 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/appbar/back_button.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/appbar/back_button.dart";
 
 class StrowalletTransactionAppbar extends StatelessWidget
     implements PreferredSizeWidget {

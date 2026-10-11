@@ -1,10 +1,10 @@
 import 'package:intl/intl.dart';
-import "package:stripcard/views/drawer/controller/transaction_controller.dart";
-import "package:stripcard/base/api/model/others/transaction_model.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_transaction_row.dart";
+import "package:TAKARA PAY/views/drawer/controller/transaction_controller.dart";
+import "package:TAKARA PAY/base/api/model/others/transaction_model.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_transaction_row.dart";
 
 class VirtualCardLogScreen extends StatelessWidget {
   const VirtualCardLogScreen({Key? key, required this.controller})

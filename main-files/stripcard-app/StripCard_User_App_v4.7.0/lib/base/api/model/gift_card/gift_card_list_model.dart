@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import "package:stripcard/base/widgets/inputs/custom_dropdown_widget.dart";
+import "package:TAKARA PAY/base/widgets/inputs/custom_dropdown_widget.dart";
 
 GiftCardListModel giftCardListModelFromJson(String str) =>
     GiftCardListModel.fromJson(json.decode(str));

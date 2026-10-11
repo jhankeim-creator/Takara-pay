@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
-import "package:stripcard/custom_assets/assets.gen.dart";
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/widgets/others/custom_image_widget.dart";
+import "package:TAKARA PAY/custom_assets/assets.gen.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/widgets/others/custom_image_widget.dart";
 
 File? pickedFile;
 ImagePicker imagePicker = ImagePicker();

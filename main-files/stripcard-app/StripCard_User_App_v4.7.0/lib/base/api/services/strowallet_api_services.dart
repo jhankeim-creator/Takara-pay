@@ -1,15 +1,15 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/charge_strowallet_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/strowallet_card_holder_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/strowallet_card_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/strowallet_details_controller.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/strowallet_transaction_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/strowallet_webhook_model.dart";
-import "package:stripcard/base/api/method/api_method.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/charge_strowallet_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/strowallet_card_holder_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/strowallet_card_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/strowallet_details_controller.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/strowallet_transaction_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/strowallet_webhook_model.dart";
+import "package:TAKARA PAY/base/api/method/api_method.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
 
 
     

@@ -1,12 +1,12 @@
-import "package:stripcard/base/utils/custom_loading_api.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/bottom_navbar/sudo_slider_card.dart";
+import "package:TAKARA PAY/base/utils/custom_loading_api.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/bottom_navbar/sudo_slider_card.dart";
 
 class SudoVirtualCardScreen extends StatelessWidget {
   SudoVirtualCardScreen({super.key, required this.controller});

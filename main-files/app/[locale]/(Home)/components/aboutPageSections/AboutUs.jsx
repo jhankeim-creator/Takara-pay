@@ -55,7 +55,7 @@ export default function AboutSection() {
                 </h3>
               </div>
 
-              {/* The StripCard Difference */}
+              {/* The TAKARA PAY Difference */}
               <div className="flex items-center gap-2 bg-white/80 dark:bg-gray-800/70 backdrop-blur-sm px-3 py-3 md:px-4 md:py-3.5 rounded-lg border border-indigo-100/50 dark:border-indigo-800/50 hover:shadow-lg hover:border-indigo-200 dark:hover:border-indigo-700 transition-all duration-300">
                 <div className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-violet-600 dark:from-indigo-600 dark:to-violet-700 rounded-lg flex items-center justify-center shrink-0">
                   <Sparkles className="w-4 h-4 text-white" />

@@ -1,11 +1,11 @@
 import 'package:flutter/services.dart';
-import "package:stripcard/base/api/model/add_money/manual_payment_getway_model.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/inputs/primary_input_filed.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
-import "package:stripcard/base/widgets/others/manual_payment_image_widget.dart";
+import "package:TAKARA PAY/base/api/model/add_money/manual_payment_getway_model.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/inputs/primary_input_filed.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/base/widgets/others/manual_payment_image_widget.dart";
 
 class ManualPaymentController extends GetxController {
   List<TextEditingController> inputFieldControllers = [];

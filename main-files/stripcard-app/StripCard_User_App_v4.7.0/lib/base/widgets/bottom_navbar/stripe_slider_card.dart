@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import "package:stripcard/views/virtual_card_stripe/controller/stripe_two_controller.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/bottom_navbar/card_widget.dart";
+import "package:TAKARA PAY/views/virtual_card_stripe/controller/stripe_two_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/bottom_navbar/card_widget.dart";
 
 class DashboardSlider extends StatelessWidget {
   DashboardSlider({Key? key}) : super(key: key);

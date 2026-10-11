@@ -53,16 +53,16 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyACzYjgFeMIGFO2EfOTdV7P0kUg2oJiPPo',
     appId: '1:574360544074:android:6199236f1d9860528517b3',
     messagingSenderId: '574360544074',
-    projectId: 'stripcard-d24b5',
-    storageBucket: 'stripcard-d24b5.appspot.com',
+    projectId: 'TAKARA PAY-d24b5',
+    storageBucket: 'TAKARA PAY-d24b5.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAc3_QiuGhuvYPs2w7rvGMZi22j6g6aA0o',
     appId: '1:574360544074:ios:69ded2f0761932c38517b3',
     messagingSenderId: '574360544074',
-    projectId: 'stripcard-d24b5',
-    storageBucket: 'stripcard-d24b5.appspot.com',
+    projectId: 'TAKARA PAY-d24b5',
+    storageBucket: 'TAKARA PAY-d24b5.appspot.com',
     iosBundleId: 'net.appdevs.appdevsAppUiTemplate',
   );
 }

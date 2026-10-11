@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import "package:stripcard/base/api/model/others/transaction_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/logger.dart";
+import "package:TAKARA PAY/base/api/model/others/transaction_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/logger.dart";
 
 final log = logger(TransactionController);
 

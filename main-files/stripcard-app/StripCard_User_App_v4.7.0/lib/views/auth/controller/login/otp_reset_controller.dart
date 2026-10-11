@@ -4,10 +4,10 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/views/auth/controller/login/signin_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/views/auth/controller/login/signin_controller.dart";
 
 class ResetOtpController extends GetxController {
   final otpController = TextEditingController();

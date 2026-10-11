@@ -2,13 +2,13 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/model/auth/sign_up_model.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/language/strings.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/model/auth/sign_up_model.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
 
 class EmailOtpController extends GetxController {
   final emailOtpInputController = TextEditingController();

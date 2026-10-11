@@ -1,16 +1,16 @@
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
-import "package:stripcard/base/widgets/inputs/primary_input_filed.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/widgets/others/custom_image_widget.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/flutter_wave_card_create_controller.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
-import "package:stripcard/custom_assets/assets.gen.dart";
-import "package:stripcard/base/utils/language/strings.dart";
-import "package:stripcard/base/utils/basic_widget_import.dart";
-import "package:stripcard/base/widgets/buttons/primary_button.dart";
-import "package:stripcard/base/widgets/others/flutter_wave_currency/flutter_wave_currency.dart";
-import "package:stripcard/base/widgets/others/limit_information_widget (1).dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/base/widgets/inputs/primary_input_filed.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/widgets/others/custom_image_widget.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/flutter_wave_card_create_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
+import "package:TAKARA PAY/custom_assets/assets.gen.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/base/widgets/buttons/primary_button.dart";
+import "package:TAKARA PAY/base/widgets/others/flutter_wave_currency/flutter_wave_currency.dart";
+import "package:TAKARA PAY/base/widgets/others/limit_information_widget (1).dart";
 
 class CustomCreateAmountWidget extends StatelessWidget {
   final createCardKey = GlobalKey<FormState>();

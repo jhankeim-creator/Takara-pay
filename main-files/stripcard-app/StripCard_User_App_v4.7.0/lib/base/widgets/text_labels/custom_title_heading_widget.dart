@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 
 class CustomTitleHeadingWidget extends StatelessWidget {
   const CustomTitleHeadingWidget({

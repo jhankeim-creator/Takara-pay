@@ -1,8 +1,8 @@
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/base/utils/model/categories_model.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/views/virtual_card_stripe/controller/stripe_two_controller.dart";
-import "package:stripcard/views/navbar/controller/navbar_controller.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/base/utils/model/categories_model.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/virtual_card_stripe/controller/stripe_two_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/navbar_controller.dart";
 
 final myCardController = Get.put(StripeTwoController());
 final controller = Get.put(NavbarController());

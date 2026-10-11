@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_spacing.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_spacing.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
 
 /// A single row in the SCSuccessScreen breakdown card.
 class SCSuccessDetail {
@@ -44,7 +44,7 @@ class SCSuccessDetail {
 /// ```dart
 /// Get.offAll(() => SCSuccessScreen(
 ///   title: 'Withdrawal sent',
-///   subtitle: '\$50.00 to StripCard(Manual) USD',
+///   subtitle: '\$50.00 to TAKARA PAY(Manual) USD',
 ///   details: [
 ///     SCSuccessDetail(label: 'Reference', value: 'WFiNY4vds146jxqK',
 ///                     isMono: true, copyable: true),
@@ -60,7 +60,7 @@ class SCSuccessScreen extends StatefulWidget {
   /// Big H1 line (e.g. 'Withdrawal sent', 'Money added', 'Sent to John')
   final String title;
 
-  /// Optional subtitle below title (e.g. '\$50.00 to StripCard(Manual) USD')
+  /// Optional subtitle below title (e.g. '\$50.00 to TAKARA PAY(Manual) USD')
   final String? subtitle;
 
   /// Breakdown rows shown inside the surface card. Empty list = no card.

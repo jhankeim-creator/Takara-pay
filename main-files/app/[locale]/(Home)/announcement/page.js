@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export const metadata = {
-  title: "StripCard - Announcement",
+  title: "TAKARA PAY - Announcement",
 };
 
 function page() {

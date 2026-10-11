@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/service/force_update_service.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/views/splash/controller/navigator_plug.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/service/force_update_service.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/views/splash/controller/navigator_plug.dart";
 
 class SplashController extends GetxController {
   final navigatorPlug = NavigatorPlug();

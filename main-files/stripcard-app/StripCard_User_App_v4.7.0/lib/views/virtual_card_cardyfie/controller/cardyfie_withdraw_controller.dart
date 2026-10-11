@@ -1,11 +1,11 @@
-import "package:stripcard/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/controller/cardyfie_info_controller.dart";
 
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/services/cardyfie_api_services.dart";
-import "package:stripcard/base/api/method/api_method.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/views/virtual_card_cardyfie/model/my_card_model_cardyfie.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/services/cardyfie_api_services.dart";
+import "package:TAKARA PAY/base/api/method/api_method.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/virtual_card_cardyfie/model/my_card_model_cardyfie.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
 
 class CardyfieWithdrawFundController extends GetxController {
   final amountTextController = TextEditingController();

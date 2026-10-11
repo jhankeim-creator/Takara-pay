@@ -1,11 +1,11 @@
 import 'package:shimmer/shimmer.dart';
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 /// Limit information card — redesigned to match the app's design system
 /// (surface card + design tokens) instead of the old purple block. Labels are

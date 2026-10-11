@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:get/get.dart';
-import "package:stripcard/views/deposit/controller/deposit_controller.dart";
-import "package:stripcard/base/utils/language/strings.dart";
+import "package:TAKARA PAY/views/deposit/controller/deposit_controller.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
 
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
 
 class AutomaticWebViewScreen extends StatelessWidget {
   AutomaticWebViewScreen({

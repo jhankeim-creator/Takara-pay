@@ -1,21 +1,21 @@
 import 'package:intl/intl.dart';
 
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/createcard_strowallet_info_model.dart";
-import "package:stripcard/base/api/model/virtual_card/strowallet_models/strowallet_card_model.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/services/strowallet_api_services.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
-import "package:stripcard/base/utils/request_process.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/inputs/image_widget.dart";
-import "package:stripcard/base/widgets/inputs/number_input-widget.dart";
-import "package:stripcard/base/widgets/inputs/primary_input_filed.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/views/profile/controller/update_profile_controller.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/createcard_strowallet_info_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/strowallet_models/strowallet_card_model.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/services/strowallet_api_services.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/utils/request_process.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/inputs/image_widget.dart";
+import "package:TAKARA PAY/base/widgets/inputs/number_input-widget.dart";
+import "package:TAKARA PAY/base/widgets/inputs/primary_input_filed.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/views/profile/controller/update_profile_controller.dart";
 
 class VirtualStrowalletCardController extends GetxController {
   final dashboardController = Get.put(DashBoardController());

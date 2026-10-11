@@ -1,7 +1,7 @@
 import 'package:google_fonts/google_fonts.dart';
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/views/money_transfer/controller/money_transfer_controller.dart";
-import "package:stripcard/views/money_transfer/controller/money_transfer_info_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/money_transfer/controller/money_transfer_controller.dart";
+import "package:TAKARA PAY/views/money_transfer/controller/money_transfer_info_controller.dart";
 
 class MoneyTransferAmountWidget extends StatelessWidget {
   @override

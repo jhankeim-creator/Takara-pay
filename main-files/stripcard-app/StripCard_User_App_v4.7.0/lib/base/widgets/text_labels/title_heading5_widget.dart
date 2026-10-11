@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/utils/custom_style.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/custom_style.dart";
 
 class TitleHeading5Widget extends StatelessWidget {
   TitleHeading5Widget({

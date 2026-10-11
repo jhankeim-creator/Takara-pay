@@ -3,8 +3,8 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
 
 enum SCCardNetwork { visa, mastercard }
 
@@ -184,7 +184,7 @@ class _CardSurface extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
-                          'STRIPCARD · VIRTUAL',
+                          'TAKARA PAY · VIRTUAL',
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(

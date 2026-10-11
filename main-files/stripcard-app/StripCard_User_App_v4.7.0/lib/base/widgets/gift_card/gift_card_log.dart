@@ -1,8 +1,8 @@
 
-import "package:stripcard/base/api/model/gift_card/my_gift_card_model.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
-import "package:stripcard/base/widgets/text_labels/title_heading5_widget.dart";
+import "package:TAKARA PAY/base/api/model/gift_card/my_gift_card_model.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/title_heading5_widget.dart";
 
 class GiftCardLog extends StatelessWidget {
   const GiftCardLog({super.key, required this.giftCard});

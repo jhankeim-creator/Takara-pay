@@ -1,13 +1,13 @@
 import 'package:carousel_slider/carousel_slider.dart';
 // import 'package:pusher_beams/pusher_beams.dart';
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/api/model/dashboard/dashboard_model.dart";
-import "package:stripcard/base/api/model/pusher_model/pusher_model.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/service/pusher_api_service.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/api/model/dashboard/dashboard_model.dart";
+import "package:TAKARA PAY/base/api/model/pusher_model/pusher_model.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/service/pusher_api_service.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class DashBoardController extends GetxController {
   final CarouselSliderController carouselController =

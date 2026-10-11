@@ -1,4 +1,4 @@
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
 class CustomColor {
   static const Color primaryDarkColor = Color(0xFF8358FF);

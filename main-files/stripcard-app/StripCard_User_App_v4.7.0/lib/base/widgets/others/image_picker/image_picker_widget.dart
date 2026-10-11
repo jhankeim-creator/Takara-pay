@@ -1,19 +1,19 @@
 import 'dart:async';
 import 'dart:io';
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/views/profile/controller/update_profile_controller.dart";
-import "package:stripcard/custom_assets/assets.gen.dart";
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/widgets/others/custom_image_widget.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
-import "package:stripcard/base/widgets/others/image_picker/image_picker.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/views/profile/controller/update_profile_controller.dart";
+import "package:TAKARA PAY/custom_assets/assets.gen.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/widgets/others/custom_image_widget.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/base/widgets/others/image_picker/image_picker.dart";
 
 File? imageFile;
 

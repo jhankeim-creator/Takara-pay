@@ -1,8 +1,8 @@
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/virtual_card/card_deatils_model.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/card_deatils_model.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/virtual_card_flutterwave/controller/flutterwave_card_controller.dart";
 
 class CardDetailsController extends GetxController {
   RxBool isSelected = false.obs;

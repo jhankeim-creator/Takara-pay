@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "574360544074",
-    "project_id": "stripcard-d24b5",
-    "storage_bucket": "stripcard-d24b5.appspot.com"
+    "project_id": "TAKARA PAY-d24b5",
+    "storage_bucket": "TAKARA PAY-d24b5.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:574360544074:android:6199236f1d9860528517b3",
         "android_client_info": {
-          "package_name": "net.appdevs.stripcard"
+          "package_name": "net.appdevs.TAKARA PAY"
         }
       },
       "oauth_client": [],

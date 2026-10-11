@@ -1,13 +1,13 @@
-import "package:stripcard/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/utils/language/strings.dart";
-import "package:stripcard/routes/routes.dart";
-import "package:stripcard/base/utils/basic_widget_import.dart";
-import "package:stripcard/base/widgets/others/congratulation_widget.dart";
-import "package:stripcard/base/api/model/common/common_success_model.dart";
-import "package:stripcard/base/api/model/gift_card/gift_card_list_model.dart";
-import "package:stripcard/base/api/model/virtual_card/sudo_models/sudo_charges_model.dart";
-import "package:stripcard/views/remaining_balance/controller/remaing_balance_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
+import "package:TAKARA PAY/routes/routes.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/base/widgets/others/congratulation_widget.dart";
+import "package:TAKARA PAY/base/api/model/common/common_success_model.dart";
+import "package:TAKARA PAY/base/api/model/gift_card/gift_card_list_model.dart";
+import "package:TAKARA PAY/base/api/model/virtual_card/sudo_models/sudo_charges_model.dart";
+import "package:TAKARA PAY/views/remaining_balance/controller/remaing_balance_controller.dart";
 
 class SudoCreateCardController extends GetxController {
   final remainingController = Get.put(RemainingBalanceController());

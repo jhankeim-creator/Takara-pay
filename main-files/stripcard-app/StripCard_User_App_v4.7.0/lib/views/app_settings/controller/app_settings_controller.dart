@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
-import "package:stripcard/base/api/model/onboard/app_settings_model.dart";
-import "package:stripcard/base/api/endpoint/api_endpoint.dart";
-import "package:stripcard/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/api/model/onboard/app_settings_model.dart";
+import "package:TAKARA PAY/base/api/endpoint/api_endpoint.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
 
 class AppSettingsController extends GetxController {
   // Reactive so the onboarding screen rebuilds the moment the admin-configured

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import PrivacyPolicy from "../components/privacy-policy/PrivacyPolicy";
 
 export const metadata = {
-  title: "StripCard - Privacy Policy",
+  title: "TAKARA PAY - Privacy Policy",
 };
 
 function page() {

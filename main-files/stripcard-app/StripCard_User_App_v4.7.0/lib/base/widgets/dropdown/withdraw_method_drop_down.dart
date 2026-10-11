@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import "package:stripcard/base/api/model/withdraw/withdraw_info_model.dart";
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/custom_style.dart";
-import "package:stripcard/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/api/model/withdraw/withdraw_info_model.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/custom_style.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
 
 class WithdrawMethodDropDown extends StatelessWidget {
   final RxString selectMethod;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import "package:stripcard/custom_assets/assets.gen.dart";
+import "package:TAKARA PAY/custom_assets/assets.gen.dart";
 
 /// The real StripCard wordmark logo. Picks the colored logo on light
 /// backgrounds and the white logo on dark backgrounds automatically.

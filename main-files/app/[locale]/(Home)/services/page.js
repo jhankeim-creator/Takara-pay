@@ -3,7 +3,7 @@ import ServiceProvide from "../components/homePageSections/ServiceProvide";
 import Navbar from "../components/Navbar";
 
 export const metadata = {
-  title: "StripCard - Services",
+  title: "TAKARA PAY - Services",
 };
 
 function ServicePage() {

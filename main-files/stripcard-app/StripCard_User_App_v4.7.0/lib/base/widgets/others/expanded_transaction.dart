@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/dimensions.dart";
-import "package:stripcard/base/widgets/others/expansion_widget.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/widgets/others/expansion_widget.dart";
 
 class ExpendedItemWidget extends StatelessWidget {
   final String title;

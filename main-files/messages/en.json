@@ -26,7 +26,7 @@
     "welcomeBack": "Welcome Back"
   },
   "Hero": {
-    "badge": "Welcome To StripCard!",
+    "badge": "Welcome To TAKARA PAY!",
     "heading1": "Unveiling the",
     "heading2": "Virtual Card",
     "heading3": "Experience",
@@ -51,7 +51,7 @@
     "subtitle": "Everything you need for seamless virtual card management"
   },
   "WhyChooseUs": {
-    "title": "Why Choose StripCard?",
+    "title": "Why Choose TAKARA PAY?",
     "subtitle": "We provide the best virtual card experience"
   },
   "HowItWorks": {
@@ -64,13 +64,13 @@
   },
   "DownloadApp": {
     "title": "Download Our App",
-    "subtitle": "Get the StripCard app on your device",
+    "subtitle": "Get the TAKARA PAY app on your device",
     "appStore": "App Store",
     "googlePlay": "Google Play"
   },
   "Footer": {
     "rights": "All rights reserved.",
-    "company": "StripCard"
+    "company": "TAKARA PAY"
   },
   "Auth": {
     "login": {
@@ -92,16 +92,16 @@
   },
   "Metadata": {
     "home": {
-      "title": "StripCard - Virtual Credit Card Solution",
+      "title": "TAKARA PAY - Virtual Credit Card Solution",
       "description": "The best virtual card platform for online payments"
     },
     "login": {
       "title": "Login",
-      "description": "Secure login to your StripCard account"
+      "description": "Secure login to your TAKARA PAY account"
     },
     "register": {
       "title": "Register",
-      "description": "Create your StripCard account"
+      "description": "Create your TAKARA PAY account"
     },
     "dashboard": {
       "title": "Dashboard"
@@ -210,7 +210,7 @@
       "main": "How It Works",
       "highlight": "Step-by-Step Process"
     },
-    "description": "Discover how StripCard empowers you with an easy step-by-step process to manage virtual cards, add funds, transfer money, and ensure secure transactions—all designed for convenience, flexibility, and seamless financial management.",
+    "description": "Discover how TAKARA PAY empowers you with an easy step-by-step process to manage virtual cards, add funds, transfer money, and ensure secure transactions—all designed for convenience, flexibility, and seamless financial management.",
     "continueLabel": "continues",
     "steps": [
       {
@@ -283,7 +283,7 @@
     }
   },
   "DownloadApp": {
-    "imageAlt": "StripCard Mobile App",
+    "imageAlt": "TAKARA PAY Mobile App",
     "sectionBadge": "Download App",
     "title": {
       "part1": "Here Is",
@@ -323,8 +323,8 @@
     }
   },
   "Footer": {
-    "logoAlt": "StripCard Logo",
-    "thankYou": "Thank you for choosing StripCard as your trusted partner for secure online transactions. We are committed to providing you with a seamless and secure experience.",
+    "logoAlt": "TAKARA PAY Logo",
+    "thankYou": "Thank you for choosing TAKARA PAY as your trusted partner for secure online transactions. We are committed to providing you with a seamless and secure experience.",
     "followUs": {
       "title": "Follow Us"
     },
@@ -344,7 +344,7 @@
     },
     "copyright": {
       "allRights": "All Rights Reserved.",
-      "company": "StripCard"
+      "company": "TAKARA PAY"
     }
   },
   "About": {
@@ -359,7 +359,7 @@
         "title": "Our Vision"
       },
       "difference": {
-        "title": "The StripCard Difference"
+        "title": "The TAKARA PAY Difference"
       },
       "commitment": {
         "title": "Our Commitment"
@@ -368,7 +368,7 @@
         "title": "Join Us on this Journey"
       }
     },
-    "imageAlt": "StripCard platform - secure virtual credit cards"
+    "imageAlt": "TAKARA PAY platform - secure virtual credit cards"
   },
   "Testimonials": {
     "header": {
@@ -389,12 +389,12 @@
       {
         "name": "James Carter",
         "role": "E-commerce Entrepreneur",
-        "text": "As a small business owner, StripCard has been a game-changer. It allows me to offer convenient payment options to my clients while generating an extra revenue stream. The one-time-use codes provide peace of mind, knowing that my transactions are secure. StripCard is a win-win for both my clients and my business."
+        "text": "As a small business owner, TAKARA PAY has been a game-changer. It allows me to offer convenient payment options to my clients while generating an extra revenue stream. The one-time-use codes provide peace of mind, knowing that my transactions are secure. TAKARA PAY is a win-win for both my clients and my business."
       },
       {
         "name": "Lena Moreau",
         "role": "Digital Nomad & Content Creator",
-        "text": "Shopping online has never been this secure and straightforward. StripCard's unique codes make me feel confident about the safety of my transactions. It's like having an extra layer of protection. I can't imagine going back to using my regular card for online purchases. StripCard has won me over!"
+        "text": "Shopping online has never been this secure and straightforward. TAKARA PAY's unique codes make me feel confident about the safety of my transactions. It's like having an extra layer of protection. I can't imagine going back to using my regular card for online purchases. TAKARA PAY has won me over!"
       }
     ],
     "stats": {
@@ -574,7 +574,7 @@
   },
 
   "Login": {
-    "logoAlt": "StripCard Logo",
+    "logoAlt": "TAKARA PAY Logo",
     "title": "Welcome Back",
     "subtitle": "Log in to access your account securely",
     "form": {
@@ -605,9 +605,9 @@
     }
   },
   "Register": {
-    "logoAlt": "StripCard Logo",
+    "logoAlt": "TAKARA PAY Logo",
     "title": "Create Your Account",
-    "subtitle": "Sign up to get started with StripCard",
+    "subtitle": "Sign up to get started with TAKARA PAY",
     "form": {
       "labels": {
         "firstName": "First Name",
@@ -648,7 +648,7 @@
     }
   },
   "ForgotPassword": {
-    "logoAlt": "StripCard Logo",
+    "logoAlt": "TAKARA PAY Logo",
     "emailStage": {
       "title": "Forgot Password?",
       "description": "Enter your email and we'll send you a One-Time Password (OTP).",
@@ -685,7 +685,7 @@
   },
 
   "Sidebar": {
-    "logoAlt": "StripCard Logo",
+    "logoAlt": "TAKARA PAY Logo",
     "closeMenu": "Close menu",
     "main": {
       "title": "Main",
@@ -1718,7 +1718,7 @@
     "invalidOtp": "Please enter a complete 6-digit code",
     "unexpectedResponse": "Unexpected response from server",
     "verifyFailed": "Verification failed. Please try again.",
-    "logoAlt": "StripCard Logo",
+    "logoAlt": "TAKARA PAY Logo",
     "title": "Authorize Google Two Factor",
     "subtitle": "Please enter your authorization code to access dashboard",
     "verifying": "Verifying...",

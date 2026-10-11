@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_spacing.dart";
-import "package:stripcard/routes/routes.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_spacing.dart";
+import "package:TAKARA PAY/routes/routes.dart";
 
 /// Maps the backend's `active_virtual_system` string to the correct
 /// create-card route, and exposes a single `openCreateCard` entry point

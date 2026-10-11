@@ -18,7 +18,7 @@
                         <span></span>
                     </h5>
                     <h2 class="section-title">{{ __($work->value->language->$lang->sub_title ?? $work->value->language->$system_default->sub_title ?? '') }}</h2>
-                    <p class="sub-title">{{ __($work->value->language->$lang->details ?? $work->value->language->$system_default->details ?? 'Discover how StripCard empowers you with an easy step-by-step process to manage virtual cards, add funds, transfer money, and ensure secure transactions—all designed for convenience, flexibility, and seamless financial management.') }}</p>
+                    <p class="sub-title">{{ __($work->value->language->$lang->details ?? $work->value->language->$system_default->details ?? 'Discover how TAKARA PAY empowers you with an easy step-by-step process to manage virtual cards, add funds, transfer money, and ensure secure transactions—all designed for convenience, flexibility, and seamless financial management.') }}</p>
                 </div>
             </div>
         </div>

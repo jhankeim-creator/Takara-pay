@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:get_storage/get_storage.dart';
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 import 'package:flutter/services.dart';
-import "package:stripcard/base/maintenance/maintanance_dialoge.dart";
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/utils/network_check/dependency_injection.dart";
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/utils/theme.dart";
+import "package:TAKARA PAY/base/maintenance/maintanance_dialoge.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/network_check/dependency_injection.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/theme.dart";
 import 'package:pusher_beams/pusher_beams.dart';
-import "package:stripcard/service/notification_service.dart";
+import "package:TAKARA PAY/service/notification_service.dart";
 
 void main() async {
   // Ensure Widgets Binding

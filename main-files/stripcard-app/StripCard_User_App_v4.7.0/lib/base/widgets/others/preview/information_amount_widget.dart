@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
 
-import "package:stripcard/views/virtual_card_sudo/controller/create_card/sudo_create_card_controller.dart";
-import "package:stripcard/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/utils/language/strings.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/create_card/sudo_create_card_controller.dart";
+import "package:TAKARA PAY/views/virtual_card_sudo/controller/sudo_my_card_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
 
 // ── Shared design-system "amount information" preview card ────────────────────
 // A single source of truth for the breakdown card used across preview screens.

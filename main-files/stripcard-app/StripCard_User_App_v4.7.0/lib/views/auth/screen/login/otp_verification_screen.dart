@@ -1,12 +1,12 @@
 import 'package:flutter/services.dart';
 
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/views/auth/controller/login/otp_reset_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/views/auth/controller/login/otp_reset_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
 
 class ResetOtpScreen extends StatefulWidget {
   const ResetOtpScreen({super.key});

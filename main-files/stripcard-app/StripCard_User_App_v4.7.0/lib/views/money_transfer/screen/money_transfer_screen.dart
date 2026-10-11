@@ -1,16 +1,16 @@
 import 'package:flutter/services.dart';
 
-import "package:stripcard/base/utils/custom_snackbar.dart";
-import "package:stripcard/views/money_transfer/controller/money_transfer_controller.dart";
-import "package:stripcard/views/money_transfer/controller/money_transfer_info_controller.dart";
-import "package:stripcard/views/navbar/controller/navbar_controller.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/widgets/design_system/sc_button.dart";
-import "package:stripcard/base/widgets/design_system/sc_text_field.dart";
+import "package:TAKARA PAY/base/utils/custom_snackbar.dart";
+import "package:TAKARA PAY/views/money_transfer/controller/money_transfer_controller.dart";
+import "package:TAKARA PAY/views/money_transfer/controller/money_transfer_info_controller.dart";
+import "package:TAKARA PAY/views/navbar/controller/navbar_controller.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_button.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_text_field.dart";
 
 class MonetTransferScreen extends StatefulWidget {
   const MonetTransferScreen({super.key});

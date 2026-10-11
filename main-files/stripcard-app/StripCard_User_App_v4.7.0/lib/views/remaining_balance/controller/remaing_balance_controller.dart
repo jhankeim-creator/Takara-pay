@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import "package:stripcard/views/navbar/controller/dashboard_controller.dart";
-import "package:stripcard/base/api/services/api_services.dart";
-import "package:stripcard/base/api/model/remaining_balance_model/remaining_balance_model.dart";
+import "package:TAKARA PAY/views/navbar/controller/dashboard_controller.dart";
+import "package:TAKARA PAY/base/api/services/api_services.dart";
+import "package:TAKARA PAY/base/api/model/remaining_balance_model/remaining_balance_model.dart";
 
 class RemainingBalanceController extends GetxController {
   final dashboardController = Get.put(DashBoardController());

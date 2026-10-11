@@ -1,5 +1,5 @@
-import "package:stripcard/base/utils/basic_widget_import.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_widget_import.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
 
 class ChangeLanguageWidget extends StatelessWidget {
   ChangeLanguageWidget({super.key, this.isHome = false});

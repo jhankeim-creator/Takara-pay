@@ -1,11 +1,11 @@
-import "package:stripcard/base/utils/language/strings.dart";
+import "package:TAKARA PAY/base/utils/language/strings.dart";
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import "package:stripcard/base/widgets/text_labels/custom_title_heading_widget.dart";
+import "package:TAKARA PAY/base/widgets/text_labels/custom_title_heading_widget.dart";
 
-import "package:stripcard/base/utils/custom_color.dart";
-import "package:stripcard/base/utils/dimensions.dart";
+import "package:TAKARA PAY/base/utils/custom_color.dart";
+import "package:TAKARA PAY/base/utils/dimensions.dart";
 
 class CustomDialog {
   static show(

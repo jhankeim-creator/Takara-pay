@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_radius.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_radius.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
 
 class SCTransactionRow extends StatelessWidget {
   const SCTransactionRow({

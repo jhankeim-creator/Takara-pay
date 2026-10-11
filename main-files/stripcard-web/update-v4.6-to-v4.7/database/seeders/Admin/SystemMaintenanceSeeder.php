@@ -16,7 +16,7 @@ class SystemMaintenanceSeeder extends Seeder
     public function run()
     {
         $system_maintenances = array(
-            array('slug' => 'system-maintenance','title' => 'Enhancing Your Experience – Site Under Maintenance','details' => '<p>Our website is down for upgrades and will be back shortly. If you need assistance, please email us at <strong>support@stripcard.com</strong> or message us on WhatsApp at <strong>+1234567890</strong>. Thank you for your patience!</p>','status' => '0','created_at' => now(),'updated_at' => now())
+            array('slug' => 'system-maintenance','title' => 'Enhancing Your Experience – Site Under Maintenance','details' => '<p>Our website is down for upgrades and will be back shortly. If you need assistance, please email us at <strong>support@TAKARA PAY.com</strong> or message us on WhatsApp at <strong>+1234567890</strong>. Thank you for your patience!</p>','status' => '0','created_at' => now(),'updated_at' => now())
         );
         SystemMaintenance::upsert($system_maintenances,['slug'],['title','details','status','created_at','updated_at']);
     }

@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:get_storage/get_storage.dart';
-import "package:stripcard/base/utils/basic_screen_import.dart";
-import "package:stripcard/base/utils/language/language_model.dart";
-import "package:stripcard/base/utils/language/language_service.dart";
-import "package:stripcard/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/base/utils/language/language_model.dart";
+import "package:TAKARA PAY/base/utils/language/language_service.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
 
 final languageSettingsController =
     Get.put(LanguageController(), permanent: true);

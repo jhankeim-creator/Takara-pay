@@ -6,7 +6,7 @@
 class FontRes {
   FontRes._();
 
-  static const String PROJECT_NAME = 'stripcard';
+  static const String PROJECT_NAME = 'TAKARA PAY';
   static const String PROJECT_VERSION = '4.1.0+15';
   static const String AGENCYFB_BOLD = 'AgencyFB-Bold';
 }

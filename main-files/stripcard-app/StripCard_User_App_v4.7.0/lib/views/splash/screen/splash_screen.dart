@@ -1,16 +1,16 @@
 import 'dart:math' as math;
 
-import "package:stripcard/views/app_settings/controller/app_settings_controller.dart";
-import "package:stripcard/base/utils/basic_screen_import.dart";
+import "package:TAKARA PAY/views/app_settings/controller/app_settings_controller.dart";
+import "package:TAKARA PAY/base/utils/basic_screen_import.dart";
 
-import "package:stripcard/base/utils/local_storage.dart";
-import "package:stripcard/base/utils/language/language_controller.dart";
-import "package:stripcard/base/widgets/design_system/sc_network_image.dart";
-import "package:stripcard/base/themes/app_colors.dart";
-import "package:stripcard/base/themes/app_spacing.dart";
-import "package:stripcard/base/themes/app_text_styles.dart";
-import "package:stripcard/base/widgets/design_system/sc_brand_logo.dart";
-import "package:stripcard/base/widgets/design_system/sc_virtual_card.dart";
+import "package:TAKARA PAY/base/utils/local_storage.dart";
+import "package:TAKARA PAY/base/utils/language/language_controller.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_network_image.dart";
+import "package:TAKARA PAY/base/themes/app_colors.dart";
+import "package:TAKARA PAY/base/themes/app_spacing.dart";
+import "package:TAKARA PAY/base/themes/app_text_styles.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_brand_logo.dart";
+import "package:TAKARA PAY/base/widgets/design_system/sc_virtual_card.dart";
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

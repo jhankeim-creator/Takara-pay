@@ -4,6 +4,9 @@ main-files/node_modules/
 # Secrets
 .env
 main-files/stripcard-web/.env
+main-files/stripcard-web/storage/oauth-*.key
+main-files/stripcard-web/.rnd
+main-files/stripcard-web/public/.rnd
 
 # OS / IDE
 .DS_Store

@@ -21,6 +21,7 @@ cd main-files/stripcard-web
 cp .env.example .env   # oswa konfigire .env (pa commit)
 composer install --no-dev   # si bezwen
 php artisan migrate:fresh --seed
+php artisan key:generate
 php artisan passport:keys --force
 php artisan passport:client --personal --no-interaction --provider=users
 php artisan storage:link
